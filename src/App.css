@@ -1,24 +1,26 @@
-.App {
-  text-align: center; }
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px; }
-
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white; }
-
-.App-title {
-  font-size: 1.5em; }
-
-.App-intro {
-  font-size: large; }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg); }
-  to {
-    transform: rotate(360deg); } }
+header {
+  margin-bottom: 10px;
+  width: 100vw;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #191919; }
+  header .sunny-logo-container .sunny-logo {
+    margin-left: 15px;
+    width: 400px; }
+  header nav {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    overflow: visible;
+    position: relative;
+    z-index: 100; }
+    header nav ul {
+      display: flex;
+      justify-content: flex-end;
+      align-items: flex-end; }
+      header nav ul li {
+        margin-left: 25px;
+        color: #cc9780; }

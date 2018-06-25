@@ -1,0 +1,39 @@
+header {
+    margin-bottom: 10px;
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(25, 25, 25);
+
+    .sunny-logo-container {
+
+        .sunny-logo{
+            margin-left: 15px;
+            width: 400px;
+        }
+    }
+    nav {
+          // background-color: blue;
+      margin: 0 auto;
+      // width: 960px;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      overflow: visible;
+      position: relative;
+      z-index: 100;
+        ul {
+            display: flex;
+            justify-content: flex-end;
+            align-items: flex-end;
+            li {
+                margin-left: 25px;
+                color: $font-color;
+            }
+        }
+    }
+
+}
+
