@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom';
 import SunnyLogo from '../../assests/sunny-ra-logo.png'
 
 export default function Header() {
@@ -6,15 +7,15 @@ export default function Header() {
         <div>
             <header>
                 <div className='sunny-logo-container'>
-                    <img className='sunny-logo' src={SunnyLogo} alt='Sunny Ra Logo' />
+                    <Link to='/'><img className='sunny-logo' src={SunnyLogo} alt='Sunny Ra Logo' /></Link>
                 </div>
                 <nav>
                     <ul>
-                        <li>Paintings</li>
-                        <li>Works On Paper</li>
-                        <li>Photo Gallery</li>
-                        <li>Commissioned Work</li>
-                        <li>About</li>
+                        <Link to='/paintings'><li>Paintings</li></Link>
+                        <Link to='/works'><li>Works On Paper</li></Link>
+                        <Link to='/gallery'><li>Photo Gallery</li></Link>
+                        <Link to='/commissioned'><li>Commissioned Work</li></Link>
+                        <Link to='/about'><li>About</li></Link>
                     </ul>
                 </nav>
             </header>
