@@ -3,8 +3,10 @@
 // Variables
 $font-color:  rgb(204, 151, 128);
 $font-color-hover: rgb(211, 124, 86);
+$background-color: rgb(25, 25, 25);
 $font: 'Montserrat', sans-serif;
 
 
 @import './Components/Header/Header';
+@import './Components/Footer/Footer';
 

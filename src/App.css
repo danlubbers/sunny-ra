@@ -30,3 +30,26 @@ header {
       header nav ul li:hover {
         color: #d37c56;
         transition: .5s ease-in-out; }
+
+footer {
+  height: 50px;
+  position: relative;
+  margin-top: 75px;
+  width: 100vw;
+  background-color: #191919; }
+  footer .footer-content {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: visible;
+    position: relative; }
+    footer .footer-content h1 {
+      font-family: "Montserrat", sans-serif;
+      color: #cc9780; }
+  footer .danlubbers {
+    color: #4b4b4b; }
+  footer .danlubbers:hover {
+    color: #646464;
+    transition: .35s; }

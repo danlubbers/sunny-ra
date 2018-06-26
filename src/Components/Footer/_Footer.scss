@@ -1,0 +1,29 @@
+footer {
+    height: 50px;
+    position: relative;
+    margin-top: 75px;
+    // padding: 50px 75px 0px 170px;
+    width: 100vw;
+    background-color: $background-color;
+
+    .footer-content{
+        width: 100%;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: visible;
+        position: relative;
+        h1{
+            font-family: $font;
+            color: $font-color;
+        }
+    }
+        .danlubbers {
+            color: rgb(75, 75, 75);
+        }
+        .danlubbers:hover {
+            color: rgb(100, 100, 100);
+            transition: .35s;
+        }
+}
