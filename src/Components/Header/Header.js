@@ -1,6 +1,6 @@
 import React from 'react'
 import {Link} from 'react-router-dom';
-import SunnyLogo from '../../assests/sunny-ra-logo.png'
+import SunnyLogo from '../../assets/sunny-ra-logo.png'
 
 export default function Header() {
     return(

@@ -16,7 +16,7 @@ header {
     }
     nav {
           // background-color: blue;
-      margin: 0 auto;
+      margin: 0px 20px 0px 0px;
       // width: 960px;
       display: flex;
       justify-content: space-between;
@@ -31,8 +31,12 @@ header {
             align-items: flex-end;
             li {
                 font-family: $font;
-                margin-left: 15px;
+                margin-left: 25px;
                 color: $font-color;
+
+            }
+            li:hover {
+                color: $font-color-hover;
             }
         }
     }
