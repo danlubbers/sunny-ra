@@ -37,6 +37,7 @@ header {
             }
             li:hover {
                 color: $font-color-hover;
+                transition: .5s ease-in-out;
             }
         }
     }

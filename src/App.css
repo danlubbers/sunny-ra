@@ -28,4 +28,5 @@ header {
         margin-left: 25px;
         color: #cc9780; }
       header nav ul li:hover {
-        color: #d37c56; }
+        color: #d37c56;
+        transition: .5s ease-in-out; }
