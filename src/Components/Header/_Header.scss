@@ -25,11 +25,13 @@ header {
       position: relative;
       z-index: 100;
         ul {
+            padding-top: 25px;
             display: flex;
             justify-content: flex-end;
             align-items: flex-end;
             li {
-                margin-left: 25px;
+                font-family: $font;
+                margin-left: 15px;
                 color: $font-color;
             }
         }
