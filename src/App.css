@@ -48,8 +48,8 @@ footer {
     footer .footer-content h1 {
       font-family: "Montserrat", sans-serif;
       color: #cc9780; }
-  footer .danlubbers {
-    color: #4b4b4b; }
+  footer .danlubbers, footer a {
+    color: #7d7d7d; }
   footer .danlubbers:hover {
-    color: #646464;
+    color: #969696;
     transition: .35s; }

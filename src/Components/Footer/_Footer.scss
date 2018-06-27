@@ -19,11 +19,12 @@ footer {
             color: $font-color;
         }
     }
-        .danlubbers {
-            color: rgb(75, 75, 75);
+        .danlubbers, a{
+            color: rgb(125, 125, 125);
+
         }
         .danlubbers:hover {
-            color: rgb(100, 100, 100);
+            color: rgb(150, 150, 150);
             transition: .35s;
         }
 }
