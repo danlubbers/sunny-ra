@@ -10,13 +10,13 @@ class App extends Component {
   render() {
     return (
       <div>
-        <div className="">
+        <div className="header-app">
           <Header />
         </div>
 
         {routes}
 
-        <div className="">
+        <div className="footer-app">
           <Footer />
         </div>
       </div>
