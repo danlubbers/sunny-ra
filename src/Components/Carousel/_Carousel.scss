@@ -3,9 +3,17 @@
 
 
 .carousel-container {
-    display: flex;
-    justify-content: center;
+    width: 100%;
+    display: block;
     // background-color: blue;
+
+    .carousel-image{
+        width: 800px;
+        margin-left: 18%;
+        display: block;
+
+        
+    }
 }
 
 

@@ -57,5 +57,9 @@ footer {
     transition: .35s; }
 
 .carousel-container {
-  display: flex;
-  justify-content: center; }
+  width: 100%;
+  display: block; }
+  .carousel-container .carousel-image {
+    width: 800px;
+    margin-left: 18%;
+    display: block; }
