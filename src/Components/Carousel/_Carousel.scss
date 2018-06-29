@@ -4,15 +4,15 @@
 
 .carousel-container {
     width: 100%;
+    margin-top: 75px;
     display: block;
     // background-color: blue;
 
     .carousel-image{
-        width: 800px;
-        margin-left: 18%;
-        display: block;
-
-        
+        width: 90%;
+        height: 100%;
+        margin-left: 5%;
+        display: block;  
     }
 }
 
