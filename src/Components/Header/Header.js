@@ -16,6 +16,7 @@ export default function Header() {
                         <Link to='/gallery'><li>Photo Gallery</li></Link>
                         <Link to='/commissioned'><li>Commissioned Work</li></Link>
                         <Link to='/about'><li>About</li></Link>
+                        <Link to='/contact'><li>Contact</li></Link>
                     </ul>
                 </nav>
             </header>

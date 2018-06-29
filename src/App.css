@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat");
+@import url(~slick-carousel/slick/slick.css);
+@import url(~slick-carousel/slick/slick-theme.css);
 header {
   margin-bottom: 10px;
   width: 100vw;
@@ -53,3 +55,7 @@ footer {
   footer .danlubbers:hover {
     color: #969696;
     transition: .35s; }
+
+.carousel-container {
+  display: flex;
+  justify-content: center; }
