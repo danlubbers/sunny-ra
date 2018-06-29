@@ -24,7 +24,7 @@ export default class Carousel extends Component {
             speed: 500,
             slidesToShow: 1,
             slidesToSlide: 2,
-            autoplay: true, 
+            autoplay: false, 
             autoPlaySpeed: 500,
             cssEase: "linear",
             pauseOnHover: false,
@@ -39,37 +39,92 @@ export default class Carousel extends Component {
             <Slider ref={slider => (this.slider = slider)}{...settings} style={{position: 'relative',    zIndex: '500 !important'}}>
           
                 <div>
-                    <img className="carousel-image" src={blacksand} alt="Black Sand"/>
+                    <div className='text-box'>
+                        <h1>Black Sand 44in x 68in Oil on Canvas</h1>
+                    </div>
+                    <div>
+                        <img className="carousel-image" src={blacksand} alt="Black Sand"/>
+                    </div>
                 </div>
                 <div>
-                    <img className="carousel-image" src={mammoth} alt="Mammoth"/>
+                    <div className='text-box'>
+                        <h1>Mammoth 42in x 38in Oil on Canvas</h1>
+                    </div>
+                    <div>
+                        <img className="carousel-image" src={mammoth} alt="Mammoth"/>
+                    </div>
                 </div>
                 <div>
-                    <img className="carousel-image" src={flight} alt="Flight"/>
+                    <div className='text-box'>
+                        <h1>Flight 11in x 14in Oil on Paper</h1>
+                    </div>
+                    <div>
+                        <img className="carousel-image" src={flight} alt="Flight"/>
+                    </div>
                 </div>
                 <div>
-                    <img className="carousel-image" src={manta} alt="Manta"/>
+                    <div className='text-box'>
+                        <h1>Manta 16in x 20in Oil on Canvas mounted on panel</h1>
+                    </div>
+                    <div>
+                        <img className="carousel-image" src={manta} alt="Manta"/>
+                    </div>
                 </div>
                 <div>
-                    <img className="carousel-image" src={kinetic} alt="Kinetic"/>
+                    <div className='text-box'>
+                        <h1>Kinetic 14in x 11in Oil on Paper</h1>
+                    </div>
+                    <div>
+                        <img className="carousel-image" src={kinetic} alt="Kinetic"/>
+                    </div>
                 </div>
                 <div>
-                    <img className="carousel-image" src={might} alt="Might"/>
+                    <div className='text-box'>
+                        <h1>Might 11in x 14in Oil on Paper</h1>
+                    </div>
+                    <div>
+                        <img className="carousel-image" src={might} alt="Might"/>
+                    </div>
                 </div>
                 <div>
-                    <img className="carousel-image" src={radiate} alt="Radiate"/>
+                    <div className='text-box'>
+                        <h1>Radiate 32in x 48in Oil on Canvas</h1>
+                    </div>
+                    <div>
+                        <img className="carousel-image" src={radiate} alt="Radiate"/>
+                    </div>
                 </div>
                 <div>
-                    <img className="carousel-image" src={nebula} alt="Nebula"/>
+                    <div className='text-box'>
+                        <h1>Nebula 12in x 16in Oil on Canvas mounted on Panel "SOLD"</h1>
+                    </div>
+                    <div>
+                        <img className="carousel-image" src={nebula} alt="Nebula"/>
+                    </div>
                 </div>
                 <div>
-                    <img className="carousel-image" src={chase} alt="Chase"/>
+                    <div className='text-box'>
+                        <h1>Chase 16in x 12in Oil on Canvas mounted on Panel "SOLD"</h1>
+                    </div>
+                    <div>
+                        <img className="carousel-image" src={chase} alt="Chase"/>
+                    </div>
                 </div>
                 <div>
-                    <img className="carousel-image" src={harvest} alt="Harvest"/>
+                    <div className='text-box'>
+                        <h1>Harvest 11in x 14in Oil on Paper</h1>
+                    </div>
+                    <div>
+                        <img className="carousel-image" src={harvest} alt="Harvest"/>
+                    </div>
                 </div>
                 <div>
-                    <img className="carousel-image" src={expedition} alt="Expedition"/>
+                    <div className='text-box'>
+                        <h1>Expedition 16in x 12in Oil on Canvas mounted on Panel</h1>
+                    </div>
+                    <div>
+                        <img className="carousel-image" src={expedition} alt="Expedition"/>
+                    </div>
                 </div>
             </Slider>
         </div>
