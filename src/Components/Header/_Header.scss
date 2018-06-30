@@ -30,14 +30,33 @@ header {
             justify-content: flex-end;
             align-items: flex-end;
             li {
+                font-size: $font-size;
                 font-family: $font;
                 margin-left: 25px;
                 color: $font-color;
-
             }
             li:hover {
                 color: $font-color-hover;
                 transition: .5s ease-in-out;
+            }
+            
+            .nav-text{
+                padding-bottom: 2px;
+                }
+
+            .aboutBtn {
+                font-size: 1em;
+                font-family: $font;
+                color: $font-color;
+                background: none;
+                border: none;
+                padding: 0;
+                
+            }
+            .aboutBtn:hover{
+                color: $font-color-hover;
+                transition: .5s ease-in-out;
+                cursor: pointer;
             }
         }
     }

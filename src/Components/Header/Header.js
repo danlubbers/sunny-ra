@@ -11,12 +11,14 @@ export default function Header() {
                 </div>
                 <nav>
                     <ul>
-                        <Link to='/paintings'><li>Paintings</li></Link>
-                        <Link to='/works'><li>Works On Paper</li></Link>
-                        <Link to='/gallery'><li>Photo Gallery</li></Link>
-                        <Link to='/commissioned'><li>Commissioned Work</li></Link>
-                        <Link to='/about'><li>About</li></Link>
-                        <Link to='/contact'><li>Contact</li></Link>
+                        <Link to='/paintings'><li className='nav-text'>Paintings</li></Link>
+                        <Link to='/works'><li className='nav-text'>Works On Paper</li></Link>
+                        <Link to='/gallery'><li className='nav-text'>Photo Gallery</li></Link>
+                        <Link to='/commissioned'><li className='nav-text'>Commissioned Work</li></Link>
+                        {/* <Link to='/about'> */}
+                        <li><button className='aboutBtn'>About</button></li>
+                        {/* </Link> */}
+                        <Link to='/contact'><li className='nav-text'>Contact</li></Link>
                     </ul>
                 </nav>
             </header>
