@@ -23,11 +23,11 @@ export default class Carousel extends Component {
             infinite: true,
             speed: 500,
             slidesToShow: 1,
-            slidesToSlide: 2,
+            slidesToSlide: 111,
             autoplay: false, 
-            autoPlaySpeed: 500,
+            autoPlaySpeed: 1000,
             cssEase: "linear",
-            pauseOnHover: false,
+            pauseOnHover: true,
             adaptiveHeight: true,
             initialSlide: 0,
             centerMode: true,
@@ -46,7 +46,7 @@ export default class Carousel extends Component {
                         <img className="carousel-image" src={blacksand} alt="Black Sand"/>
                     </div>
                 </div>
-                <div>
+                <div className='image-wrapper'>
                     <div className='text-box'>
                         <h1>Mammoth 42in x 38in Oil on Canvas</h1>
                     </div>
@@ -54,7 +54,7 @@ export default class Carousel extends Component {
                         <img className="carousel-image" src={mammoth} alt="Mammoth"/>
                     </div>
                 </div>
-                <div>
+                <div className='image-wrapper'>
                     <div className='text-box'>
                         <h1>Flight 11in x 14in Oil on Paper</h1>
                     </div>
@@ -62,7 +62,7 @@ export default class Carousel extends Component {
                         <img className="carousel-image" src={flight} alt="Flight"/>
                     </div>
                 </div>
-                <div>
+                <div className='image-wrapper'>
                     <div className='text-box'>
                         <h1>Manta 16in x 20in Oil on Canvas mounted on panel</h1>
                     </div>
@@ -70,7 +70,7 @@ export default class Carousel extends Component {
                         <img className="carousel-image" src={manta} alt="Manta"/>
                     </div>
                 </div>
-                <div>
+                <div className='image-wrapper'>
                     <div className='text-box'>
                         <h1>Kinetic 14in x 11in Oil on Paper</h1>
                     </div>
@@ -78,7 +78,7 @@ export default class Carousel extends Component {
                         <img className="carousel-image" src={kinetic} alt="Kinetic"/>
                     </div>
                 </div>
-                <div>
+                <div className='image-wrapper'>
                     <div className='text-box'>
                         <h1>Might 11in x 14in Oil on Paper</h1>
                     </div>
@@ -94,7 +94,7 @@ export default class Carousel extends Component {
                         <img className="carousel-image" src={radiate} alt="Radiate"/>
                     </div>
                 </div>
-                <div>
+                <div className='image-wrapper'>
                     <div className='text-box'>
                         <h1>Nebula 12in x 16in Oil on Canvas mounted on Panel "SOLD"</h1>
                     </div>
@@ -102,7 +102,7 @@ export default class Carousel extends Component {
                         <img className="carousel-image" src={nebula} alt="Nebula"/>
                     </div>
                 </div>
-                <div>
+                <div className='image-wrapper'>
                     <div className='text-box'>
                         <h1>Chase 16in x 12in Oil on Canvas mounted on Panel "SOLD"</h1>
                     </div>
@@ -110,7 +110,7 @@ export default class Carousel extends Component {
                         <img className="carousel-image" src={chase} alt="Chase"/>
                     </div>
                 </div>
-                <div>
+                <div className='image-wrapper'>
                     <div className='text-box'>
                         <h1>Harvest 11in x 14in Oil on Paper</h1>
                     </div>
@@ -118,7 +118,7 @@ export default class Carousel extends Component {
                         <img className="carousel-image" src={harvest} alt="Harvest"/>
                     </div>
                 </div>
-                <div>
+                <div className='image-wrapper'>
                     <div className='text-box'>
                         <h1>Expedition 16in x 12in Oil on Canvas mounted on Panel</h1>
                     </div>
