@@ -38,7 +38,7 @@ export default class Carousel extends Component {
         <div className='carousel-container'>
             <Slider ref={slider => (this.slider = slider)}{...settings} style={{position: 'relative',    zIndex: '500 !important'}}>
           
-                <div>
+                <div className='image-wrapper'>
                     <div className='text-box'>
                         <h1>Black Sand 44in x 68in Oil on Canvas</h1>
                     </div>
