@@ -1,6 +1,7 @@
 import React, {Component} from 'react'
 import {Link} from 'react-router-dom';
-import SunnyLogo from '../../assets/sunny-ra-logo.png'
+import SunnyLogo from '../../assets/sunny-ra-logo.png';
+import SunnyPortrait from '../../assets/sunny-portrait.jpg';
 
 export default class Header extends Component {
     constructor(props) {
@@ -39,8 +40,15 @@ export default class Header extends Component {
                     </ul>
                 </nav>
                         <div className={slideCSS}>
-                            <div>
-                                <h1>ABOUT TESTING</h1>
+                            <div className='about-container'>
+                                <img className='sunny-portrait' src={SunnyPortrait}/>
+                            <section>
+                                <h3>Education:</h3>
+                                <h4>Hunter College, CUNY; Master of Fine Arts</h4>
+                                <h4>University of Pennsylvania; Bachelor of Fine Arts, Cum Laude</h4>
+                                <h4>Pennsylvania Academy of the Fine Arts; Painting Certificate</h4>
+                                <h4>Penn Study Abroad; London, England</h4>
+                            </section>
                             </div>
                         </div>
             </header>
