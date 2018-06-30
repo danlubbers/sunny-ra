@@ -89,7 +89,7 @@ header {
         height: 100%;
         padding: 0px 40px;
         display: flex;
-        justify-content: flex-start;
+        justify-content: space-between;
         align-items: flex-start;
         // background-color: yellow;
 
@@ -97,22 +97,42 @@ header {
             border-radius: 25px;
         }
 
-        section {
+        .education-container {
+            width: 100%;
             padding-left: 25px;
-            color: $font-color-grey;
+            
 
             h3 {
                 margin: 10px;
                 font-family: $font;
                 letter-spacing: 1px;
-                font-size: 1.2em;
-
+                font-size: 1em;
+                color: rgb(100, 100, 100);
+                text-transform: uppercase;
             }
 
             h4 {
                 @extend h3;
-                font-size: 1em;
+                font-size: .8em;
+                color: $font-color-grey;
             }
+        }
+
+        .exhibition-container {
+            @extend .education-container;
+            padding: 0px 100px 0px 0px;
+        }
+
+        .xBtn{
+            font-size: 2em;
+            border: none;
+            cursor: pointer;
+            background: transparent;
+            color: $font-color-grey;
+        }
+
+        .xBtn:focus {
+            outline: 0;
         }
     }
 }

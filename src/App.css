@@ -71,20 +71,33 @@ header {
     height: 100%;
     padding: 0px 40px;
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: flex-start; }
     header .about-container .sunny-portrait {
       border-radius: 25px; }
-    header .about-container section {
-      padding-left: 25px;
-      color: #afafaf; }
-      header .about-container section h3, header .about-container section h4 {
+    header .about-container .education-container, header .about-container .exhibition-container {
+      width: 100%;
+      padding-left: 25px; }
+      header .about-container .education-container h3, header .about-container .exhibition-container h3, header .about-container .education-container h4, header .about-container .exhibition-container h4 {
         margin: 10px;
         font-family: "Montserrat", sans-serif;
         letter-spacing: 1px;
-        font-size: 1.2em; }
-      header .about-container section h4 {
-        font-size: 1em; }
+        font-size: 1em;
+        color: #646464;
+        text-transform: uppercase; }
+      header .about-container .education-container h4, header .about-container .exhibition-container h4 {
+        font-size: .8em;
+        color: #afafaf; }
+    header .about-container .exhibition-container {
+      padding: 0px 100px 0px 0px; }
+    header .about-container .xBtn {
+      font-size: 2em;
+      border: none;
+      cursor: pointer;
+      background: transparent;
+      color: #afafaf; }
+    header .about-container .xBtn:focus {
+      outline: 0; }
 
 footer {
   height: 50px;
