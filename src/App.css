@@ -6,14 +6,14 @@ header {
   width: 100vw;
   height: 100px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   background-color: #191919; }
   header .sunny-logo-container .sunny-logo {
-    margin-left: 15px;
+    margin-left: 75px;
     width: 400px; }
   header nav {
-    margin: 0px 20px 0px 0px;
+    margin: 0px 0px 0px 100px;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
@@ -35,18 +35,18 @@ header {
         transition: .5s ease-in-out; }
       header nav ul .nav-text {
         padding-bottom: 2px; }
-      header nav ul .aboutBtn {
+      header nav ul .aboutBtn, header nav ul .contactBtn {
         font-size: 1em;
         font-family: "Montserrat", sans-serif;
         color: #cc9780;
         background: none;
         border: none;
         padding: 0; }
-      header nav ul .aboutBtn:hover {
+      header nav ul .aboutBtn:hover, header nav ul .contactBtn:hover {
         color: #f1b195;
         transition: .5s ease-in-out;
         cursor: pointer; }
-      header nav ul .aboutBtn:focus {
+      header nav ul .aboutBtn:focus, header nav ul .contactBtn:focus {
         outline: 0; }
   header .slide-about {
     background-color: #191919;
@@ -88,8 +88,6 @@ header {
       header .about-container .education-container h4, header .about-container .exhibition-container h4 {
         font-size: .8em;
         color: #afafaf; }
-    header .about-container .exhibition-container {
-      padding: 0px 100px 0px 0px; }
     header .about-container .xBtn {
       font-size: 2em;
       border: none;

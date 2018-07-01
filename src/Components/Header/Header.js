@@ -9,18 +9,33 @@ export default class Header extends Component {
         super(props)
     
             this.state = {
-                showAbout: false
+                showAbout: false,
+                showContact: false
             }
-            this.handleClick = this.handleClick.bind(this);
+            this.handleClickAbout = this.handleClickAbout.bind(this);
+            this.handleClickContact = this.handleClickContact.bind(this);
         }
     
-        handleClick() {
-            this.setState({showAbout: !this.state.showAbout})
+        handleClickAbout() {
+            this.setState({
+                showAbout: !this.state.showAbout,
+                showContact: false
+            })
+        }
+
+        handleClickContact() {
+            this.setState({
+                showContact: !this.state.showContact,
+                showAbout: false
+            })
         }
 
     render() {
         let {showAbout} = this.state;
-        let slideCSS = showAbout ? 'slide-about slide-about-position' : 'slide-about';
+        let {showContact} = this.state;
+        let aboutDropDown = showAbout ? 'slide-about slide-about-position' : 'slide-about';
+        let contactDropDown = showContact ? 'slide-about slide-about-position' : 'slide-about';
+
     return(
         <div>
             <header>
@@ -33,17 +48,16 @@ export default class Header extends Component {
                         <Link to='/works'><li className='nav-text'>Works On Paper</li></Link>
                         <Link to='/gallery'><li className='nav-text'>Photo Gallery</li></Link>
                         <Link to='/commissioned'><li className='nav-text'>Commissioned Work</li></Link>
-                        {/* <Link to='/about'> */}
-                        <li><button className='aboutBtn' onClick={this.handleClick} >About</button></li>
-                        {/* </Link> */}
-                        <Link to='/contact'><li className='nav-text'>Contact</li></Link>
-
+                        <li><button className='aboutBtn' onClick={this.handleClickAbout} >About</button></li>
+                        <li><button className='contactBtn' onClick={this.handleClickContact} >Contact</button></li>
                     </ul>
                 </nav>
-                        <div className={slideCSS}>
+                        <div className={aboutDropDown}>
                             <div className='about-container'>
                                 <img className='sunny-portrait' src={SunnyPortrait} alt='Sunny Ra'/>
                             <div className='education-container'>
+                                <h3>ARTIST / EDUCATOR</h3>
+                                <br/>
                                 <h3>Education:</h3>
                                 <h4>Hunter College, CUNY; Master of Fine Arts</h4>
                                 <h4>University of Pennsylvania; Bachelor of Fine Arts, Cum Laude</h4>
@@ -88,8 +102,14 @@ export default class Header extends Component {
                                 <h4>Certificate Student Gallery Showing,  Pennsylvania Academy of Fine Arts, Philadelphia, PA – 2001/2002</h4>
                             </div>
                                 <div className='xBtn-container'>
-                                    <button className='xBtn' onClick={this.handleClick}><CloseIcon/></button>
+                                    <button className='xBtn' onClick={this.handleClickAbout}><CloseIcon/></button>
                                 </div>
+                            </div>
+
+                        </div>
+                        <div className={contactDropDown}>
+                            <div className='contact=container'>
+                                <h1>Contact</h1>
                             </div>
                         </div>
             </header>

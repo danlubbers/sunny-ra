@@ -3,20 +3,20 @@ header {
     width: 100vw;
     height: 100px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     background-color: $background-color;
 
     .sunny-logo-container {
 
         .sunny-logo{
-            margin-left: 15px;
+            margin-left: 75px;
             width: 400px;
         }
     }
     nav {
           // background-color: blue;
-      margin: 0px 20px 0px 0px;
+      margin: 0px 0px 0px 100px;
       // width: 960px;
       display: flex;
       justify-content: space-between;
@@ -53,13 +53,23 @@ header {
                 padding: 0;
                 
             }
-            .aboutBtn:hover{
+            .aboutBtn:hover {
                 color: $font-color-hover;
                 transition: .5s ease-in-out;
                 cursor: pointer;
             }
             .aboutBtn:focus {
                 outline: 0;
+            }
+
+            .contactBtn {
+                @extend .aboutBtn;
+            }
+            .contactBtn:hover {
+                @extend .aboutBtn:hover;
+            }
+            .contactBtn:focus {
+                @extend .contactBtn:focus;
             }
         }
     }
@@ -120,7 +130,6 @@ header {
 
         .exhibition-container {
             @extend .education-container;
-            padding: 0px 100px 0px 0px;
         }
 
         .xBtn{
