@@ -1,19 +1,32 @@
 import React, {Component} from 'react'
 import {Link} from 'react-router-dom';
+// Images
 import SunnyLogo from '../../assets/sunny-ra-logo.png';
 import SunnyPortrait from '../../assets/sunny-portrait.jpg';
+// Icons
 import CloseIcon from 'react-icons/lib/fa/times-circle';
+import Insta from 'react-icons/lib/fa/instagram';
+
 
 export default class Header extends Component {
     constructor(props) {
         super(props)
     
             this.state = {
+                showHome: false,
                 showAbout: false,
                 showContact: false
             }
+            this.handleClickHome = this.handleClickHome.bind(this);
             this.handleClickAbout = this.handleClickAbout.bind(this);
             this.handleClickContact = this.handleClickContact.bind(this);
+        }
+
+        handleClickHome() {
+            this.setState({
+                showAbout: false,
+                showContact: false
+            })
         }
     
         handleClickAbout() {
@@ -31,8 +44,7 @@ export default class Header extends Component {
         }
 
     render() {
-        let {showAbout} = this.state;
-        let {showContact} = this.state;
+        let {showAbout, showContact} = this.state;
         let aboutDropDown = showAbout ? 'slide-about slide-about-position' : 'slide-about';
         let contactDropDown = showContact ? 'slide-about slide-about-position' : 'slide-about';
 
@@ -40,7 +52,7 @@ export default class Header extends Component {
         <div>
             <header>
                 <div className='sunny-logo-container'>
-                    <Link to='/'><img className='sunny-logo' src={SunnyLogo} alt='Sunny Ra Logo' /></Link>
+                    <Link to='/' onClick={this.handleClickHome}><img className='sunny-logo' src={SunnyLogo} alt='Sunny Ra Logo' /></Link>
                 </div>
                 <nav>
                     <ul>
@@ -108,8 +120,15 @@ export default class Header extends Component {
 
                         </div>
                         <div className={contactDropDown}>
-                            <div className='contact=container'>
-                                <h1>Contact</h1>
+                            <div className='contact-container'>
+                                    <h2 className='email'>Email: sunnyra23@gmail.com</h2>
+                                <div className='instagram-container'>
+                                    <a href='https://www.instagram.com/sra23/' target='_blank'><Insta size={50}/>
+                                    <h2>Instagram</h2></a>
+                                </div>
+                                {/* <div className='xBtn-container'>
+                                    <button className='xBtn' onClick={this.handleClickContact}><CloseIcon/></button>
+                                </div> */}
                             </div>
                         </div>
             </header>

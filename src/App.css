@@ -10,10 +10,8 @@ header {
   align-items: center;
   background-color: #191919; }
   header .sunny-logo-container .sunny-logo {
-    margin-left: 75px;
     width: 400px; }
   header nav {
-    margin: 0px 0px 0px 100px;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
@@ -96,6 +94,49 @@ header {
       color: #afafaf; }
     header .about-container .xBtn:focus {
       outline: 0; }
+  header .contact-container {
+    width: 100%;
+    height: 100%;
+    padding: 0px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start; }
+    header .contact-container .email {
+      margin: 75px 0px 0px 75px;
+      color: #afafaf;
+      font-size: 1.6em;
+      font-family: "Montserrat", sans-serif; }
+  header .instagram-container {
+    display: flex;
+    justify-content: flex-start;
+    margin: 75px 0px 0px 75px;
+    color: #afafaf; }
+    header .instagram-container a {
+      display: flex;
+      justify-content: flex-start;
+      text-decoration: none;
+      cursor: pointer;
+      color: #afafaf; }
+    header .instagram-container h2 {
+      padding: 15px 0px 0px 10px;
+      font-size: 1.4em;
+      letter-spacing: 1px;
+      font-family: "Montserrat", sans-serif; }
+
+.xBtn-container {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end; }
+  .xBtn-container .xBtn {
+    margin-top: 75px;
+    font-size: 2em;
+    border: none;
+    cursor: pointer;
+    background: transparent;
+    color: #afafaf; }
+  .xBtn-container .xBtn:focus {
+    outline: 0; }
 
 footer {
   height: 50px;
