@@ -14,12 +14,10 @@ export default class Header extends Component {
     
             this.state = {
                 showHome: false,
-                showAbout: false,
-                showContact: false
+                showAbout: false
             }
             this.handleClickHome = this.handleClickHome.bind(this);
             this.handleClickAbout = this.handleClickAbout.bind(this);
-            this.handleClickContact = this.handleClickContact.bind(this);
         }
 
         handleClickHome() {
@@ -36,17 +34,9 @@ export default class Header extends Component {
             })
         }
 
-        handleClickContact() {
-            this.setState({
-                showContact: !this.state.showContact,
-                showAbout: false
-            })
-        }
-
     render() {
-        let {showAbout, showContact} = this.state;
+        let {showAbout} = this.state;
         let aboutDropDown = showAbout ? 'slide-about slide-about-position' : 'slide-about';
-        let contactDropDown = showContact ? 'slide-about slide-about-position' : 'slide-about';
 
     return(
         <div>
@@ -61,12 +51,14 @@ export default class Header extends Component {
                         <Link to='/gallery'><li className='nav-text'>Photo Gallery</li></Link>
                         <Link to='/commissioned'><li className='nav-text'>Commissioned Work</li></Link>
                         <li><button className='aboutBtn' onClick={this.handleClickAbout} >About</button></li>
-                        <li><button className='contactBtn' onClick={this.handleClickContact} >Contact</button></li>
                     </ul>
                 </nav>
                         <div className={aboutDropDown}>
                             <div className='about-container'>
-                                <img className='sunny-portrait' src={SunnyPortrait} alt='Sunny Ra'/>
+                                <div className='photo-contact-container'>
+                                    <img className='sunny-portrait' src={SunnyPortrait} alt='Sunny Ra'/>
+                                    <h2 className='email'>sunnyra23@gmail.com</h2>
+                                </div>
                             <div className='education-container'>
                                 <h3>ARTIST / EDUCATOR</h3>
                                 <br/>
@@ -113,22 +105,9 @@ export default class Header extends Component {
                                 <h4>The 103rd Annual Student Exhibition, Pennsylvania Academy of Fine Arts, Philadelphia, PA – 2004</h4>
                                 <h4>Certificate Student Gallery Showing,  Pennsylvania Academy of Fine Arts, Philadelphia, PA – 2001/2002</h4>
                             </div>
-                                <div className='xBtn-container'>
-                                    <button className='xBtn' onClick={this.handleClickAbout}><CloseIcon/></button>
+                                <div className='xBtnAbout-container'>
+                                    <button className='xBtnAbout' onClick={this.handleClickAbout}><CloseIcon/></button>
                                 </div>
-                            </div>
-
-                        </div>
-                        <div className={contactDropDown}>
-                            <div className='contact-container'>
-                                    <h2 className='email'>Email: sunnyra23@gmail.com</h2>
-                                <div className='instagram-container'>
-                                    <a href='https://www.instagram.com/sra23/' target='_blank'><Insta size={50}/>
-                                    <h2>Instagram</h2></a>
-                                </div>
-                                {/* <div className='xBtn-container'>
-                                    <button className='xBtn' onClick={this.handleClickContact}><CloseIcon/></button>
-                                </div> */}
                             </div>
                         </div>
             </header>
