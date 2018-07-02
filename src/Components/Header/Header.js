@@ -18,6 +18,7 @@ export default class Header extends Component {
             this.handleOverPainting = this.handleOverPainting.bind(this);
             this.handleClickHome = this.handleClickHome.bind(this);
             this.handleClickAbout = this.handleClickAbout.bind(this);
+            this.handleLeave = this.handleLeave.bind(this);
         }
 
         handleOverPainting() {
@@ -41,6 +42,10 @@ export default class Header extends Component {
             })
         }
 
+        handleLeave() {
+            this.setState({showPainting: false})
+        }
+
     render() {
         let {showAbout, showPainting} = this.state;
         let aboutDropDown = showAbout ? 'slide-about slide-about-position' : 'slide-about';
@@ -55,7 +60,7 @@ export default class Header extends Component {
                 <nav>
                     <ul>
                         <button className='paintingBtn' onMouseOver={this.handleOverPainting}>Paintings</button>
-                            <div className={paintingDropDown}>
+                            <div className={paintingDropDown} onMouseLeave={this.handleLeave}>
                             <Link to='/paintings2006'><li>2006</li></Link>
                             <Link to='/paintings2008'><li>2008</li></Link>
                             <Link to='/paintings2010'><li>2010</li></Link>
