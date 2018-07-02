@@ -11,12 +11,21 @@ export default class Header extends Component {
         super(props)
     
             this.state = {
+                showPainting: false,
                 showHome: false,
                 showAbout: false
             }
+            this.handleOverPainting = this.handleOverPainting.bind(this);
             this.handleClickHome = this.handleClickHome.bind(this);
             this.handleClickAbout = this.handleClickAbout.bind(this);
         }
+
+        handleOverPainting() {
+            this.setState({
+                showPainting: !this.state.showPainting
+            })
+        }
+
 
         handleClickHome() {
             this.setState({
@@ -33,8 +42,9 @@ export default class Header extends Component {
         }
 
     render() {
-        let {showAbout} = this.state;
+        let {showAbout, showPainting} = this.state;
         let aboutDropDown = showAbout ? 'slide-about slide-about-position' : 'slide-about';
+        let paintingDropDown = showPainting ? 'slide-painting slide-painting-position' : 'slide-painting';
 
     return(
         <div>
@@ -44,7 +54,17 @@ export default class Header extends Component {
                 </div>
                 <nav>
                     <ul>
-                        <Link to='/paintings'><li className='nav-text'>Paintings</li></Link>
+                        {/* <Link to='/paintings'> */}
+                        <button className='paintingBtn' onMouseOver={this.handleOverPainting}>Paintings</button>
+                            <div className={paintingDropDown}>
+                                <li>2006</li>
+                                <li>2008-2009</li>
+                                <li>2010</li>
+                                <li>2012</li>
+                                <li>2014</li>
+                                <li>2015</li>
+                            </div>
+                        {/* </Link> */}
                         <Link to='/works'><li className='nav-text'>Works On Paper</li></Link>
                         <Link to='/gallery'><li className='nav-text'>Photo Gallery</li></Link>
                         <Link to='/commissioned'><li className='nav-text'>Commissioned Work</li></Link>

@@ -23,6 +23,38 @@ header {
       display: flex;
       justify-content: flex-end;
       align-items: flex-end; }
+      header nav ul .paintingBtn {
+        font-size: 1em;
+        font-family: "Montserrat", sans-serif;
+        color: #cc9780;
+        background: none;
+        border: none;
+        padding: 0; }
+      header nav ul .paintingBtn:hover {
+        color: #f1b195;
+        transition: .5s ease-in-out;
+        cursor: pointer; }
+      header nav ul .paintingBtn:focus {
+        outline: 0; }
+      header nav ul .slide-painting {
+        background-color: red;
+        width: 100px;
+        height: 400px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        position: absolute;
+        top: 72px;
+        left: -10px;
+        transition: .25s ease-in-out;
+        opacity: 0;
+        transition-property: opacity;
+        z-index: -1; }
+      header nav ul .slide-painting-position {
+        top: 72px;
+        left: -10px;
+        opacity: 1;
+        z-index: 50; }
       header nav ul li {
         font-size: 0.9em;
         font-family: "Montserrat", sans-serif;
