@@ -13,11 +13,13 @@ export default class Header extends Component {
             this.state = {
                 showPainting: false,
                 showWorks: false,
+                showGallery: false,
                 showHome: false,
                 showAbout: false,
             }
             this.handleOverPainting = this.handleOverPainting.bind(this);
             this.handleOverWorks = this.handleOverWorks.bind(this);
+            this.handleOverGallery = this.handleOverGallery.bind(this);
             this.handleClickHome = this.handleClickHome.bind(this);
             this.handleClickAbout = this.handleClickAbout.bind(this);
             this.handleLeave = this.handleLeave.bind(this);
@@ -26,14 +28,24 @@ export default class Header extends Component {
         handleOverPainting() {
             this.setState({
                 showPainting: !this.state.showPainting,
-                showWorks: false
+                showWorks: false,
+                showGallery: false
             })
         }
 
         handleOverWorks() {
             this.setState({
                 showWorks: !this.state.showWorks,
-                showPainting: false
+                showPainting: false,
+                showGallery: false
+            })
+        }
+
+        handleOverGallery() {
+            this.setState({
+                showGallery: !this.state.showGallery,
+                showPainting: false,
+                showWorks: false
             })
         }
 
@@ -49,21 +61,26 @@ export default class Header extends Component {
             this.setState({
                 showAbout: !this.state.showAbout,
                 showPainting: false,
-                showWorks: false
+                showWorks: false,
+                showGallery: false
             })
         }
 
         handleLeave() {
             this.setState({
                 showPainting: false, 
-                showWorks: false})
+                showWorks: false,
+                showGallery: false
+            
+            })
         }
 
     render() {
-        let {showAbout, showPainting, showWorks} = this.state;
+        let {showAbout, showPainting, showWorks, showGallery} = this.state;
         let aboutDropDown = showAbout ? 'slide-about slide-about-position' : 'slide-about';
         let paintingDropDown = showPainting ? 'slide-painting slide-painting-position' : 'slide-painting';
         let worksDropDown = showWorks ? 'slide-works slide-works-position' : 'slide-works';
+        let galleryDropDown = showGallery ? 'slide-gallery slide-gallery-position' : 'slide-gallery';
 
     return(
         <div>
@@ -75,21 +92,25 @@ export default class Header extends Component {
                     <ul>
                         <button className='paintingBtn' onMouseOver={this.handleOverPainting} >Paintings</button>
                             <div className={paintingDropDown} onMouseLeave={this.handleLeave}>
-                            <Link to='/paintings2006'><li>2006</li></Link>
-                            <Link to='/paintings2008'><li>2008</li></Link>
-                            <Link to='/paintings2010'><li>2010</li></Link>
-                            <Link to='/paintings2012'><li>2012</li></Link>
-                            <Link to='/paintings2014'><li>2014</li></Link>
-                            <Link to='/paintings2015'><li>2015</li></Link>
+                                <Link to='/paintings2006'><li>2006</li></Link>
+                                <Link to='/paintings2008'><li>2008</li></Link>
+                                <Link to='/paintings2010'><li>2010</li></Link>
+                                <Link to='/paintings2012'><li>2012</li></Link>
+                                <Link to='/paintings2014'><li>2014</li></Link>
+                                <Link to='/paintings2015'><li>2015</li></Link>
                             </div>
                        <button className='worksBtn' onMouseOver={this.handleOverWorks}>Works On Paper</button>
                             <div className={worksDropDown} onMouseLeave={this.handleLeave}>
-                            <Link to='/works2006'><li>2006</li></Link>
-                            <Link to='/works2009'><li>2009</li></Link>
-                            <Link to='/works2012'><li>2012</li></Link>
-                            <Link to='/works2016'><li>2016</li></Link>
+                                <Link to='/works2006'><li>2006</li></Link>
+                                <Link to='/works2009'><li>2009</li></Link>
+                                <Link to='/works2012'><li>2012</li></Link>
+                                <Link to='/works2016'><li>2016</li></Link>
                             </div>
-                        <Link to='/gallery'><li className='nav-text'>Photo Gallery</li></Link>
+                        <button className='galleryBtn' onMouseOver={this.handleOverGallery}>Photo Gallery</button>
+                            <div className={galleryDropDown} onMouseLeave={this.handleLeave}>
+                                <Link to='/installation'><li>Installation Photos</li></Link>
+                                <Link to='/studentwork'><li>Student Work</li></Link>
+                                </div>
                         <Link to='/commissioned'><li className='nav-text'>Commissioned Work</li></Link>
                         <li><button className='aboutBtn' onClick={this.handleClickAbout} >About</button></li>
                     </ul>
