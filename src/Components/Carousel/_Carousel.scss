@@ -24,8 +24,6 @@
         visibility: hidden;   
 
         .carousel-image{
-            // width: 60%;
-            height: 800px;
             display: flex;  
             justify-content: center;
             align-items: center;
@@ -39,7 +37,6 @@
 
 // Centering the content in Slider
 .slick-slide.slick-center img {
-    transform: scale(1.1);
     margin-left: auto; 
     margin-right: auto;
 }

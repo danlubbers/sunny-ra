@@ -178,8 +178,9 @@ header {
     opacity: 1;
     z-index: 500; }
   header .about-container {
-    width: 100%;
+    width: 85%;
     height: 100%;
+    margin-left: 150px;
     padding: 0px 40px;
     display: flex;
     justify-content: space-between;
@@ -262,7 +263,6 @@ footer {
     align-items: center;
     visibility: hidden; }
     .carousel-container .text-box .carousel-image {
-      height: 800px;
       display: flex;
       justify-content: center;
       align-items: center; }
@@ -270,7 +270,6 @@ footer {
     visibility: visible; }
 
 .slick-slide.slick-center img {
-  transform: scale(1.1);
   margin-left: auto;
   margin-right: auto; }
 

@@ -17,8 +17,10 @@ import Works2009 from './Components/WorksOnPaper/Works2009/Works2009'
 import Works2012 from './Components/WorksOnPaper/Works2012/Works2012'
 import Works2016 from './Components/WorksOnPaper/Works2016/Works2016'
 
+// Gallery Category
 
-import Gallery from './Components/Gallery/Gallery'
+import Installation from './Components/Gallery/Installation/Installation'
+import StudentWork from './Components/Gallery/StudentWork/StudentWork'
 import Commissioned from './Components/Commissioned/Commissioned'
 
 export default (
@@ -36,7 +38,9 @@ export default (
         <Route path="/works2012" component={Works2012} />
         <Route path="/works2016" component={Works2016} />
 
-        <Route path="/gallery" component={Gallery} />
+        <Route path="/installation" component={Installation} />
+        <Route path="/studentwork" component={StudentWork} />
+
         <Route path="/commissioned" component={Commissioned} />
     </Switch>
 )
