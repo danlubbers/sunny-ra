@@ -4,12 +4,12 @@ import {Switch, Route} from 'react-router-dom';
 import Home from './Components/Home/Home'
 
 // Paintings Category
-import Paintings2006 from './Components/Paintings/PaintingsYear/Paintings2006/Paintings2006'
-import Paintings2008 from './Components/Paintings/PaintingsYear/Paintings2008/Paintings2008'
-import Paintings2010 from './Components/Paintings/PaintingsYear/Paintings2010/Paintings2010'
-import Paintings2012 from './Components/Paintings/PaintingsYear/Paintings2012/Paintings2012'
-import Paintings2014 from './Components/Paintings/PaintingsYear/Paintings2014/Paintings2014'
-import Paintings2015 from './Components/Paintings/PaintingsYear/Paintings2015/Paintings2015'
+import Paintings2006 from './Components/Paintings/Paintings2006/Paintings2006'
+import Paintings2008 from './Components/Paintings/Paintings2008/Paintings2008'
+import Paintings2010 from './Components/Paintings/Paintings2010/Paintings2010'
+import Paintings2012 from './Components/Paintings/Paintings2012/Paintings2012'
+import Paintings2014 from './Components/Paintings/Paintings2014/Paintings2014'
+import Paintings2015 from './Components/Paintings/Paintings2015/Paintings2015'
 
 // Works on Paper Category
 import Works2006 from './Components/WorksOnPaper/Works2006/Works2006'
