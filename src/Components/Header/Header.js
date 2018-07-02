@@ -54,17 +54,15 @@ export default class Header extends Component {
                 </div>
                 <nav>
                     <ul>
-                        {/* <Link to='/paintings'> */}
                         <button className='paintingBtn' onMouseOver={this.handleOverPainting}>Paintings</button>
                             <div className={paintingDropDown}>
-                                <li>2006</li>
-                                <li>2008-2009</li>
-                                <li>2010</li>
-                                <li>2012</li>
-                                <li>2014</li>
-                                <li>2015</li>
+                            <Link to='/paintings2006'><li>2006</li></Link>
+                            <Link to='/paintings2008'><li>2008</li></Link>
+                            <Link to='/paintings2010'><li>2010</li></Link>
+                            <Link to='/paintings2012'><li>2012</li></Link>
+                            <Link to='/paintings2014'><li>2014</li></Link>
+                            <Link to='/paintings2015'><li>2015</li></Link>
                             </div>
-                        {/* </Link> */}
                         <Link to='/works'><li className='nav-text'>Works On Paper</li></Link>
                         <Link to='/gallery'><li className='nav-text'>Photo Gallery</li></Link>
                         <Link to='/commissioned'><li className='nav-text'>Commissioned Work</li></Link>

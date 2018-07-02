@@ -49,19 +49,26 @@ header {
             }
 
            .slide-painting {
-            background-color: red;
+            background-color: $background-color;
             width: 100px;
-            height: 400px;
+            height: 150px;
             display: flex;
-            justify-content: flex-start;
+            flex-direction: column;
+            justify-content: center;
             align-items: center;
             position: absolute;
             top: 72px;
             left: -10px;
             transition: .25s ease-in-out;
             opacity: 0;
-            transition-property: opacity;
+            transition-property: opgit acity;
             z-index: -1;
+
+            li {
+                margin: 0px 5px 10px 0px;
+                font-size: 1em;
+                cursor: pointer;
+            }
            }
 
            .slide-painting-position {
