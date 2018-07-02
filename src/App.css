@@ -26,13 +26,13 @@ header {
       header nav ul .paintingBtn {
         font-size: 1em;
         font-family: "Montserrat", sans-serif;
-        color: #cc9780;
+        color: #afafaf;
         background: none;
         border: none;
         padding: 0; }
       header nav ul .paintingBtn:hover {
         color: #f1b195;
-        transition: .5s ease-in-out;
+        transition: .25s ease-in-out;
         cursor: pointer; }
       header nav ul .paintingBtn:focus {
         outline: 0; }
@@ -47,7 +47,7 @@ header {
         position: absolute;
         top: 45px;
         left: -10px;
-        transition: .25s ease-in-out;
+        transition: .15 ease-in-out;
         opacity: 0;
         transition-property: opacity;
         z-index: -1; }
@@ -64,13 +64,13 @@ header {
         margin-left: 25px;
         font-size: 1em;
         font-family: "Montserrat", sans-serif;
-        color: #cc9780;
+        color: #afafaf;
         background: none;
         border: none;
         padding: 0; }
       header nav ul .worksBtn:hover {
         color: #f1b195;
-        transition: .5s ease-in-out;
+        transition: .25s ease-in-out;
         cursor: pointer; }
       header nav ul .worksBtn:focus {
         outline: 0; }
@@ -84,8 +84,8 @@ header {
         align-items: center;
         position: absolute;
         top: 45px;
-        left: 115px;
-        transition: .25s ease-in-out;
+        left: 118px;
+        transition: .15 ease-in-out;
         opacity: 0;
         transition-property: opacity;
         z-index: -1; }
@@ -95,29 +95,29 @@ header {
           cursor: pointer; }
       header nav ul .slide-works-position {
         top: 45px;
-        left: 115px;
+        left: 118px;
         opacity: 1;
         z-index: 50; }
       header nav ul li {
         font-size: 0.9em;
         font-family: "Montserrat", sans-serif;
         margin-left: 25px;
-        color: #cc9780; }
+        color: #afafaf; }
       header nav ul li:hover {
         color: #f1b195;
-        transition: .5s ease-in-out; }
+        transition: .25s ease-in-out; }
       header nav ul .nav-text {
         padding-bottom: 2px; }
       header nav ul .aboutBtn, header nav ul .contactBtn {
         font-size: 1em;
         font-family: "Montserrat", sans-serif;
-        color: #cc9780;
+        color: #afafaf;
         background: none;
         border: none;
         padding: 0; }
       header nav ul .aboutBtn:hover, header nav ul .contactBtn:hover {
         color: #f1b195;
-        transition: .5s ease-in-out;
+        transition: .25s ease-in-out;
         cursor: pointer; }
       header nav ul .aboutBtn:focus, header nav ul .contactBtn:focus {
         outline: 0; }
@@ -130,7 +130,7 @@ header {
     align-items: center;
     position: absolute;
     top: 100px;
-    transition: .25s ease-in-out;
+    transition: .15 ease-in-out;
     opacity: 0;
     transition-property: opacity;
     z-index: -1; }

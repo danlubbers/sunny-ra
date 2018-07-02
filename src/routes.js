@@ -3,6 +3,7 @@ import {Switch, Route} from 'react-router-dom';
 
 import Home from './Components/Home/Home'
 
+// Paintings Category
 import Paintings2006 from './Components/Paintings/PaintingsYear/Paintings2006/Paintings2006'
 import Paintings2008 from './Components/Paintings/PaintingsYear/Paintings2008/Paintings2008'
 import Paintings2010 from './Components/Paintings/PaintingsYear/Paintings2010/Paintings2010'
@@ -10,7 +11,13 @@ import Paintings2012 from './Components/Paintings/PaintingsYear/Paintings2012/Pa
 import Paintings2014 from './Components/Paintings/PaintingsYear/Paintings2014/Paintings2014'
 import Paintings2015 from './Components/Paintings/PaintingsYear/Paintings2015/Paintings2015'
 
-import WorksOnPaper from './Components/WorksOnPaper/WorksOnPaper'
+// Works on Paper Category
+import Works2006 from './Components/WorksOnPaper/Works2006/Works2006'
+import Works2009 from './Components/WorksOnPaper/Works2009/Works2009'
+import Works2012 from './Components/WorksOnPaper/Works2012/Works2012'
+import Works2016 from './Components/WorksOnPaper/Works2016/Works2016'
+
+
 import Gallery from './Components/Gallery/Gallery'
 import Commissioned from './Components/Commissioned/Commissioned'
 
@@ -23,7 +30,12 @@ export default (
         <Route path="/paintings2012" component={Paintings2012} />
         <Route path="/paintings2014" component={Paintings2014} />
         <Route path="/paintings2015" component={Paintings2015} />
-        <Route path="/works" component={WorksOnPaper} />
+
+        <Route path="/works2006" component={Works2006} />
+        <Route path="/works2009" component={Works2009} />
+        <Route path="/works2012" component={Works2012} />
+        <Route path="/works2016" component={Works2016} />
+
         <Route path="/gallery" component={Gallery} />
         <Route path="/commissioned" component={Commissioned} />
     </Switch>

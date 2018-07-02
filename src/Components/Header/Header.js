@@ -40,15 +40,16 @@ export default class Header extends Component {
 
         handleClickHome() {
             this.setState({
-                showAbout: false,
-                showContact: false
+                showAbout: false
+                
             })
         }
     
         handleClickAbout() {
             this.setState({
                 showAbout: !this.state.showAbout,
-                showContact: false
+                showPainting: false,
+                showWorks: false
             })
         }
 
@@ -88,7 +89,6 @@ export default class Header extends Component {
                             <Link to='/works2012'><li>2012</li></Link>
                             <Link to='/works2016'><li>2016</li></Link>
                             </div>
-
                         <Link to='/gallery'><li className='nav-text'>Photo Gallery</li></Link>
                         <Link to='/commissioned'><li className='nav-text'>Commissioned Work</li></Link>
                         <li><button className='aboutBtn' onClick={this.handleClickAbout} >About</button></li>
