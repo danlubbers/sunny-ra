@@ -12,10 +12,12 @@ export default class Header extends Component {
     
             this.state = {
                 showPainting: false,
+                showWorks: false,
                 showHome: false,
-                showAbout: false
+                showAbout: false,
             }
             this.handleOverPainting = this.handleOverPainting.bind(this);
+            this.handleOverWorks = this.handleOverWorks.bind(this);
             this.handleClickHome = this.handleClickHome.bind(this);
             this.handleClickAbout = this.handleClickAbout.bind(this);
             this.handleLeave = this.handleLeave.bind(this);
@@ -23,7 +25,15 @@ export default class Header extends Component {
 
         handleOverPainting() {
             this.setState({
-                showPainting: !this.state.showPainting
+                showPainting: !this.state.showPainting,
+                showWorks: false
+            })
+        }
+
+        handleOverWorks() {
+            this.setState({
+                showWorks: !this.state.showWorks,
+                showPainting: false
             })
         }
 
@@ -43,13 +53,16 @@ export default class Header extends Component {
         }
 
         handleLeave() {
-            this.setState({showPainting: false})
+            this.setState({
+                showPainting: false, 
+                showWorks: false})
         }
 
     render() {
-        let {showAbout, showPainting} = this.state;
+        let {showAbout, showPainting, showWorks} = this.state;
         let aboutDropDown = showAbout ? 'slide-about slide-about-position' : 'slide-about';
         let paintingDropDown = showPainting ? 'slide-painting slide-painting-position' : 'slide-painting';
+        let worksDropDown = showWorks ? 'slide-works slide-works-position' : 'slide-works';
 
     return(
         <div>
@@ -59,7 +72,7 @@ export default class Header extends Component {
                 </div>
                 <nav>
                     <ul>
-                        <button className='paintingBtn' onMouseOver={this.handleOverPainting}>Paintings</button>
+                        <button className='paintingBtn' onMouseOver={this.handleOverPainting} >Paintings</button>
                             <div className={paintingDropDown} onMouseLeave={this.handleLeave}>
                             <Link to='/paintings2006'><li>2006</li></Link>
                             <Link to='/paintings2008'><li>2008</li></Link>
@@ -68,7 +81,14 @@ export default class Header extends Component {
                             <Link to='/paintings2014'><li>2014</li></Link>
                             <Link to='/paintings2015'><li>2015</li></Link>
                             </div>
-                        <Link to='/works'><li className='nav-text'>Works On Paper</li></Link>
+                       <button className='worksBtn' onMouseOver={this.handleOverWorks}>Works On Paper</button>
+                            <div className={worksDropDown} onMouseLeave={this.handleLeave}>
+                            <Link to='/works2006'><li>2006</li></Link>
+                            <Link to='/works2009'><li>2009</li></Link>
+                            <Link to='/works2012'><li>2012</li></Link>
+                            <Link to='/works2016'><li>2016</li></Link>
+                            </div>
+
                         <Link to='/gallery'><li className='nav-text'>Photo Gallery</li></Link>
                         <Link to='/commissioned'><li className='nav-text'>Commissioned Work</li></Link>
                         <li><button className='aboutBtn' onClick={this.handleClickAbout} >About</button></li>
