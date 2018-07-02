@@ -5,8 +5,6 @@ import SunnyLogo from '../../assets/sunny-ra-logo.png';
 import SunnyPortrait from '../../assets/sunny-portrait.jpg';
 // Icons
 import CloseIcon from 'react-icons/lib/fa/times-circle';
-import Insta from 'react-icons/lib/fa/instagram';
-
 
 export default class Header extends Component {
     constructor(props) {
