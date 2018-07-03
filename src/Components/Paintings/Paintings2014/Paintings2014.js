@@ -12,7 +12,7 @@ import paintings20148 from '../../../assets/images/paintings/2014/paintings2014-
 
 
 
-export default class Carousel extends Component {
+export default class Paintings2014 extends Component {
     
     render() {
 

@@ -7,7 +7,7 @@ import paintings20063 from '../../../assets/images/paintings/2006/paintings2006-
 import paintings20064 from '../../../assets/images/paintings/2006/paintings2006-4.jpg';
 import paintings20065 from '../../../assets/images/paintings/2006/paintings2006-5.jpg';
 
-export default class Carousel extends Component {
+export default class Paintings2006 extends Component {
     
     render() {
 
