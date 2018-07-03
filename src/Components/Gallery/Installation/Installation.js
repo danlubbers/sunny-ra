@@ -54,7 +54,7 @@ export default class Carousel extends Component {
             infinite: true,
             speed: 500,
             slidesToShow: 1,
-            slidesToSlide: 11,
+            slidesToSlide: 40,
             autoplay: true, 
             autoPlaySpeed: 1000,
             cssEase: "linear",
