@@ -52,8 +52,10 @@ export default class Header extends Component {
 
         handleClickHome() {
             this.setState({
-                showAbout: false
-                
+                showAbout: false,
+                howPainting: false, 
+                showWorks: false,
+                showGallery: false
             })
         }
     

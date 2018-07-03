@@ -45,7 +45,7 @@ export default class Carousel extends Component {
                         <h1>Botanical Gardens</h1>
                     </div>
                     <div>
-                        <img className="carousel-image" src={commissioned1} alt="Black Sand"/>
+                        <img className="carousel-image" src={commissioned1} alt="Botanical Gardens"/>
                     </div>
                 </div>
                 <div className='image-wrapper'>
@@ -53,23 +53,15 @@ export default class Carousel extends Component {
                         <h1>Botanical Gardens</h1>
                     </div>
                     <div>
-                        <img className="carousel-image" src={commissioned2} alt="Mammoth"/>
+                        <img className="carousel-image" src={commissioned2} alt="Botanical Gardens"/>
                     </div>
                 </div>
                 <div className='image-wrapper'>
                     <div className='text-box'>
-                        <h1>12in x 12in Botanic Plein Air Painting Competition  September 2016</h1>
+                        <h1>12in x 12in Botanical Gardens Plein Air Painting Competition  September 2016</h1>
                     </div>
                     <div>
-                        <img className="carousel-image" src={commissioned3} alt="Flight"/>
-                    </div>
-                </div>
-                <div className='image-wrapper'>
-                    <div className='text-box'>
-                        <h1>18in x 48in oil on canvas for Botanica show 2014</h1>
-                    </div>
-                    <div>
-                        <img className="carousel-image" src={commissioned4} alt="Manta"/>
+                        <img className="carousel-image" src={commissioned3} alt="Botanical Gardens"/>
                     </div>
                 </div>
                 <div className='image-wrapper'>
@@ -77,7 +69,15 @@ export default class Carousel extends Component {
                         <h1>18in x 48in oil on canvas for Botanica show 2014</h1>
                     </div>
                     <div>
-                        <img className="carousel-image" src={commissioned5} alt="Kinetic"/>
+                        <img className="carousel-image" src={commissioned4} alt="Botanical Gardens"/>
+                    </div>
+                </div>
+                <div className='image-wrapper'>
+                    <div className='text-box'>
+                        <h1>18in x 48in oil on canvas for Botanica show 2014</h1>
+                    </div>
+                    <div>
+                        <img className="carousel-image" src={commissioned5} alt="Botanical Gardens"/>
                     </div>
                 </div>
                 <div className='image-wrapper'>
@@ -85,7 +85,7 @@ export default class Carousel extends Component {
                         <h1>8in x 8in oil on canvas for LVA's Art Squared 2014</h1>
                     </div>
                     <div>
-                        <img className="carousel-image" src={commissioned6} alt="Might"/>
+                        <img className="carousel-image" src={commissioned6} alt="LVA Squared"/>
                     </div>
                 </div>
                 <div className='image-wrapper'>
@@ -93,7 +93,7 @@ export default class Carousel extends Component {
                         <h1>8in x 8in oil on canvas for LVA's Art Squared 2014</h1>
                     </div>
                     <div>
-                        <img className="carousel-image" src={commissioned7} alt="Radiate"/>
+                        <img className="carousel-image" src={commissioned7} alt="LVA Squared"/>
                     </div>
                 </div>
                 <div className='image-wrapper'>
@@ -101,39 +101,39 @@ export default class Carousel extends Component {
                         <h1>Golden Gate 42in x 34in oil on canvas 2013</h1>
                     </div>
                     <div>
-                        <img className="carousel-image" src={commissioned8} alt="Nebula"/>
+                        <img className="carousel-image" src={commissioned8} alt="Golden Gate Bridge"/>
                     </div>
                 </div>
                 <div className='image-wrapper'>
                     <div className='text-box'>
-                        <h1>detail of Golden Gate</h1>
+                        <h1>Detail of Golden Gate</h1>
                     </div>
                     <div>
-                        <img className="carousel-image" src={commissioned9} alt="Chase"/>
+                        <img className="carousel-image" src={commissioned9} alt="Golden Gate Bridge"/>
                     </div>
                 </div>
                 <div className='image-wrapper'>
                     <div className='text-box'>
-                        <h1>detail of Golden Gate</h1>
+                        <h1>Detail of Golden Gate</h1>
                     </div>
                     <div>
-                        <img className="carousel-image" src={commissioned10} alt="Harvest"/>
+                        <img className="carousel-image" src={commissioned10} alt="Golden Gate Bridge"/>
                     </div>
                 </div>
                 <div className='image-wrapper'>
                     <div className='text-box'>
-                        <h1>drawing for painting 24in x 36in charcoal on paper</h1>
+                        <h1>Drawing for painting 24in x 36in charcoal on paper</h1>
                     </div>
                     <div>
-                        <img className="carousel-image" src={commissioned11} alt="Expedition"/>
+                        <img className="carousel-image" src={commissioned11} alt="Golden Gate Bridge"/>
                     </div>
                 </div>
                 <div className='image-wrapper'>
                     <div className='text-box'>
-                        <h1>drawing for painting 24in x 36in charcoal on paper</h1>
+                        <h1>Drawing for painting 24in x 36in charcoal on paper</h1>
                     </div>
                     <div>
-                        <img className="carousel-image" src={commissioned12} alt="Expedition"/>
+                        <img className="carousel-image" src={commissioned12} alt="Golden Gate Bridge"/>
                     </div>
                 </div>
             </Slider>
