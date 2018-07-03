@@ -1,17 +1,17 @@
 import React, {Component} from 'react';
 import Slider from 'react-slick';
 
-import blacksand from '../../assets/images/black-sand.jpg';
-import mammoth from '../../assets/images/mammoth.jpg';
-import flight from '../../assets/images/flight.jpg';
-import manta from '../../assets/images/manta.jpg';
-import kinetic from '../../assets/images/kinetic.jpg';
-import might from '../../assets/images/might.jpg';
-import radiate from '../../assets/images/mammoth.jpg';
-import nebula from '../../assets/images/nebula.jpg';
-import chase from '../../assets/images/chase.jpg';
-import harvest from '../../assets/images/harvest.jpg';
-import expedition from '../../assets/images/expedition.jpg';
+import blacksand from '../../assets/images/home/black-sand.jpg';
+import mammoth from '../../assets/images/home/mammoth.jpg';
+import flight from '../../assets/images/home/flight.jpg';
+import manta from '../../assets/images/home/manta.jpg';
+import kinetic from '../../assets/images/home/kinetic.jpg';
+import might from '../../assets/images/home/might.jpg';
+import radiate from '../../assets/images/home/mammoth.jpg';
+import nebula from '../../assets/images/home/nebula.jpg';
+import chase from '../../assets/images/home/chase.jpg';
+import harvest from '../../assets/images/home/harvest.jpg';
+import expedition from '../../assets/images/home/expedition.jpg';
 
 export default class Carousel extends Component {
     
@@ -86,7 +86,7 @@ export default class Carousel extends Component {
                         <img className="carousel-image" src={might} alt="Might"/>
                     </div>
                 </div>
-                <div>
+                <div className='image-wrapper'>
                     <div className='text-box'>
                         <h1>Radiate 32in x 48in Oil on Canvas</h1>
                     </div>
