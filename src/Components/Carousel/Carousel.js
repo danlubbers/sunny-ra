@@ -9,7 +9,7 @@ import kinetic from '../../assets/images/kinetic.jpg';
 import might from '../../assets/images/might.jpg';
 import radiate from '../../assets/images/mammoth.jpg';
 import nebula from '../../assets/images/nebula.jpg';
-import chase from '../../assets/images/mammoth.jpg';
+import chase from '../../assets/images/chase.jpg';
 import harvest from '../../assets/images/harvest.jpg';
 import expedition from '../../assets/images/expedition.jpg';
 
@@ -23,7 +23,7 @@ export default class Carousel extends Component {
             infinite: true,
             speed: 500,
             slidesToShow: 1,
-            slidesToSlide: 111,
+            slidesToSlide: 11,
             autoplay: false, 
             autoPlaySpeed: 1000,
             cssEase: "linear",

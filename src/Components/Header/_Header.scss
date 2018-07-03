@@ -168,14 +168,32 @@ header {
                         font-size: 1em;
                         cursor: pointer;
                     }
-                   }
+                }
         
-                   .slide-gallery-position {
-                        top: 45px;
-                        left: 210px;
-                        opacity: 1;
-                        z-index: 50;
-                   }
+                .slide-gallery-position {
+                    top: 45px;
+                    left: 210px;
+                    opacity: 1;
+                    z-index: 50;
+                }
+
+                .commissionBtn {
+                    margin-left: 25px;
+                    font-size: 1em;
+                    font-family: $font;
+                    color: $font-color-grey;
+                    background: none;
+                    border: none;
+                    padding: 0;   
+                }
+                .commissionBtn:hover {
+                    color: $font-color-hover;
+                    transition: .25s ease-in-out;
+                    cursor: pointer;
+                }
+                .commissionBtn:focus {
+                    outline: 0;
+                }
 
             li {
                 font-size: $font-size;
@@ -187,13 +205,9 @@ header {
                 color: $font-color-hover;
                 transition: .25s ease-in-out;
             }
-            
-            .nav-text{
-                padding-bottom: 2px;
-                }
 
             .aboutBtn {
-                font-size: 1em;
+                font-size: 1.1em;
                 font-family: $font;
                 color: $font-color-grey;
                 background: none;
@@ -208,16 +222,6 @@ header {
             }
             .aboutBtn:focus {
                 outline: 0;
-            }
-
-            .contactBtn {
-                @extend .aboutBtn;
-            }
-            .contactBtn:hover {
-                @extend .aboutBtn:hover;
-            }
-            .contactBtn:focus {
-                @extend .contactBtn:focus;
             }
         }
     }

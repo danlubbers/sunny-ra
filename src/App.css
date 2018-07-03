@@ -136,6 +136,20 @@ header {
         left: 210px;
         opacity: 1;
         z-index: 50; }
+      header nav ul .commissionBtn {
+        margin-left: 25px;
+        font-size: 1em;
+        font-family: "Montserrat", sans-serif;
+        color: #afafaf;
+        background: none;
+        border: none;
+        padding: 0; }
+      header nav ul .commissionBtn:hover {
+        color: #f1b195;
+        transition: .25s ease-in-out;
+        cursor: pointer; }
+      header nav ul .commissionBtn:focus {
+        outline: 0; }
       header nav ul li {
         font-size: 0.9em;
         font-family: "Montserrat", sans-serif;
@@ -144,20 +158,18 @@ header {
       header nav ul li:hover {
         color: #f1b195;
         transition: .25s ease-in-out; }
-      header nav ul .nav-text {
-        padding-bottom: 2px; }
-      header nav ul .aboutBtn, header nav ul .contactBtn {
-        font-size: 1em;
+      header nav ul .aboutBtn {
+        font-size: 1.1em;
         font-family: "Montserrat", sans-serif;
         color: #afafaf;
         background: none;
         border: none;
         padding: 0; }
-      header nav ul .aboutBtn:hover, header nav ul .contactBtn:hover {
+      header nav ul .aboutBtn:hover {
         color: #f1b195;
         transition: .25s ease-in-out;
         cursor: pointer; }
-      header nav ul .aboutBtn:focus, header nav ul .contactBtn:focus {
+      header nav ul .aboutBtn:focus {
         outline: 0; }
   header .slide-about {
     background-color: #191919;
