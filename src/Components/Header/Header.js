@@ -57,6 +57,7 @@ export default class Header extends Component {
                 showWorks: false,
                 showGallery: false
             })
+            this.handleLeave()
         }
     
         handleClickAbout() {
@@ -113,7 +114,7 @@ export default class Header extends Component {
                                 <Link to='/installation'><li>Installation Photos</li></Link>
                                 <Link to='/studentwork'><li>Student Work</li></Link>
                                 </div>
-                        <Link to='/commissioned'><button className='commissionBtn'>Commissioned Work</button></Link>
+                        <Link to='/commissioned'><button className='commissionBtn' onClick={this.handleLeave}>Commissioned Work</button></Link>
                         <li><button className='aboutBtn' onClick={this.handleClickAbout} >About</button></li>
                     </ul>
                 </nav>
