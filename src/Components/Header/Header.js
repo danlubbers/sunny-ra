@@ -3,6 +3,7 @@ import {Link} from 'react-router-dom';
 // Images
 import SunnyLogo from '../../assets/sunny-ra-logo.png';
 import SunnyPortrait from '../../assets/sunny-portrait.jpg';
+import SunnyPortrait2 from '../../assets/sunny-portrait-2.jpg';
 // Icons
 import CloseIcon from 'react-icons/lib/fa/times-circle';
 
@@ -121,7 +122,7 @@ export default class Header extends Component {
                         <div className={aboutDropDown}>
                             <div className='about-container'>
                                 <div className='photo-contact-container'>
-                                    <img className='sunny-portrait' src={SunnyPortrait} alt='Sunny Ra'/>
+                                    <img className='sunny-portrait' src={SunnyPortrait2} alt='Sunny Ra'/>
                                     <h2 className='email'>sunnyra23@gmail.com</h2>
                                 </div>
                             <div className='education-container'>

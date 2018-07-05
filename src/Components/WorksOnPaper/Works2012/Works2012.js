@@ -15,7 +15,7 @@ import works201211 from '../../../assets/images/works/2012/works2012-11.jpg';
 import works201212 from '../../../assets/images/works/2012/works2012-12.jpg';
 import works201213 from '../../../assets/images/works/2012/works2012-13.jpg';
 
-export default class Works2009 extends Component {
+export default class Works2012 extends Component {
     
     render() {
 
