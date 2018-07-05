@@ -35,90 +35,93 @@ export default class Paintings2012 extends Component {
         };
     
     return (
-        <div className='carousel-container'>
-            <Slider ref={slider => (this.slider = slider)}{...settings} style={{position: 'relative',    zIndex: '500 !important'}}>
-          
-                <div className='image-wrapper'>
-                    <div className='text-box'>
-                        {/* <h1></h1> */}
+        <div className='content-wrapper'>
+            <h1>2012 Paintings</h1>
+            <div className='carousel-container'>
+                <Slider ref={slider => (this.slider = slider)}{...settings} style={{position: 'relative',    zIndex: '500 !important'}}>
+            
+                    <div className='image-wrapper'>
+                        <div className='text-box'>
+                            {/* <h1></h1> */}
+                        </div>
+                        <div>
+                            <img className="carousel-image" src={paintings20121} alt=""/>
+                        </div>
                     </div>
-                    <div>
-                        <img className="carousel-image" src={paintings20121} alt=""/>
+                    <div className='image-wrapper'>
+                        <div className='text-box'>
+                            {/* <h1></h1> */}
+                        </div>
+                        <div>
+                            <img className="carousel-image" src={paintings20122} alt=""/>
+                        </div>
                     </div>
-                </div>
-                <div className='image-wrapper'>
-                    <div className='text-box'>
-                        {/* <h1></h1> */}
+                    <div className='image-wrapper'>
+                        <div className='text-box'>
+                            {/* <h1></h1> */}
+                        </div>
+                        <div>
+                            <img className="carousel-image" src={paintings20123} alt=""/>
+                        </div>
                     </div>
-                    <div>
-                        <img className="carousel-image" src={paintings20122} alt=""/>
+                    <div className='image-wrapper'>
+                        <div className='text-box'>
+                            {/* <h1></h1> */}
+                        </div>
+                        <div>
+                            <img className="carousel-image" src={paintings20124} alt=""/>
+                        </div>
                     </div>
-                </div>
-                <div className='image-wrapper'>
-                    <div className='text-box'>
-                        {/* <h1></h1> */}
+                    <div className='image-wrapper'>
+                        <div className='text-box'>
+                            {/* <h1></h1> */}
+                        </div>
+                        <div>
+                            <img className="carousel-image" src={paintings20125} alt=""/>
+                        </div>
                     </div>
-                    <div>
-                        <img className="carousel-image" src={paintings20123} alt=""/>
+                    <div className='image-wrapper'>
+                        <div className='text-box'>
+                            {/* <h1></h1> */}
+                        </div>
+                        <div>
+                            <img className="carousel-image" src={paintings20126} alt=""/>
+                        </div>
                     </div>
-                </div>
-                <div className='image-wrapper'>
-                    <div className='text-box'>
-                        {/* <h1></h1> */}
+                    <div className='image-wrapper'>
+                        <div className='text-box'>
+                            {/* <h1></h1> */}
+                        </div>
+                        <div>
+                            <img className="carousel-image" src={paintings20127} alt=""/>
+                        </div>
                     </div>
-                    <div>
-                        <img className="carousel-image" src={paintings20124} alt=""/>
+                    <div className='image-wrapper'>
+                        <div className='text-box'>
+                            {/* <h1></h1> */}
+                        </div>
+                        <div>
+                            <img className="carousel-image" src={paintings20128} alt=""/>
+                        </div>
                     </div>
-                </div>
-                <div className='image-wrapper'>
-                    <div className='text-box'>
-                        {/* <h1></h1> */}
+                    <div className='image-wrapper'>
+                        <div className='text-box'>
+                            {/* <h1></h1> */}
+                        </div>
+                        <div>
+                            <img className="carousel-image" src={paintings20129} alt=""/>
+                        </div>
                     </div>
-                    <div>
-                        <img className="carousel-image" src={paintings20125} alt=""/>
+                    <div className='image-wrapper'>
+                        <div className='text-box'>
+                            {/* <h1></h1> */}
+                        </div>
+                        <div>
+                            <img className="carousel-image" src={paintings201210} alt=""/>
+                        </div>
                     </div>
-                </div>
-                <div className='image-wrapper'>
-                    <div className='text-box'>
-                        {/* <h1></h1> */}
-                    </div>
-                    <div>
-                        <img className="carousel-image" src={paintings20126} alt=""/>
-                    </div>
-                </div>
-                <div className='image-wrapper'>
-                    <div className='text-box'>
-                        {/* <h1></h1> */}
-                    </div>
-                    <div>
-                        <img className="carousel-image" src={paintings20127} alt=""/>
-                    </div>
-                </div>
-                <div className='image-wrapper'>
-                    <div className='text-box'>
-                        {/* <h1></h1> */}
-                    </div>
-                    <div>
-                        <img className="carousel-image" src={paintings20128} alt=""/>
-                    </div>
-                </div>
-                <div className='image-wrapper'>
-                    <div className='text-box'>
-                        {/* <h1></h1> */}
-                    </div>
-                    <div>
-                        <img className="carousel-image" src={paintings20129} alt=""/>
-                    </div>
-                </div>
-                <div className='image-wrapper'>
-                    <div className='text-box'>
-                        {/* <h1></h1> */}
-                    </div>
-                    <div>
-                        <img className="carousel-image" src={paintings201210} alt=""/>
-                    </div>
-                </div>
-            </Slider>
+                </Slider>
+            </div>
         </div>
     )
     }

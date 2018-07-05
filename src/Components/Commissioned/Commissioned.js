@@ -37,106 +37,109 @@ export default class Carousel extends Component {
         };
     
     return (
-        <div className='carousel-container'>
-            <Slider ref={slider => (this.slider = slider)}{...settings} style={{position: 'relative',    zIndex: '500 !important'}}>
-          
-                <div className='image-wrapper'>
-                    <div className='text-box'>
-                        <h1>Botanical Gardens</h1>
+        <div className='content-wrapper'>
+            <h1>Commissioned Works</h1>
+            <div className='carousel-container'>
+                <Slider ref={slider => (this.slider = slider)}{...settings} style={{position: 'relative',    zIndex: '500 !important'}}>
+            
+                    <div className='image-wrapper'>
+                        <div className='text-box'>
+                            <h1>Botanical Gardens</h1>
+                        </div>
+                        <div>
+                            <img className="carousel-image" src={commissioned1} alt="Botanical Gardens"/>
+                        </div>
                     </div>
-                    <div>
-                        <img className="carousel-image" src={commissioned1} alt="Botanical Gardens"/>
+                    <div className='image-wrapper'>
+                        <div className='text-box'>
+                            <h1>Botanical Gardens</h1>
+                        </div>
+                        <div>
+                            <img className="carousel-image" src={commissioned2} alt="Botanical Gardens"/>
+                        </div>
                     </div>
-                </div>
-                <div className='image-wrapper'>
-                    <div className='text-box'>
-                        <h1>Botanical Gardens</h1>
+                    <div className='image-wrapper'>
+                        <div className='text-box'>
+                            <h1>12in x 12in Botanical Gardens Plein Air Painting Competition  September 2016</h1>
+                        </div>
+                        <div>
+                            <img className="carousel-image" src={commissioned3} alt="Botanical Gardens"/>
+                        </div>
                     </div>
-                    <div>
-                        <img className="carousel-image" src={commissioned2} alt="Botanical Gardens"/>
+                    <div className='image-wrapper'>
+                        <div className='text-box'>
+                            <h1>18in x 48in oil on canvas for Botanica show 2014</h1>
+                        </div>
+                        <div>
+                            <img className="carousel-image" src={commissioned4} alt="Botanical Gardens"/>
+                        </div>
                     </div>
-                </div>
-                <div className='image-wrapper'>
-                    <div className='text-box'>
-                        <h1>12in x 12in Botanical Gardens Plein Air Painting Competition  September 2016</h1>
+                    <div className='image-wrapper'>
+                        <div className='text-box'>
+                            <h1>18in x 48in oil on canvas for Botanica show 2014</h1>
+                        </div>
+                        <div>
+                            <img className="carousel-image" src={commissioned5} alt="Botanical Gardens"/>
+                        </div>
                     </div>
-                    <div>
-                        <img className="carousel-image" src={commissioned3} alt="Botanical Gardens"/>
+                    <div className='image-wrapper'>
+                        <div className='text-box'>
+                            <h1>8in x 8in oil on canvas for LVA's Art Squared 2014</h1>
+                        </div>
+                        <div>
+                            <img className="carousel-image" src={commissioned6} alt="LVA Squared"/>
+                        </div>
                     </div>
-                </div>
-                <div className='image-wrapper'>
-                    <div className='text-box'>
-                        <h1>18in x 48in oil on canvas for Botanica show 2014</h1>
+                    <div className='image-wrapper'>
+                        <div className='text-box'>
+                            <h1>8in x 8in oil on canvas for LVA's Art Squared 2014</h1>
+                        </div>
+                        <div>
+                            <img className="carousel-image" src={commissioned7} alt="LVA Squared"/>
+                        </div>
                     </div>
-                    <div>
-                        <img className="carousel-image" src={commissioned4} alt="Botanical Gardens"/>
+                    <div className='image-wrapper'>
+                        <div className='text-box'>
+                            <h1>Golden Gate 42in x 34in oil on canvas 2013</h1>
+                        </div>
+                        <div>
+                            <img className="carousel-image" src={commissioned8} alt="Golden Gate Bridge"/>
+                        </div>
                     </div>
-                </div>
-                <div className='image-wrapper'>
-                    <div className='text-box'>
-                        <h1>18in x 48in oil on canvas for Botanica show 2014</h1>
+                    <div className='image-wrapper'>
+                        <div className='text-box'>
+                            <h1>Detail of Golden Gate</h1>
+                        </div>
+                        <div>
+                            <img className="carousel-image" src={commissioned9} alt="Golden Gate Bridge"/>
+                        </div>
                     </div>
-                    <div>
-                        <img className="carousel-image" src={commissioned5} alt="Botanical Gardens"/>
+                    <div className='image-wrapper'>
+                        <div className='text-box'>
+                            <h1>Detail of Golden Gate</h1>
+                        </div>
+                        <div>
+                            <img className="carousel-image" src={commissioned10} alt="Golden Gate Bridge"/>
+                        </div>
                     </div>
-                </div>
-                <div className='image-wrapper'>
-                    <div className='text-box'>
-                        <h1>8in x 8in oil on canvas for LVA's Art Squared 2014</h1>
+                    <div className='image-wrapper'>
+                        <div className='text-box'>
+                            <h1>Drawing for painting 24in x 36in charcoal on paper</h1>
+                        </div>
+                        <div>
+                            <img className="carousel-image" src={commissioned11} alt="Golden Gate Bridge"/>
+                        </div>
                     </div>
-                    <div>
-                        <img className="carousel-image" src={commissioned6} alt="LVA Squared"/>
+                    <div className='image-wrapper'>
+                        <div className='text-box'>
+                            <h1>Drawing for painting 24in x 36in charcoal on paper</h1>
+                        </div>
+                        <div>
+                            <img className="carousel-image" src={commissioned12} alt="Golden Gate Bridge"/>
+                        </div>
                     </div>
-                </div>
-                <div className='image-wrapper'>
-                    <div className='text-box'>
-                        <h1>8in x 8in oil on canvas for LVA's Art Squared 2014</h1>
-                    </div>
-                    <div>
-                        <img className="carousel-image" src={commissioned7} alt="LVA Squared"/>
-                    </div>
-                </div>
-                <div className='image-wrapper'>
-                    <div className='text-box'>
-                        <h1>Golden Gate 42in x 34in oil on canvas 2013</h1>
-                    </div>
-                    <div>
-                        <img className="carousel-image" src={commissioned8} alt="Golden Gate Bridge"/>
-                    </div>
-                </div>
-                <div className='image-wrapper'>
-                    <div className='text-box'>
-                        <h1>Detail of Golden Gate</h1>
-                    </div>
-                    <div>
-                        <img className="carousel-image" src={commissioned9} alt="Golden Gate Bridge"/>
-                    </div>
-                </div>
-                <div className='image-wrapper'>
-                    <div className='text-box'>
-                        <h1>Detail of Golden Gate</h1>
-                    </div>
-                    <div>
-                        <img className="carousel-image" src={commissioned10} alt="Golden Gate Bridge"/>
-                    </div>
-                </div>
-                <div className='image-wrapper'>
-                    <div className='text-box'>
-                        <h1>Drawing for painting 24in x 36in charcoal on paper</h1>
-                    </div>
-                    <div>
-                        <img className="carousel-image" src={commissioned11} alt="Golden Gate Bridge"/>
-                    </div>
-                </div>
-                <div className='image-wrapper'>
-                    <div className='text-box'>
-                        <h1>Drawing for painting 24in x 36in charcoal on paper</h1>
-                    </div>
-                    <div>
-                        <img className="carousel-image" src={commissioned12} alt="Golden Gate Bridge"/>
-                    </div>
-                </div>
-            </Slider>
+                </Slider>
+            </div>
         </div>
     )
     }

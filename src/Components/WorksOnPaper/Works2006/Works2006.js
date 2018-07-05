@@ -29,50 +29,53 @@ export default class Works2006 extends Component {
         };
     
     return (
-        <div className='carousel-container'>
-            <Slider ref={slider => (this.slider = slider)}{...settings} style={{position: 'relative',    zIndex: '500 !important'}}>
-          
-                <div className='image-wrapper'>
-                    <div className='text-box'>
-                        {/* <h1></h1> */}
+        <div className='content-wrapper'>
+            <h1>2006 Works on Paper</h1>
+            <div className='carousel-container'>
+                <Slider ref={slider => (this.slider = slider)}{...settings} style={{position: 'relative',    zIndex: '500 !important'}}>
+            
+                    <div className='image-wrapper'>
+                        <div className='text-box'>
+                            {/* <h1></h1> */}
+                        </div>
+                        <div>
+                            <img className="carousel-image" src={works20061} alt=""/>
+                        </div>
                     </div>
-                    <div>
-                        <img className="carousel-image" src={works20061} alt=""/>
+                    <div className='image-wrapper'>
+                        <div className='text-box'>
+                            {/* <h1></h1> */}
+                        </div>
+                        <div>
+                            <img className="carousel-image" src={works20062} alt=""/>
+                        </div>
                     </div>
-                </div>
-                <div className='image-wrapper'>
-                    <div className='text-box'>
-                        {/* <h1></h1> */}
+                    <div className='image-wrapper'>
+                        <div className='text-box'>
+                            {/* <h1></h1> */}
+                        </div>
+                        <div>
+                            <img className="carousel-image" src={works20063} alt=""/>
+                        </div>
                     </div>
-                    <div>
-                        <img className="carousel-image" src={works20062} alt=""/>
+                    <div className='image-wrapper'>
+                        <div className='text-box'>
+                            {/* <h1></h1> */}
+                        </div>
+                        <div>
+                            <img className="carousel-image" src={works20064} alt=""/>
+                        </div>
                     </div>
-                </div>
-                <div className='image-wrapper'>
-                    <div className='text-box'>
-                        {/* <h1></h1> */}
+                    <div className='image-wrapper'>
+                        <div className='text-box'>
+                            {/* <h1></h1> */}
+                        </div>
+                        <div>
+                            <img className="carousel-image" src={works20065} alt=""/>
+                        </div>
                     </div>
-                    <div>
-                        <img className="carousel-image" src={works20063} alt=""/>
-                    </div>
-                </div>
-                <div className='image-wrapper'>
-                    <div className='text-box'>
-                        {/* <h1></h1> */}
-                    </div>
-                    <div>
-                        <img className="carousel-image" src={works20064} alt=""/>
-                    </div>
-                </div>
-                <div className='image-wrapper'>
-                    <div className='text-box'>
-                        {/* <h1></h1> */}
-                    </div>
-                    <div>
-                        <img className="carousel-image" src={works20065} alt=""/>
-                    </div>
-                </div>
-            </Slider>
+                </Slider>
+            </div>
         </div>
     )
     }

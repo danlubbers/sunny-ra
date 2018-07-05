@@ -1,49 +1,62 @@
 @import "~slick-carousel/slick/slick.css";
 @import "~slick-carousel/slick/slick-theme.css";
 
+.content-wrapper{
 
-.carousel-container {
-    width: 100%;
-    margin-top: 40px;
-    padding: 0px 300px;
-    display: block;
-    // background-color: blue;
+    h1 {
+        font-family: $font;
+        font-size: 1.5em;
+        font-weight: bolder;
+        text-align: center;
+        margin-top: 20px;
+    }
 
-    .text-box {
-        // background-color: $background-color;
-        position: fixed;
-        height: 25px;
-        width: 70vw;
-        margin: 0px 0px 0px 0px;
-        color: rgb(221, 221, 221);
-        // background-color: rgba(150, 150, 150, .2);
-        z-index: 1;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        visibility: hidden;   
+    .carousel-container {
+        width: 100%;
+        margin-top: 20px;
+        padding: 0px 300px;
+        display: block;
+        // background-color: blue;
 
-        .carousel-image{
-            display: flex;  
+        .text-box {
+            // background-color: $background-color;
+            position: fixed;
+            height: 25px;
+            width: 70vw;
+            margin: 0px 0px 0px 0px;
+            color: rgb(221, 221, 221);
+            // background-color: rgba(150, 150, 150, .2);
+            z-index: 1;
+            display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
-    
-        }
-    }  
-    .image-wrapper:hover .text-box{
-        visibility: visible;
-    }  
-}
+            visibility: hidden;  
+            
+            .text-overlay {
+                font-size: 1.2em;
+            }
 
-// Centering the content in Slider
-.slick-slide.slick-center img {
-    margin-left: auto; 
-    margin-right: auto;
-}
+            .carousel-image{
+                display: flex;  
+                justify-content: center;
+                align-items: center;
+        
+            }
+        }  
+        .image-wrapper:hover .text-box{
+            visibility: visible;
+        }  
+    }
 
-.slick-dots li button:before {
-    padding-top: 10px;
-    font-size: 16px !important;
-}
+    // Centering the content in Slider
+    .slick-slide.slick-center img {
+        margin-left: auto; 
+        margin-right: auto;
+    }
 
+    .slick-dots li button:before {
+        padding-top: 10px;
+        font-size: 16px !important;
+    }
+}
