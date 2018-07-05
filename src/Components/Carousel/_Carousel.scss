@@ -5,6 +5,7 @@
 .carousel-container {
     width: 100%;
     margin-top: 40px;
+    padding: 0px 300px;
     display: block;
     // background-color: blue;
 
@@ -12,7 +13,7 @@
         // background-color: $background-color;
         position: fixed;
         height: 25px;
-        width: 100vw;
+        width: 70vw;
         margin: 0px 0px 0px 0px;
         color: rgb(221, 221, 221);
         // background-color: rgba(150, 150, 150, .2);
