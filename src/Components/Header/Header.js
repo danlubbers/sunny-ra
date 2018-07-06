@@ -17,12 +17,14 @@ export default class Header extends Component {
                 showGallery: false,
                 showHome: false,
                 showAbout: false,
+                showExhibitions: false
             }
             this.handleOverPainting = this.handleOverPainting.bind(this);
             this.handleOverWorks = this.handleOverWorks.bind(this);
             this.handleOverGallery = this.handleOverGallery.bind(this);
             this.handleClickHome = this.handleClickHome.bind(this);
             this.handleClickAbout = this.handleClickAbout.bind(this);
+            this.handleClickExhibitions = this.handleClickExhibitions.bind(this);
             this.handleLeave = this.handleLeave.bind(this);
         }
 
@@ -66,7 +68,18 @@ export default class Header extends Component {
                 showAbout: !this.state.showAbout,
                 showPainting: false,
                 showWorks: false,
-                showGallery: false
+                showGallery: false,
+                showExhibitions: false
+            })
+        }
+
+        handleClickExhibitions() {
+            this.setState({
+                showExhibitions: !this.state.showExhibitions,
+                showPainting: false,
+                showWorks: false,
+                showGallery: false,
+                showAbout: false,
             })
         }
 
@@ -81,7 +94,8 @@ export default class Header extends Component {
 
     render() {
         let email = 'sunnyra23@gmail.com'
-        let {showAbout, showPainting, showWorks, showGallery} = this.state;
+        let {showAbout, showPainting, showWorks, showGallery, showExhibitions} = this.state;
+        let exhibitionsDropdown = showExhibitions ?  'slide-exhibitions slide-exhibitions-position' : 'slide-exhibitions';
         let aboutDropDown = showAbout ? 'slide-about slide-about-position' : 'slide-about';
         let paintingDropDown = showPainting ? 'slide-painting slide-painting-position' : 'slide-painting';
         let worksDropDown = showWorks ? 'slide-works slide-works-position' : 'slide-works';
@@ -118,6 +132,7 @@ export default class Header extends Component {
                                 </div>
                         <Link to='/commissioned'><button className='commissionBtn' onClick={this.handleLeave}>Commissioned Work</button></Link>
                         <li><button className='aboutBtn' onClick={this.handleClickAbout} >About</button></li>
+                        <li><button className='exhibitionsBtn' onClick={this.handleClickExhibitions} >Exhibitions</button></li>
                     </ul>
                 </nav>
                         <div className={aboutDropDown}>
@@ -127,6 +142,7 @@ export default class Header extends Component {
                                     <a className='email' href={`mailto:${email}`}>sunnyra23@gmail.com</a>
                                 </div>
                             <div className='education-container'>
+                            <span>
                                 <h3>ARTIST / EDUCATOR</h3>
                                 <br/>
                                 <h3>Education:</h3>
@@ -134,6 +150,7 @@ export default class Header extends Component {
                                 <h4>University of Pennsylvania; Bachelor of Fine Arts, Cum Laude</h4>
                                 <h4>Pennsylvania Academy of the Fine Arts; Painting Certificate</h4>
                                 <h4>Penn Study Abroad; London, England</h4>
+                                </span>
                                 <br/>
                                 <h3>Artist Bio:</h3>
                                 <h4>Sunny Ra most recently received a Professional Development Grant from the Great Meadows Foundation to attend the annual College Art Association Conference in New York City, the largest international conference in Visual Arts. Ra has been in many exhibitions, including Environmental Perspectives at the Pennsylvania Academy of the Fine Arts in Philadelphia. Now on Paper at the Alliance of Young Artists and Writers in New York City and had her first solo show, Nightscapes at PUBLIC Gallery in Louisville, KY in 2014. In 2012, Ra completed a three-week residency at the Vermont Studio Center under a full fellowship. Ra holds an MFA from Hunter College, CUNY in New York City and a BFA from the Univeristy of Pennsylvania and a Painting Certificate from the Pennsylvania Academy of the Fine Arts of Pennsylvania.</h4>
@@ -153,7 +170,13 @@ export default class Header extends Component {
                                 <h4>Christie's Magazine Emerging Artist Presentation</h4>
                                 <h4>Gates Millennium Scholar</h4> */}
                             </div>
-                            {/* <div className='exhibition-container'>
+                                <div className='xBtnAbout-container'>
+                                    <button className='xBtnAbout' onClick={this.handleClickAbout}><CloseIcon/></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div className={exhibitionsDropdown}>
+                            <div className='exhibition-container'>
                             <h3>Exhibition History</h3>
                                 <h4>Solo Exhibition, Quills, Louisville, KY 2017</h4>
                                 <h4>Pop-Up Art Show, Republic Bank First Friday Gallery Hop, Louisville, KY  2017</h4>
@@ -176,10 +199,9 @@ export default class Header extends Component {
                                 <h4>The 104th Annual Student Exhibition, Pennsylvania Academy of Fine Arts, Philadelphia, PA – 2005</h4>
                                 <h4>The 103rd Annual Student Exhibition, Pennsylvania Academy of Fine Arts, Philadelphia, PA – 2004</h4>
                                 <h4>Certificate Student Gallery Showing,  Pennsylvania Academy of Fine Arts, Philadelphia, PA – 2001/2002</h4>
-                            </div> */}
-                                <div className='xBtnAbout-container'>
-                                    <button className='xBtnAbout' onClick={this.handleClickAbout}><CloseIcon/></button>
-                                </div>
+                            </div>
+                            <div className='xBtnExhibitions-container'>
+                                <button className='xBtnExhibitions' onClick={this.handleClickExhibitions}><CloseIcon/></button>
                             </div>
                         </div>
             </header>

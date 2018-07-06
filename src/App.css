@@ -171,6 +171,19 @@ header {
         cursor: pointer; }
       header nav ul .aboutBtn:focus {
         outline: 0; }
+      header nav ul .exhibitionsBtn {
+        font-size: 1.1em;
+        font-family: "Montserrat", sans-serif;
+        color: #afafaf;
+        background: none;
+        border: none;
+        padding: 0; }
+      header nav ul .exhibitionsBtn:hover {
+        color: #f1b195;
+        transition: .25s ease-in-out;
+        cursor: pointer; }
+      header nav ul .exhibitionsBtn:focus {
+        outline: 0; }
   header .slide-about {
     background-color: #191919;
     width: 100%;
@@ -209,17 +222,17 @@ header {
         color: #afafaf;
         font-size: 1em;
         font-family: "Montserrat", sans-serif; }
-    header .about-container .education-container, header .about-container .exhibition-container {
+    header .about-container .education-container {
       width: 100%;
       padding-left: 25px; }
-      header .about-container .education-container h3, header .about-container .exhibition-container h3, header .about-container .education-container h4, header .about-container .exhibition-container h4 {
+      header .about-container .education-container h3, header .about-container .education-container h4 {
         font-family: "Montserrat", sans-serif;
         line-height: 16px;
         letter-spacing: 1px;
         font-size: 1em;
         color: #646464;
         text-transform: uppercase; }
-      header .about-container .education-container h4, header .about-container .exhibition-container h4 {
+      header .about-container .education-container h4 {
         margin: 10px;
         font-size: .8em;
         color: #afafaf;
@@ -236,6 +249,51 @@ header {
       cursor: pointer; }
     header .about-container .xBtnAbout:focus {
       outline: 0; }
+  header .slide-exhibitions {
+    background-color: #191919;
+    width: 100%;
+    height: 930px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: absolute;
+    top: -1000px;
+    transition: .25s ease-in-out;
+    opacity: 0;
+    transition-property: opacity;
+    z-index: -1; }
+  header .slide-exhibitions-position {
+    top: 100px;
+    right: 0px;
+    opacity: 1;
+    z-index: 500; }
+  header .exhibition-container {
+    width: 100%;
+    padding-left: 25px; }
+    header .exhibition-container h3, header .exhibition-container .about-container .education-container h4, header .about-container .education-container .exhibition-container h4, header .exhibition-container h4 {
+      font-family: "Montserrat", sans-serif;
+      line-height: 16px;
+      letter-spacing: 1px;
+      font-size: 1em;
+      color: #646464;
+      text-transform: uppercase; }
+    header .exhibition-container h4 {
+      margin: 10px;
+      font-size: .8em;
+      color: #afafaf;
+      line-height: 24px; }
+  header .xBtnExhibitions {
+    font-size: 2em;
+    border: none;
+    cursor: pointer;
+    background: transparent;
+    color: #afafaf; }
+  header .xBtnExhibitions:hover {
+    color: #f1b195;
+    transition: .25s ease-in-out;
+    cursor: pointer; }
+  header .xBtnExhibitions:focus {
+    outline: 0; }
 
 footer {
   height: 50px;

@@ -223,6 +223,24 @@ header {
             .aboutBtn:focus {
                 outline: 0;
             }
+
+            .exhibitionsBtn {
+                font-size: 1.1em;
+                font-family: $font;
+                color: $font-color-grey;
+                background: none;
+                border: none;
+                padding: 0;
+                
+            }
+            .exhibitionsBtn:hover {
+                color: $font-color-hover;
+                transition: .25s ease-in-out;
+                cursor: pointer;
+            }
+            .exhibitionsBtn:focus {
+                outline: 0;
+            }
         }
     }
     .slide-about {
@@ -296,12 +314,70 @@ header {
                 line-height: 24px;
             }
         }
+                .xBtnAbout {
+                    font-size: 2em;
+                    border: none;
+                    cursor: pointer;
+                    background: transparent;
+                    color: $font-color-grey;
+                }
+        
+                .xBtnAbout:hover {
+                    color: $font-color-hover;
+                    transition: .25s ease-in-out;
+                    cursor: pointer;
+                }
+        
+                .xBtnAbout:focus {
+                    outline: 0;
+                }
+    }
+            .slide-exhibitions {
+                background-color: $background-color;
+                width: 100%;
+                height: 930px;
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                position: absolute;
+                top: -1000px;
+                transition: .25s ease-in-out;
+                opacity: 0;
+                transition-property: opacity;
+                z-index: -1;
+            }
+                    
+            .slide-exhibitions-position {
+                top: 100px;
+                right: 0px;
+                opacity: 1;
+                z-index: 500;
+            }
+    
+            .exhibition-container {
+                width: 100%;
+                padding-left: 25px;
 
-        .exhibition-container {
-            @extend .education-container;
+                  h3 {
+                // margin: 10px;
+                font-family: $font;
+                line-height: 16px;
+                letter-spacing: 1px;
+                font-size: 1em;
+                color: rgb(100, 100, 100);
+                text-transform: uppercase;
+            }
+
+            h4 {
+                @extend h3;
+                margin: 10px;
+                font-size: .8em;
+                color: $font-color-grey;
+                line-height: 24px;
+            }
         }
 
-        .xBtnAbout {
+        .xBtnExhibitions {
             font-size: 2em;
             border: none;
             cursor: pointer;
@@ -309,14 +385,15 @@ header {
             color: $font-color-grey;
         }
 
-        .xBtnAbout:hover {
+        .xBtnExhibitions:hover {
             color: $font-color-hover;
             transition: .25s ease-in-out;
             cursor: pointer;
         }
 
-        .xBtnAbout:focus {
+        .xBtnExhibitions:focus {
             outline: 0;
         }
-    }
+    
+          
 }
