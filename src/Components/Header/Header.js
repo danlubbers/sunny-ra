@@ -2,7 +2,7 @@ import React, {Component} from 'react'
 import {Link} from 'react-router-dom';
 // Images
 import SunnyLogo from '../../assets/sunny-ra-logo.png';
-import SunnyPortrait from '../../assets/sunny-portrait.jpg';
+// import SunnyPortrait from '../../assets/sunny-portrait.jpg';
 import SunnyPortrait2 from '../../assets/sunny-portrait-2.jpg';
 // Icons
 import CloseIcon from 'react-icons/lib/fa/times-circle';
