@@ -279,7 +279,7 @@ header {
             
 
             h3 {
-                margin: 10px;
+                // margin: 10px;
                 font-family: $font;
                 line-height: 16px;
                 letter-spacing: 1px;
@@ -290,8 +290,10 @@ header {
 
             h4 {
                 @extend h3;
+                margin: 10px;
                 font-size: .8em;
                 color: $font-color-grey;
+                line-height: 24px;
             }
         }
 

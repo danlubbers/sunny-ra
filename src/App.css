@@ -213,7 +213,6 @@ header {
       width: 100%;
       padding-left: 25px; }
       header .about-container .education-container h3, header .about-container .exhibition-container h3, header .about-container .education-container h4, header .about-container .exhibition-container h4 {
-        margin: 10px;
         font-family: "Montserrat", sans-serif;
         line-height: 16px;
         letter-spacing: 1px;
@@ -221,8 +220,10 @@ header {
         color: #646464;
         text-transform: uppercase; }
       header .about-container .education-container h4, header .about-container .exhibition-container h4 {
+        margin: 10px;
         font-size: .8em;
-        color: #afafaf; }
+        color: #afafaf;
+        line-height: 24px; }
     header .about-container .xBtnAbout {
       font-size: 2em;
       border: none;
