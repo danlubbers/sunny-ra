@@ -178,27 +178,27 @@ export default class Header extends Component {
                         <div className={exhibitionsDropdown}>
                             <div className='exhibition-container'>
                             <h3>Exhibition History</h3>
-                                <h4>Solo Exhibition, Quills, Louisville, KY 2017</h4>
-                                <h4>Pop-Up Art Show, Republic Bank First Friday Gallery Hop, Louisville, KY  2017</h4>
-                                <h4>Pop-Up Art Show, Frankfort Avenue Trolley Hop, Louisville, KY  2016</h4>
-                                <h4>Open Studio Weekend Exhibition, Cressman Center for Visual Arts, Louisville, KY  2015</h4>
-                                <h4>Botanica, Women's Club, Louisville, KY 2014</h4>
-                                <h4>Nightscapes, Solo Show, PUBLIC Gallery, Louisville, KY - 2014</h4>
-                                <h4>Presence and Place, Louisville Metro Hall, Louisville, KY - 2014</h4>
-                                <h4>Group Show, Swanson Reed Contemporary, Louisville, KY -  2013</h4>
-                                <h4>Now on Paper, The Alliance of Young Artists and Writers, New York, NY - 2012</h4>
-                                <h4>Environmental Perspectives, A Landscape Show, Pennsylvania Academy of Fine Arts, Philadelphia, PA – 2011</h4>
-                                <h4>Hunter College MFA Thesis Exhibition, Hunter College, New York, NY – 2010 - 2011</h4>
-                                <h4>Alumni Gallery at PAFA,  Pennsylvania Academy of Fine Arts, Philadelphia, PA – 2010 - 2011</h4>
-                                <h4>Focus and Meditation, Artist Talk, Hunter College, New York, NY –  2010</h4>
-                                <h4>Hunter MFA Group Show, Crane Arts, Philadelphia, PA – 2010</h4>
-                                <h4>Kentucky Girlhood Project 2009, Murray State University, Murray, KY - 2009</h4>
-                                <h4>Hunter College Open Studios, Hunter College, New York, NY – 2008 thru 2010</h4>
-                                <h4>MP Law Office, Louisville, KY – 2006 - 2007</h4>
-                                <h4>Swanson Reed Contemporary Gallery, Louisville, KY – 2006</h4>
-                                <h4>The 104th Annual Student Exhibition, Pennsylvania Academy of Fine Arts, Philadelphia, PA – 2005</h4>
-                                <h4>The 103rd Annual Student Exhibition, Pennsylvania Academy of Fine Arts, Philadelphia, PA – 2004</h4>
-                                <h4>Certificate Student Gallery Showing,  Pennsylvania Academy of Fine Arts, Philadelphia, PA – 2001/2002</h4>
+                                <li>Solo Exhibition, Quills, Louisville, KY 2017</li>
+                                <li>Pop-Up Art Show, Republic Bank First Friday Gallery Hop, Louisville, KY  2017</li>
+                                <li>Pop-Up Art Show, Frankfort Avenue Trolley Hop, Louisville, KY  2016</li>
+                                <li>Open Studio Weekend Exhibition, Cressman Center for Visual Arts, Louisville, KY  2015</li>
+                                <li>Botanica, Women's Club, Louisville, KY 2014</li>
+                                <li>Nightscapes, Solo Show, PUBLIC Gallery, Louisville, KY - 2014</li>
+                                <li>Presence and Place, Louisville Metro Hall, Louisville, KY - 2014</li>
+                                <li>Group Show, Swanson Reed Contemporary, Louisville, KY -  2013</li>
+                                <li>Now on Paper, The Alliance of Young Artists and Writers, New York, NY - 2012</li>
+                                <li>Environmental Perspectives, A Landscape Show, Pennsylvania Academy of Fine Arts, Philadelphia, PA – 2011</li>
+                                <li>Hunter College MFA Thesis Exhibition, Hunter College, New York, NY – 2010 - 2011</li>
+                                <li>Alumni Gallery at PAFA,  Pennsylvania Academy of Fine Arts, Philadelphia, PA – 2010 - 2011</li>
+                                <li>Focus and Meditation, Artist Talk, Hunter College, New York, NY –  2010</li>
+                                <li>Hunter MFA Group Show, Crane Arts, Philadelphia, PA – 2010</li>
+                                <li>Kentucky Girlhood Project 2009, Murray State University, Murray, KY - 2009</li>
+                                <li>Hunter College Open Studios, Hunter College, New York, NY – 2008 thru 2010</li>
+                                <li>MP Law Office, Louisville, KY – 2006 - 2007</li>
+                                <li>Swanson Reed Contemporary Gallery, Louisville, KY – 2006</li>
+                                <li>The 104th Annual Student Exhibition, Pennsylvania Academy of Fine Arts, Philadelphia, PA – 2005</li>
+                                <li>The 103rd Annual Student Exhibition, Pennsylvania Academy of Fine Arts, Philadelphia, PA – 2004</li>
+                                <li>Certificate Student Gallery Showing,  Pennsylvania Academy of Fine Arts, Philadelphia, PA – 2001/2002</li>
                             </div>
                             <div className='xBtnExhibitions-container'>
                                 <button className='xBtnExhibitions' onClick={this.handleClickExhibitions}><CloseIcon/></button>

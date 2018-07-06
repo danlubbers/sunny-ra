@@ -290,6 +290,12 @@ header {
                 font-size: 1em;
                 font-family: $font;
             } 
+
+            .email:hover {
+                color: $font-color-hover;
+                transition: .25s ease-in-out;
+                cursor: pointer;
+            }
         }
         .education-container {
             width: 100%;
@@ -352,12 +358,16 @@ header {
                 right: 0px;
                 opacity: 1;
                 z-index: 500;
+                display: flex;
+                justify-content: space-between;
+                align-items: flex-start;
             }
     
             .exhibition-container {
-                width: 100%;
-                padding-left: 25px;
-
+                width: 85%;
+                height: 100%;
+                margin-left: 150px;
+                padding: 0px 40px;
                   h3 {
                 // margin: 10px;
                 font-family: $font;
@@ -366,9 +376,12 @@ header {
                 font-size: 1em;
                 color: rgb(100, 100, 100);
                 text-transform: uppercase;
+                display: flex;
+                justify-content: space-between;
+                align-items: flex-start;
             }
 
-            h4 {
+            li {
                 @extend h3;
                 margin: 10px;
                 font-size: .8em;
@@ -377,7 +390,14 @@ header {
             }
         }
 
+        .xBtnExhibition-container{
+                display: flex;
+                justify-content: space-between;
+                align-items: flex-start;
+        }
+
         .xBtnExhibitions {
+            margin-right: 180px;
             font-size: 2em;
             border: none;
             cursor: pointer;
@@ -395,5 +415,5 @@ header {
             outline: 0;
         }
     
-          
+       
 }

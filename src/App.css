@@ -222,10 +222,14 @@ header {
         color: #afafaf;
         font-size: 1em;
         font-family: "Montserrat", sans-serif; }
+      header .about-container .photo-contact-container .email:hover {
+        color: #f1b195;
+        transition: .25s ease-in-out;
+        cursor: pointer; }
     header .about-container .education-container {
       width: 100%;
       padding-left: 25px; }
-      header .about-container .education-container h3, header .about-container .education-container h4 {
+      header .about-container .education-container h3, header .about-container .education-container h4, header .about-container .education-container .exhibition-container li, header .exhibition-container .about-container .education-container li {
         font-family: "Montserrat", sans-serif;
         line-height: 16px;
         letter-spacing: 1px;
@@ -266,23 +270,36 @@ header {
     top: 100px;
     right: 0px;
     opacity: 1;
-    z-index: 500; }
+    z-index: 500;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; }
   header .exhibition-container {
-    width: 100%;
-    padding-left: 25px; }
-    header .exhibition-container h3, header .exhibition-container .about-container .education-container h4, header .about-container .education-container .exhibition-container h4, header .exhibition-container h4 {
+    width: 85%;
+    height: 100%;
+    margin-left: 150px;
+    padding: 0px 40px; }
+    header .exhibition-container h3, header .exhibition-container .about-container .education-container h4, header .about-container .education-container .exhibition-container h4, header .exhibition-container li {
       font-family: "Montserrat", sans-serif;
       line-height: 16px;
       letter-spacing: 1px;
       font-size: 1em;
       color: #646464;
-      text-transform: uppercase; }
-    header .exhibition-container h4 {
+      text-transform: uppercase;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start; }
+    header .exhibition-container li {
       margin: 10px;
       font-size: .8em;
       color: #afafaf;
       line-height: 24px; }
+  header .xBtnExhibition-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; }
   header .xBtnExhibitions {
+    margin-right: 180px;
     font-size: 2em;
     border: none;
     cursor: pointer;
