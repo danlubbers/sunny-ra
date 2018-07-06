@@ -80,6 +80,7 @@ export default class Header extends Component {
         }
 
     render() {
+        let email = 'sunnyra23@gmail.com'
         let {showAbout, showPainting, showWorks, showGallery} = this.state;
         let aboutDropDown = showAbout ? 'slide-about slide-about-position' : 'slide-about';
         let paintingDropDown = showPainting ? 'slide-painting slide-painting-position' : 'slide-painting';
@@ -123,7 +124,7 @@ export default class Header extends Component {
                             <div className='about-container'>
                                 <div className='photo-contact-container'>
                                     <img className='sunny-portrait' src={SunnyPortrait2} alt='Sunny Ra'/>
-                                    <h2 className='email'>sunnyra23@gmail.com</h2>
+                                    <a className='email' href={`mailto:${email}`}>sunnyra23@gmail.com</a>
                                 </div>
                             <div className='education-container'>
                                 <h3>ARTIST / EDUCATOR</h3>
