@@ -217,15 +217,27 @@ header {
       align-items: center; }
       header .about-container .photo-contact-container .sunny-portrait {
         border-radius: 25px; }
-      header .about-container .photo-contact-container .email {
-        margin-top: 10px;
-        color: #afafaf;
-        font-size: 1em;
-        font-family: "Montserrat", sans-serif; }
-      header .about-container .photo-contact-container .email:hover {
-        color: #f1b195;
-        transition: .25s ease-in-out;
-        cursor: pointer; }
+      header .about-container .photo-contact-container .email-container {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center; }
+        header .about-container .photo-contact-container .email-container h3, header .about-container .photo-contact-container .email-container .education-container h4, header .about-container .education-container .photo-contact-container .email-container h4, header .about-container .photo-contact-container .email-container .exhibition-container li, header .exhibition-container .about-container .photo-contact-container .email-container li, header .about-container .photo-contact-container .email-container .awards-container h4, header .awards-container .about-container .photo-contact-container .email-container h4 {
+          margin-top: 10px;
+          font-family: "Montserrat", sans-serif;
+          line-height: 16px;
+          letter-spacing: 1px;
+          font-size: 1em;
+          color: #646464; }
+        header .about-container .photo-contact-container .email-container .email {
+          margin-top: 10px;
+          padding-left: 5px;
+          color: #afafaf;
+          font-size: 1em;
+          font-family: "Montserrat", sans-serif; }
+        header .about-container .photo-contact-container .email-container .email:hover {
+          color: #f1b195;
+          transition: .25s ease-in-out;
+          cursor: pointer; }
     header .about-container .education-container {
       width: 100%;
       padding-left: 25px; }

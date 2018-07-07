@@ -284,18 +284,36 @@ header {
                 border-radius: 25px;
             }
 
-            .email {
-                margin-top: 10px;
-                color: $font-color-grey;
-                font-size: 1em;
-                font-family: $font;
-            } 
+            .email-container{
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
 
-            .email:hover {
-                color: $font-color-hover;
-                transition: .25s ease-in-out;
-                cursor: pointer;
+
+                h3 {
+                    margin-top: 10px;
+                    font-family: $font;
+                    line-height: 16px;
+                    letter-spacing: 1px;
+                    font-size: 1em;
+                    color: rgb(100, 100, 100);
+                }
+    
+                .email {
+                    margin-top: 10px;
+                    padding-left: 5px;
+                    color: $font-color-grey;
+                    font-size: 1em;
+                    font-family: $font;
+                } 
+    
+                .email:hover {
+                    color: $font-color-hover;
+                    transition: .25s ease-in-out;
+                    cursor: pointer;
+                }
             }
+
         }
         .education-container {
             width: 100%;
@@ -436,7 +454,5 @@ header {
 
         .xBtnExhibitions:focus {
             outline: 0;
-        }
-    
-       
+        }      
 }
