@@ -275,11 +275,11 @@ header {
     justify-content: space-between;
     align-items: flex-start; }
   header .exhibition-container {
-    width: 85%;
+    width: 50%;
     height: 100%;
     margin-left: 150px;
     padding: 0px 40px; }
-    header .exhibition-container h3, header .exhibition-container .about-container .education-container h4, header .about-container .education-container .exhibition-container h4, header .exhibition-container li {
+    header .exhibition-container h3, header .exhibition-container .about-container .education-container h4, header .about-container .education-container .exhibition-container h4, header .exhibition-container li, header .exhibition-container .awards-container h4, header .awards-container .exhibition-container h4 {
       font-family: "Montserrat", sans-serif;
       line-height: 16px;
       letter-spacing: 1px;
@@ -294,6 +294,21 @@ header {
       font-size: .8em;
       color: #afafaf;
       line-height: 24px; }
+  header .awards-container h3, header .awards-container .about-container .education-container h4, header .about-container .education-container .awards-container h4, header .awards-container .exhibition-container li, header .exhibition-container .awards-container li, header .awards-container h4 {
+    font-family: "Montserrat", sans-serif;
+    line-height: 16px;
+    letter-spacing: 1px;
+    font-size: 1em;
+    color: #646464;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; }
+  header .awards-container h4 {
+    margin: 10px;
+    font-size: .8em;
+    color: #afafaf;
+    line-height: 24px; }
   header .xBtnExhibition-container {
     display: flex;
     justify-content: space-between;

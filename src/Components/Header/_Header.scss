@@ -364,7 +364,7 @@ header {
             }
     
             .exhibition-container {
-                width: 85%;
+                width: 50%;
                 height: 100%;
                 margin-left: 150px;
                 padding: 0px 40px;
@@ -380,7 +380,6 @@ header {
                 justify-content: space-between;
                 align-items: flex-start;
             }
-
             li {
                 @extend h3;
                 margin: 10px;
@@ -388,8 +387,32 @@ header {
                 color: $font-color-grey;
                 line-height: 24px;
             }
-        }
 
+
+        }
+        .awards-container {
+            
+
+        h3 {
+            // margin: 10px;
+            font-family: $font;
+            line-height: 16px;
+            letter-spacing: 1px;
+            font-size: 1em;
+            color: rgb(100, 100, 100);
+            text-transform: uppercase;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+        h4 {
+            @extend h3;
+            margin: 10px;
+            font-size: .8em;
+            color: $font-color-grey;
+            line-height: 24px;
+        }
+    }
         .xBtnExhibition-container{
                 display: flex;
                 justify-content: space-between;
