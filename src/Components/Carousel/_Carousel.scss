@@ -50,6 +50,28 @@
         }  
     }
 
+    .slick-slide img {
+        // width: 1200px;
+        height: 70vh;
+
+        @media (max-width: #{$screen-xl}) {
+            height: 60vh;
+        }
+
+        @media (max-width: #{$screen-lg}) {
+            height: 45vh;
+        }
+        @media (max-width: #{$screen-md}) {
+            height: 35vh;
+        }
+        @media (max-width: #{$screen-sm}) {
+            height: 25vh;
+        }
+        @media (max-width: #{$screen-xs}) {
+            height: 20vh;
+        }
+    }
+
     // Centering the content in Slider
     .slick-slide.slick-center img {
         margin-left: auto; 

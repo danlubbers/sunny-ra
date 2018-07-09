@@ -418,6 +418,23 @@ footer {
         align-items: center; }
     .content-wrapper .carousel-container .image-wrapper:hover .text-box {
       visibility: visible; }
+  .content-wrapper .slick-slide img {
+    height: 70vh; }
+    @media (max-width: 1200px) {
+      .content-wrapper .slick-slide img {
+        height: 60vh; } }
+    @media (max-width: 963px) {
+      .content-wrapper .slick-slide img {
+        height: 45vh; } }
+    @media (max-width: 768px) {
+      .content-wrapper .slick-slide img {
+        height: 35vh; } }
+    @media (max-width: 576px) {
+      .content-wrapper .slick-slide img {
+        height: 25vh; } }
+    @media (max-width: 376px) {
+      .content-wrapper .slick-slide img {
+        height: 20vh; } }
   .content-wrapper .slick-slide.slick-center img {
     margin-left: auto;
     margin-right: auto; }
