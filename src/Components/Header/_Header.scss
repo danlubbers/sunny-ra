@@ -24,6 +24,10 @@ header {
       overflow: visible;
       position: relative;
       z-index: 100;
+
+      @media (max-width: #{$screen-lg}) {
+        display: none;
+    }
         ul {
             padding-top: 25px;
             display: flex;
@@ -63,6 +67,10 @@ header {
             opacity: 0;
             transition-property: opacity;
             z-index: -1;
+
+            @media (max-width: #{$screen-lg}) {
+                display: none;
+            }
 
             li {
                 margin: 10px 5px 10px 0px;
@@ -113,6 +121,10 @@ header {
                 opacity: 0;
                 transition-property: opacity;
                 z-index: -1;
+
+                @media (max-width: #{$screen-lg}) {
+                    display: none;
+                }
     
                 li {
                     margin: 10px 5px 10px 0px;
@@ -162,6 +174,10 @@ header {
                     opacity: 0;
                     transition-property: opacity;
                     z-index: -1;
+
+                    @media (max-width: #{$screen-lg}) {
+                        display: none;
+                    }
         
                     li {
                         margin: 10px 5px 10px 0px;
@@ -256,6 +272,10 @@ header {
         opacity: 0;
         transition-property: opacity;
         z-index: -1;
+
+        @media (max-width: #{$screen-lg}) {
+            display: none;
+        }
     }
             
     .slide-about-position {
@@ -273,6 +293,10 @@ header {
         justify-content: space-between;
         align-items: flex-start;
         // background-color: yellow;
+
+        @media (max-width: #{$screen-lg}) {
+            display: none;
+        }
 
         .photo-contact-container {
             display: flex;
@@ -369,6 +393,10 @@ header {
                 opacity: 0;
                 transition-property: opacity;
                 z-index: -1;
+
+                @media (max-width: #{$screen-lg}) {
+                    display: none;
+                }
             }
                     
             .slide-exhibitions-position {

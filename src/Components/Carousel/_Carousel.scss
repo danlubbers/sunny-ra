@@ -2,7 +2,7 @@
 @import "~slick-carousel/slick/slick-theme.css";
 
 .content-wrapper{
-
+    // width: 100vh;
     h1 {
         font-family: $font;
         font-size: 1.5em;
@@ -11,18 +11,25 @@
         margin-top: 20px;
     }
 
+    @media (max-width: #{$screen-lg}) {
+        
+    }
+
     .carousel-container {
         width: 100%;
         margin-top: 20px;
-        padding: 0px 300px;
         display: block;
         // background-color: blue;
+
+       
+
+      
 
         .text-box {
             // background-color: $background-color;
             position: fixed;
             height: 25px;
-            width: 70vw;
+            width: 100vw;
             margin: 0px 0px 0px 0px;
             color: rgb(221, 221, 221);
             // background-color: rgba(150, 150, 150, .2);
@@ -38,6 +45,7 @@
             }
 
             .carousel-image{
+                
                 display: flex;  
                 justify-content: center;
                 align-items: center;

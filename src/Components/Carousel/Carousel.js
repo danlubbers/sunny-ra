@@ -19,19 +19,45 @@ export default class Carousel extends Component {
 
         var settings = {
             dots: true, 
-            arrows: true,
+            arrows: false,
             infinite: true,
             speed: 500,
             slidesToShow: 1,
-            slidesToSlide: 11,
+            slidesToSlide: 1,
             autoplay: true, 
             autoPlaySpeed: 1000,
             cssEase: "linear",
             pauseOnHover: true,
-            adaptiveHeight: true,
+            adaptiveHeight: false,
             initialSlide: 0,
             centerMode: true,
             centerPadding: 0,
+            responsive: [
+                {
+                  breakpoint: 1024,
+                  settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: true
+                  }
+                },
+                {
+                  breakpoint: 600,
+                  settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    initialSlide: 0
+                  }
+                },
+                {
+                  breakpoint: 480,
+                  settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                  }
+                }
+              ]
         };
     
     return (

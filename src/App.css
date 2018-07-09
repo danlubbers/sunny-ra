@@ -18,6 +18,9 @@ header {
     overflow: visible;
     position: relative;
     z-index: 100; }
+    @media (max-width: 963px) {
+      header nav {
+        display: none; } }
     header nav ul {
       padding-top: 25px;
       display: flex;
@@ -51,6 +54,9 @@ header {
         opacity: 0;
         transition-property: opacity;
         z-index: -1; }
+        @media (max-width: 963px) {
+          header nav ul .slide-painting {
+            display: none; } }
         header nav ul .slide-painting li {
           margin: 10px 5px 10px 0px;
           font-size: 1em;
@@ -89,6 +95,9 @@ header {
         opacity: 0;
         transition-property: opacity;
         z-index: -1; }
+        @media (max-width: 963px) {
+          header nav ul .slide-works {
+            display: none; } }
         header nav ul .slide-works li {
           margin: 10px 5px 10px 0px;
           font-size: 1em;
@@ -127,6 +136,9 @@ header {
         opacity: 0;
         transition-property: opacity;
         z-index: -1; }
+        @media (max-width: 963px) {
+          header nav ul .slide-gallery {
+            display: none; } }
         header nav ul .slide-gallery li {
           margin: 10px 5px 10px 0px;
           font-size: 1em;
@@ -197,6 +209,9 @@ header {
     opacity: 0;
     transition-property: opacity;
     z-index: -1; }
+    @media (max-width: 963px) {
+      header .slide-about {
+        display: none; } }
   header .slide-about-position {
     top: 100px;
     right: 0px;
@@ -210,6 +225,9 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: flex-start; }
+    @media (max-width: 963px) {
+      header .about-container {
+        display: none; } }
     header .about-container .photo-contact-container {
       display: flex;
       flex-direction: column;
@@ -278,6 +296,9 @@ header {
     opacity: 0;
     transition-property: opacity;
     z-index: -1; }
+    @media (max-width: 963px) {
+      header .slide-exhibitions {
+        display: none; } }
   header .slide-exhibitions-position {
     top: 100px;
     right: 0px;
@@ -375,12 +396,11 @@ footer {
 .content-wrapper .carousel-container {
   width: 100%;
   margin-top: 20px;
-  padding: 0px 300px;
   display: block; }
   .content-wrapper .carousel-container .text-box {
     position: fixed;
     height: 25px;
-    width: 70vw;
+    width: 100vw;
     margin: 0px 0px 0px 0px;
     color: #dddddd;
     z-index: 1;
