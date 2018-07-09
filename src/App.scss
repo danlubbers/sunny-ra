@@ -19,3 +19,8 @@ $screen-xl: 1200px;
 @import './Components/Carousel/Carousel';
 
 
+html {
+    height: 100vh;
+    width: 100vw;
+  }
+

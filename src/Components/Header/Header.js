@@ -87,8 +87,9 @@ export default class Header extends Component {
             this.setState({
                 showPainting: false, 
                 showWorks: false,
-                showGallery: false
-            
+                showGallery: false,
+                showAbout: false,
+                showExhibitions: false
             })
         }
 

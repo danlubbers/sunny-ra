@@ -18,7 +18,7 @@ header {
     overflow: visible;
     position: relative;
     z-index: 100; }
-    @media (max-width: 963px) {
+    @media (max-width: 1200px) {
       header nav {
         display: none; } }
     header nav ul {
@@ -386,42 +386,45 @@ footer {
     color: #969696;
     transition: .35s; }
 
-.content-wrapper h1 {
-  font-family: "Montserrat", sans-serif;
-  font-size: 1.5em;
-  font-weight: bolder;
-  text-align: center;
-  margin-top: 20px; }
-
-.content-wrapper .carousel-container {
-  width: 100%;
-  margin-top: 20px;
-  display: block; }
-  .content-wrapper .carousel-container .text-box {
-    position: fixed;
-    height: 25px;
-    width: 100vw;
-    margin: 0px 0px 0px 0px;
-    color: #dddddd;
-    z-index: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    visibility: hidden; }
-    .content-wrapper .carousel-container .text-box .text-overlay {
-      font-size: 1.2em; }
-    .content-wrapper .carousel-container .text-box .carousel-image {
+.content-wrapper {
+  width: 100vw; }
+  .content-wrapper h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.5em;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 20px; }
+  .content-wrapper .carousel-container {
+    width: 100%;
+    margin-top: 20px;
+    display: block; }
+    .content-wrapper .carousel-container .text-box {
+      position: fixed;
+      height: 25px;
+      width: 100vw;
+      margin: 0px 0px 0px 0px;
+      color: #dddddd;
+      z-index: 1;
       display: flex;
+      flex-direction: column;
       justify-content: center;
-      align-items: center; }
-  .content-wrapper .carousel-container .image-wrapper:hover .text-box {
-    visibility: visible; }
+      align-items: center;
+      visibility: hidden; }
+      .content-wrapper .carousel-container .text-box .text-overlay {
+        font-size: 1.2em; }
+      .content-wrapper .carousel-container .text-box .carousel-image {
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+    .content-wrapper .carousel-container .image-wrapper:hover .text-box {
+      visibility: visible; }
+  .content-wrapper .slick-slide.slick-center img {
+    margin-left: auto;
+    margin-right: auto; }
+  .content-wrapper .slick-dots li button:before {
+    padding-top: 10px;
+    font-size: 16px !important; }
 
-.content-wrapper .slick-slide.slick-center img {
-  margin-left: auto;
-  margin-right: auto; }
-
-.content-wrapper .slick-dots li button:before {
-  padding-top: 10px;
-  font-size: 16px !important; }
+html {
+  height: 100vh;
+  width: 100vw; }

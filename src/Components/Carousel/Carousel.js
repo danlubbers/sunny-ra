@@ -32,32 +32,7 @@ export default class Carousel extends Component {
             initialSlide: 0,
             centerMode: true,
             centerPadding: 0,
-            responsive: [
-                {
-                  breakpoint: 1024,
-                  settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-                    infinite: true,
-                    dots: true
-                  }
-                },
-                {
-                  breakpoint: 600,
-                  settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-                    initialSlide: 0
-                  }
-                },
-                {
-                  breakpoint: 480,
-                  settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1
-                  }
-                }
-              ]
+
         };
     
     return (
