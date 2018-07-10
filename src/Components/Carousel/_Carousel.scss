@@ -16,9 +16,25 @@
 
     .carousel-container {
         width: 100%;
-        margin-top: 20px;
+        margin-top: 25px;
         display: block;
         // background-color: blue;
+
+        @media (max-width: #{$screen-xl}) {
+            margin-top: 50px;
+        }
+        @media (max-width: #{$screen-lg}) {
+            margin-top: 75px;
+        }
+        @media (max-width: #{$screen-md}) {
+            margin-top: 100px;
+        }
+        @media (max-width: #{$screen-sm}) {
+            
+        }
+        @media (max-width: #{$screen-xs}) {
+            
+        }
 
         .text-box {
             // background-color: $background-color;
@@ -57,7 +73,6 @@
         @media (max-width: #{$screen-xl}) {
             height: 60vh;
         }
-
         @media (max-width: #{$screen-lg}) {
             height: 45vh;
         }

@@ -396,8 +396,17 @@ footer {
     margin-top: 20px; }
   .content-wrapper .carousel-container {
     width: 100%;
-    margin-top: 20px;
+    margin-top: 25px;
     display: block; }
+    @media (max-width: 1200px) {
+      .content-wrapper .carousel-container {
+        margin-top: 50px; } }
+    @media (max-width: 963px) {
+      .content-wrapper .carousel-container {
+        margin-top: 75px; } }
+    @media (max-width: 768px) {
+      .content-wrapper .carousel-container {
+        margin-top: 100px; } }
     .content-wrapper .carousel-container .text-box {
       position: fixed;
       height: 25px;
