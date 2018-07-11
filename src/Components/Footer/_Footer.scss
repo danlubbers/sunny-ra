@@ -1,12 +1,16 @@
 footer {
+    width: 100vw;
     height: 50px;
     position: absolute;
     right: 0;
     bottom: 0;
     left: 0;
     margin-top: 75px;
-    width: 100vw;
     background-color: $background-color;
+
+    @media (max-width: #{$screen-lg}) {
+        position: relative;
+    }
 
     .footer-content{
         width: 100%;
