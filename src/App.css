@@ -428,7 +428,7 @@ footer {
     .content-wrapper .carousel-container .image-wrapper:hover .text-box {
       visibility: visible; }
   .content-wrapper .slick-slide img {
-    height: 70vh; }
+    height: 800px; }
     @media (max-width: 1200px) {
       .content-wrapper .slick-slide img {
         height: 60vh; } }
