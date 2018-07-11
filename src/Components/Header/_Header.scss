@@ -25,7 +25,7 @@ header {
       position: relative;
       z-index: 100;
 
-      @media (max-width: #{$screen-xl}) {
+      @media (max-width: #{$screen-lg}) {
         display: none;
     }
         ul {
@@ -33,6 +33,14 @@ header {
             display: flex;
             justify-content: flex-end;
             align-items: flex-end;
+
+           
+                @media (max-width: #{$screen-xl}) {
+                    justify-content: flex-start;
+                    align-items: flex-start;
+                    font-size: .82em;
+                }
+            
 
             .paintingBtn {
                 font-size: 1em;
@@ -88,13 +96,18 @@ header {
 
 
            .worksBtn {
-               margin-left: 25px;
+                margin-left: 25px;
                 font-size: 1em;
                 font-family: $font;
                 color: $font-color-grey;
                 background: none;
                 border: none;
                 padding: 0;
+
+                @media (max-width: #{$screen-xl}) {
+                   margin-left: 10px;;
+                }
+                
             }
 
             .worksBtn:hover {
@@ -148,6 +161,10 @@ header {
                     background: none;
                     border: none;
                     padding: 0;
+
+                    @media (max-width: #{$screen-xl}) {
+                        margin-left: 10px;;
+                     }
                 }
  
                 .galleryBtn:hover {
@@ -201,6 +218,10 @@ header {
                     background: none;
                     border: none;
                     padding: 0;   
+
+                    @media (max-width: #{$screen-xl}) {
+                        margin-left: 10px;;
+                     }
                 }
                 .commissionBtn:hover {
                     color: $font-color-hover;
@@ -216,6 +237,10 @@ header {
                 font-family: $font;
                 margin-left: 25px;
                 color: $font-color-grey;
+
+                @media (max-width: #{$screen-xl}) {
+                    margin-left: 10px;;
+                 }
             }
             li:hover {
                 color: $font-color-hover;
@@ -229,6 +254,8 @@ header {
                 background: none;
                 border: none;
                 padding: 0;
+
+                
                 
             }
             .aboutBtn:hover {
@@ -482,5 +509,12 @@ header {
 
         .xBtnExhibitions:focus {
             outline: 0;
-        }      
+        }   
+        
+        // Readjust spacing on Navbar between desktop and switching ot Mobile View
+        button {
+            @media (max-width: #{$screen-xl}) {
+                margin: 0px 5px 0px 5px;
+            }
+        }
 }

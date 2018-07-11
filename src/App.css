@@ -18,7 +18,7 @@ header {
     overflow: visible;
     position: relative;
     z-index: 100; }
-    @media (max-width: 1200px) {
+    @media (max-width: 963px) {
       header nav {
         display: none; } }
     header nav ul {
@@ -26,6 +26,11 @@ header {
       display: flex;
       justify-content: flex-end;
       align-items: flex-end; }
+      @media (max-width: 1200px) {
+        header nav ul {
+          justify-content: flex-start;
+          align-items: flex-start;
+          font-size: .82em; } }
       header nav ul .paintingBtn {
         font-size: 1em;
         font-family: "Montserrat", sans-serif;
@@ -74,6 +79,9 @@ header {
         background: none;
         border: none;
         padding: 0; }
+        @media (max-width: 1200px) {
+          header nav ul .worksBtn {
+            margin-left: 10px; } }
       header nav ul .worksBtn:hover {
         color: #f1b195;
         transition: .25s ease-in-out;
@@ -115,6 +123,9 @@ header {
         background: none;
         border: none;
         padding: 0; }
+        @media (max-width: 1200px) {
+          header nav ul .galleryBtn {
+            margin-left: 10px; } }
       header nav ul .galleryBtn:hover {
         color: #f1b195;
         transition: .25s ease-in-out;
@@ -156,6 +167,9 @@ header {
         background: none;
         border: none;
         padding: 0; }
+        @media (max-width: 1200px) {
+          header nav ul .commissionBtn {
+            margin-left: 10px; } }
       header nav ul .commissionBtn:hover {
         color: #f1b195;
         transition: .25s ease-in-out;
@@ -167,6 +181,9 @@ header {
         font-family: "Montserrat", sans-serif;
         margin-left: 25px;
         color: #afafaf; }
+        @media (max-width: 1200px) {
+          header nav ul li {
+            margin-left: 10px; } }
       header nav ul li:hover {
         color: #f1b195;
         transition: .25s ease-in-out; }
@@ -359,6 +376,9 @@ header {
     cursor: pointer; }
   header .xBtnExhibitions:focus {
     outline: 0; }
+  @media (max-width: 1200px) {
+    header button {
+      margin: 0px 5px 0px 5px; } }
 
 footer {
   width: 100vw;
@@ -455,15 +475,6 @@ footer {
     @media (max-width: 963px) {
       .content-wrapper .slick-slide img {
         height: 45vh; } }
-    @media (max-width: 768px) {
-      .content-wrapper .slick-slide img {
-        height: 35vh; } }
-    @media (max-width: 576px) {
-      .content-wrapper .slick-slide img {
-        height: 25vh; } }
-    @media (max-width: 376px) {
-      .content-wrapper .slick-slide img {
-        height: 20vh; } }
   .content-wrapper .slick-slide.slick-center img {
     margin-left: auto;
     margin-right: auto; }
