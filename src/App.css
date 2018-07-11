@@ -386,6 +386,23 @@ footer {
     color: #969696;
     transition: .35s; }
 
+@media (max-width: 963px) {
+  .home-container-desktop {
+    display: none; } }
+
+.home-container-mobile {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  @media (min-width: 963px) {
+    .home-container-mobile {
+      display: none; } }
+  .home-container-mobile .mobile-images {
+    width: 90%;
+    margin-top: 15px; }
+
 .content-wrapper {
   width: 100vw; }
   .content-wrapper h1 {
