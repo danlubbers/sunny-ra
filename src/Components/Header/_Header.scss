@@ -14,6 +14,20 @@ header {
             width: 400px;
         }
     }
+
+    .hamburger {
+        display: none;
+        font-size: 2em;
+        border: none;
+        cursor: pointer;
+        background: transparent;
+        color: $font-color-grey;
+
+        @media (max-width: #{$screen-lg}) {
+            display: block;
+        }
+    }
+
     nav {
           // background-color: blue;
     //   margin: 0px 0px 0px 100px;

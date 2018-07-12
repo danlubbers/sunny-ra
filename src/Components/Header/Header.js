@@ -6,6 +6,7 @@ import SunnyLogo from '../../assets/sunny-ra-logo.png';
 import SunnyPortrait2 from '../../assets/sunny-portrait-2.jpg';
 // Icons
 import CloseIcon from 'react-icons/lib/fa/times-circle';
+import Bars from 'react-icons/lib/fa/bars';
 
 export default class Header extends Component {
     constructor(props) {
@@ -108,8 +109,9 @@ export default class Header extends Component {
                 <div className='sunny-logo-container'>
                     <Link to='/' onClick={this.handleClickHome}><img className='sunny-logo' src={SunnyLogo} alt='Sunny Ra Logo' /></Link>
                 </div>
+                    <button className='hamburger' ><Bars/></button>
                 <nav>
-                    <ul>
+                    <ul>     
                         <button className='paintingBtn' onMouseOver={this.handleOverPainting} >Paintings</button>
                             <div className={paintingDropDown} onMouseLeave={this.handleLeave}>
                                 <Link to='/paintings2006'><li>2006</li></Link>
