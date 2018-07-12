@@ -119,7 +119,9 @@ export default class Header extends Component {
                 <div className='hamburger-container'>
                     <button className='hamburgerBtn' onClick={this.handleClickMobile}><Bars/></button>
                     <div className={mobileDropDown}>
-                        <h1>TEST</h1>
+                        <ul>
+                            <li>TEST</li>
+                        </ul>
                     </div>
                 </div>
                 <nav>
