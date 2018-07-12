@@ -37,12 +37,16 @@ header {
                 justify-content: flex-start;
                 align-items: center;
                 position: absolute;
-                top: -1250px;
+                top: -2000px;
                 left: 0px;
                 transition: .15 ease-in-out;
                 opacity: 0;
                 transition-property: opacity;
                 z-index: -1;
+
+                // @media (min-width: #{$screen-lg}) {
+                //     display: none;
+                // }
                }
     
                .slide-mobile-position {
@@ -51,6 +55,25 @@ header {
                 opacity: 1;
                 z-index: 50;
                }
+
+               .mobile-content-container {
+                   display: flex;
+                   flex-direction: column;
+                   justify-content: flex-start;
+                   align-items: center;
+
+               .mobile-text-content {
+                   font-size: 1.2em;
+                   color: $font-color-grey;
+                   font-family: $font;
+                   letter-spacing: 4px;
+               }
+               .horizontal-line{
+                width: 95vw;
+                border-bottom: 1px solid #999;
+                margin: 10px 0px 10px 10px;
+              }
+            }
 
     nav {
           // background-color: blue;

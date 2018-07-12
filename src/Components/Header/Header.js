@@ -65,7 +65,8 @@ export default class Header extends Component {
                 showAbout: false,
                 howPainting: false, 
                 showWorks: false,
-                showGallery: false
+                showGallery: false,
+                showMobile: false
             })
             this.handleLeave()
         }
@@ -119,8 +120,10 @@ export default class Header extends Component {
                 <div className='hamburger-container'>
                     <button className='hamburgerBtn' onClick={this.handleClickMobile}><Bars/></button>
                     <div className={mobileDropDown}>
-                        <ul>
-                            <li>TEST</li>
+                        <ul className='mobile-content-container'>
+                            <div className='horizontal-line'></div>
+                            <li className='mobile-text-content'>PAINTINGS</li>
+                            <div className='horizontal-line'></div>
                         </ul>
                     </div>
                 </div>
