@@ -13,6 +13,7 @@ export default class Header extends Component {
         super(props)
     
             this.state = {
+                showMobile: false,
                 showPainting: false,
                 showWorks: false,
                 showGallery: false,
@@ -20,6 +21,7 @@ export default class Header extends Component {
                 showAbout: false,
                 showExhibitions: false
             }
+            this.handleClickMobile = this.handleClickMobile.bind(this);
             this.handleOverPainting = this.handleOverPainting.bind(this);
             this.handleOverWorks = this.handleOverWorks.bind(this);
             this.handleOverGallery = this.handleOverGallery.bind(this);
@@ -27,6 +29,10 @@ export default class Header extends Component {
             this.handleClickAbout = this.handleClickAbout.bind(this);
             this.handleClickExhibitions = this.handleClickExhibitions.bind(this);
             this.handleLeave = this.handleLeave.bind(this);
+        }
+
+        handleClickMobile() {
+            this.setState({showMobile: !this.state.showMobile})
         }
 
         handleOverPainting() {
@@ -96,7 +102,8 @@ export default class Header extends Component {
 
     render() {
         let email = 'sunnyra23@gmail.com'
-        let {showAbout, showPainting, showWorks, showGallery, showExhibitions} = this.state;
+        let {showAbout, showPainting, showWorks, showGallery, showExhibitions, showMobile} = this.state;
+        let mobileDropDown = showMobile ? 'slide-mobile slide-mobile-position' : 'slide-mobile';
         let exhibitionsDropdown = showExhibitions ?  'slide-exhibitions slide-exhibitions-position' : 'slide-exhibitions';
         let aboutDropDown = showAbout ? 'slide-about slide-about-position' : 'slide-about';
         let paintingDropDown = showPainting ? 'slide-painting slide-painting-position' : 'slide-painting';
@@ -109,7 +116,12 @@ export default class Header extends Component {
                 <div className='sunny-logo-container'>
                     <Link to='/' onClick={this.handleClickHome}><img className='sunny-logo' src={SunnyLogo} alt='Sunny Ra Logo' /></Link>
                 </div>
-                    <button className='hamburger' ><Bars/></button>
+                <div className='hamburger-container'>
+                    <button className='hamburgerBtn' onClick={this.handleClickMobile}><Bars/></button>
+                    <div className={mobileDropDown}>
+                        <h1>TEST</h1>
+                    </div>
+                </div>
                 <nav>
                     <ul>     
                         <button className='paintingBtn' onMouseOver={this.handleOverPainting} >Paintings</button>

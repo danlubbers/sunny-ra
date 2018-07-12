@@ -11,7 +11,7 @@ header {
   background-color: #191919; }
   header .sunny-logo-container .sunny-logo {
     width: 400px; }
-  header .hamburger {
+  header .hamburgerBtn {
     display: none;
     font-size: 2em;
     border: none;
@@ -19,8 +19,28 @@ header {
     background: transparent;
     color: #afafaf; }
     @media (max-width: 965px) {
-      header .hamburger {
+      header .hamburgerBtn {
         display: block; } }
+    header .hamburgerBtn .slide-mobile {
+      background-color: #191919;
+      width: 100px;
+      height: 215px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      position: absolute;
+      top: -250px;
+      left: -10px;
+      transition: .15 ease-in-out;
+      opacity: 0;
+      transition-property: opacity;
+      z-index: -1; }
+    header .hamburgerBtn .slide-mobile-position {
+      top: 45px;
+      left: -10px;
+      opacity: 1;
+      z-index: 50; }
   header nav {
     display: flex;
     justify-content: space-between;
