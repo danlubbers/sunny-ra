@@ -26,7 +26,7 @@ header {
       display: flex;
       justify-content: flex-end;
       align-items: flex-end; }
-      @media (max-width: 1200px) {
+      @media (max-width: 1235px) {
         header nav ul {
           justify-content: flex-start;
           align-items: flex-start;
@@ -79,7 +79,7 @@ header {
         background: none;
         border: none;
         padding: 0; }
-        @media (max-width: 1200px) {
+        @media (max-width: 1235px) {
           header nav ul .worksBtn {
             margin-left: 10px; } }
       header nav ul .worksBtn:hover {
@@ -106,6 +106,9 @@ header {
         @media (max-width: 963px) {
           header nav ul .slide-works {
             display: none; } }
+        @media (max-width: 1235px) {
+          header nav ul .slide-works {
+            width: 100px; } }
         header nav ul .slide-works li {
           margin: 10px 5px 10px 0px;
           font-size: 1em;
@@ -115,6 +118,9 @@ header {
         left: 95px;
         opacity: 1;
         z-index: 50; }
+        @media (max-width: 1235px) {
+          header nav ul .slide-works-position {
+            left: 75px; } }
       header nav ul .galleryBtn {
         margin-left: 25px;
         font-size: 1em;
@@ -123,7 +129,7 @@ header {
         background: none;
         border: none;
         padding: 0; }
-        @media (max-width: 1200px) {
+        @media (max-width: 1235px) {
           header nav ul .galleryBtn {
             margin-left: 10px; } }
       header nav ul .galleryBtn:hover {
@@ -150,6 +156,9 @@ header {
         @media (max-width: 963px) {
           header nav ul .slide-gallery {
             display: none; } }
+        @media (max-width: 1235px) {
+          header nav ul .slide-gallery {
+            width: 150px; } }
         header nav ul .slide-gallery li {
           margin: 10px 5px 10px 0px;
           font-size: 1em;
@@ -159,6 +168,9 @@ header {
         left: 210px;
         opacity: 1;
         z-index: 50; }
+        @media (max-width: 1235px) {
+          header nav ul .slide-gallery-position {
+            left: 165px; } }
       header nav ul .commissionBtn {
         margin-left: 25px;
         font-size: 1em;
@@ -167,7 +179,7 @@ header {
         background: none;
         border: none;
         padding: 0; }
-        @media (max-width: 1200px) {
+        @media (max-width: 1235px) {
           header nav ul .commissionBtn {
             margin-left: 10px; } }
       header nav ul .commissionBtn:hover {
@@ -181,7 +193,7 @@ header {
         font-family: "Montserrat", sans-serif;
         margin-left: 25px;
         color: #afafaf; }
-        @media (max-width: 1200px) {
+        @media (max-width: 1235px) {
           header nav ul li {
             margin-left: 10px; } }
       header nav ul li:hover {
@@ -317,10 +329,8 @@ header {
     transition: .25s ease-in-out;
     opacity: 0;
     transition-property: opacity;
-    z-index: -1; }
-    @media (max-width: 963px) {
-      header .slide-exhibitions {
-        display: none; } }
+    z-index: -1;
+    overflow: auto; }
   header .slide-exhibitions-position {
     top: 100px;
     right: 0px;
@@ -331,16 +341,23 @@ header {
     align-items: flex-start; }
   header .exhibition-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: flex-start;
-    padding-left: 100px; }
-    @media (max-width: 1290px) {
+    margin: 0px 90px; }
+    @media (max-width: 1550px) {
       header .exhibition-container {
-        width: 100vw;
-        overflow: auto; } }
+        margin: 0px 25px; } }
+    @media (max-width: 1235px) {
+      header .exhibition-container {
+        margin: 0px 0px; } }
     header .exhibition-container .exhibition-history {
       width: 50%;
-      height: 100%; }
+      height: 100%;
+      margin-left: 75px;
+      padding: 0px 28px; }
+      @media (max-width: 1235px) {
+        header .exhibition-container .exhibition-history {
+          margin: 0px 25px; } }
       header .exhibition-container .exhibition-history h3, header .exhibition-container .exhibition-history .about-container .education-container h4, header .about-container .education-container .exhibition-container .exhibition-history h4, header .exhibition-container .exhibition-history li, header .exhibition-container .exhibition-history .awards-container h4, header .exhibition-container .awards-container .exhibition-history h4 {
         font-family: "Montserrat", sans-serif;
         line-height: 16px;
@@ -390,7 +407,7 @@ header {
       cursor: pointer; }
     header .exhibition-container .xBtnExhibitions:focus {
       outline: 0; }
-    @media (max-width: 1200px) {
+    @media (max-width: 1235px) {
       header .exhibition-container button {
         margin: 0px 5px 0px 5px; } }
 
@@ -452,7 +469,7 @@ footer {
     width: 100%;
     margin-top: 25px;
     display: block; }
-    @media (max-width: 1200px) {
+    @media (max-width: 1235px) {
       .content-wrapper .carousel-container {
         margin-top: 50px; } }
     @media (max-width: 963px) {
@@ -483,7 +500,7 @@ footer {
       visibility: visible; }
   .content-wrapper .slick-slide img {
     height: 800px; }
-    @media (max-width: 1200px) {
+    @media (max-width: 1235px) {
       .content-wrapper .slick-slide img {
         height: 60vh; } }
     @media (max-width: 963px) {

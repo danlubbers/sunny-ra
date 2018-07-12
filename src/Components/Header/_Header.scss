@@ -138,6 +138,10 @@ header {
                 @media (max-width: #{$screen-lg}) {
                     display: none;
                 }
+
+                @media (max-width: ($screen-xl)) {
+                    width: 100px; 
+                }
     
                 li {
                     margin: 10px 5px 10px 0px;
@@ -151,6 +155,10 @@ header {
                     left: 95px;
                     opacity: 1;
                     z-index: 50;
+
+                    @media (max-width: ($screen-xl)) {
+                        left: 75px;
+                    }
                }
 
                 .galleryBtn {
@@ -195,6 +203,10 @@ header {
                     @media (max-width: #{$screen-lg}) {
                         display: none;
                     }
+
+                    @media (max-width: ($screen-xl)) {
+                        width: 150px; 
+                    }
         
                     li {
                         margin: 10px 5px 10px 0px;
@@ -208,6 +220,10 @@ header {
                     left: 210px;
                     opacity: 1;
                     z-index: 50;
+
+                    @media (max-width: ($screen-xl)) {
+                        left: 165px;
+                    }
                 }
 
                 .commissionBtn {
@@ -327,7 +343,6 @@ header {
 
         @media (max-width: 1290px) {
             width: 100%;
-            // height: 1366px;
             margin-left: 25px;
             overflow: auto;
         }
@@ -427,10 +442,7 @@ header {
                 opacity: 0;
                 transition-property: opacity;
                 z-index: -1;
-
-                @media (max-width: #{$screen-lg}) {
-                    display: none;
-                }
+                overflow: auto;
             }
                     
             .slide-exhibitions-position {
@@ -440,27 +452,33 @@ header {
                 z-index: 500;
                 display: flex;
                 justify-content: space-between;
-                align-items: flex-start;
-
-                
+                align-items: flex-start;  
             }
 
             .exhibition-container {
                 display: flex;
-                justify-content: space-between;
+                justify-content: space-around;
                 align-items: flex-start;
-                padding-left: 100px;
+                margin: 0px 90px;
 
-                @media (max-width: 1290px) {
-                    width: 100vw;
-                    overflow: auto;
+                @media (max-width: 1550px) {
+                    margin: 0px 25px;
                 }
+                @media (max-width: ($screen-xl)) {
+                    margin: 0px 0px;
+                }
+
+
     
             .exhibition-history {
                 width: 50%;
                 height: 100%;
-                // margin-left: 150px;
-                // padding: 0px 40px;
+                margin-left: 75px;
+                padding: 0px 28px;
+
+                @media (max-width: ($screen-xl)) {
+                    margin: 0px 25px;
+                }
 
                   h3 {
                 // margin: 10px;
