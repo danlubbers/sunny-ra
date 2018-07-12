@@ -248,7 +248,8 @@ header {
     @media (max-width: 1290px) {
       header .about-container {
         width: 100%;
-        margin-left: 25px; } }
+        margin-left: 25px;
+        overflow: auto; } }
     header .about-container .photo-contact-container {
       display: flex;
       flex-direction: column;
@@ -260,7 +261,7 @@ header {
         display: flex;
         justify-content: flex-start;
         align-items: center; }
-        header .about-container .photo-contact-container .email-container h3, header .about-container .photo-contact-container .email-container .education-container h4, header .about-container .education-container .photo-contact-container .email-container h4, header .about-container .photo-contact-container .email-container .exhibition-container li, header .exhibition-container .about-container .photo-contact-container .email-container li, header .about-container .photo-contact-container .email-container .awards-container h4, header .awards-container .about-container .photo-contact-container .email-container h4 {
+        header .about-container .photo-contact-container .email-container h3, header .about-container .photo-contact-container .email-container .education-container h4, header .about-container .education-container .photo-contact-container .email-container h4, header .about-container .photo-contact-container .email-container .exhibition-container .exhibition-history li, header .exhibition-container .exhibition-history .about-container .photo-contact-container .email-container li, header .about-container .photo-contact-container .email-container .exhibition-container .awards-container h4, header .exhibition-container .awards-container .about-container .photo-contact-container .email-container h4 {
           margin-top: 10px;
           font-family: "Montserrat", sans-serif;
           line-height: 16px;
@@ -280,7 +281,7 @@ header {
     header .about-container .education-container {
       width: 100%;
       padding-left: 25px; }
-      header .about-container .education-container h3, header .about-container .education-container h4, header .about-container .education-container .exhibition-container li, header .exhibition-container .about-container .education-container li {
+      header .about-container .education-container h3, header .about-container .education-container h4, header .about-container .education-container .exhibition-container .exhibition-history li, header .exhibition-container .exhibition-history .about-container .education-container li {
         font-family: "Montserrat", sans-serif;
         line-height: 16px;
         letter-spacing: 1px;
@@ -329,60 +330,69 @@ header {
     justify-content: space-between;
     align-items: flex-start; }
   header .exhibition-container {
-    width: 50%;
-    height: 100%;
-    margin-left: 150px;
-    padding: 0px 40px; }
-    header .exhibition-container h3, header .exhibition-container .about-container .education-container h4, header .about-container .education-container .exhibition-container h4, header .exhibition-container li, header .exhibition-container .awards-container h4, header .awards-container .exhibition-container h4 {
-      font-family: "Montserrat", sans-serif;
-      line-height: 16px;
-      letter-spacing: 1px;
-      font-size: 1em;
-      color: #646464;
-      text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-left: 100px; }
+    @media (max-width: 1290px) {
+      header .exhibition-container {
+        width: 100vw;
+        overflow: auto; } }
+    header .exhibition-container .exhibition-history {
+      width: 50%;
+      height: 100%; }
+      header .exhibition-container .exhibition-history h3, header .exhibition-container .exhibition-history .about-container .education-container h4, header .about-container .education-container .exhibition-container .exhibition-history h4, header .exhibition-container .exhibition-history li, header .exhibition-container .exhibition-history .awards-container h4, header .exhibition-container .awards-container .exhibition-history h4 {
+        font-family: "Montserrat", sans-serif;
+        line-height: 16px;
+        letter-spacing: 1px;
+        font-size: 1em;
+        color: #646464;
+        text-transform: uppercase;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start; }
+      header .exhibition-container .exhibition-history li {
+        margin: 10px;
+        font-size: .8em;
+        color: #afafaf;
+        line-height: 24px; }
+    header .exhibition-container .awards-container {
+      width: 50%;
+      padding-left: 50px; }
+      header .exhibition-container .awards-container h3, header .exhibition-container .awards-container .exhibition-history li, header .exhibition-container .exhibition-history .awards-container li, header .exhibition-container .awards-container h4 {
+        font-family: "Montserrat", sans-serif;
+        line-height: 16px;
+        letter-spacing: 1px;
+        font-size: 1em;
+        color: #646464;
+        text-transform: uppercase;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start; }
+      header .exhibition-container .awards-container h4 {
+        margin: 10px;
+        font-size: .8em;
+        color: #afafaf;
+        line-height: 24px; }
+    header .exhibition-container .xBtnExhibition-container {
       display: flex;
       justify-content: space-between;
       align-items: flex-start; }
-    header .exhibition-container li {
-      margin: 10px;
-      font-size: .8em;
-      color: #afafaf;
-      line-height: 24px; }
-  header .awards-container h3, header .awards-container .about-container .education-container h4, header .about-container .education-container .awards-container h4, header .awards-container .exhibition-container li, header .exhibition-container .awards-container li, header .awards-container h4 {
-    font-family: "Montserrat", sans-serif;
-    line-height: 16px;
-    letter-spacing: 1px;
-    font-size: 1em;
-    color: #646464;
-    text-transform: uppercase;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start; }
-  header .awards-container h4 {
-    margin: 10px;
-    font-size: .8em;
-    color: #afafaf;
-    line-height: 24px; }
-  header .xBtnExhibition-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start; }
-  header .xBtnExhibitions {
-    margin-right: 180px;
-    font-size: 2em;
-    border: none;
-    cursor: pointer;
-    background: transparent;
-    color: #afafaf; }
-  header .xBtnExhibitions:hover {
-    color: #f1b195;
-    transition: .25s ease-in-out;
-    cursor: pointer; }
-  header .xBtnExhibitions:focus {
-    outline: 0; }
-  @media (max-width: 1200px) {
-    header button {
-      margin: 0px 5px 0px 5px; } }
+    header .exhibition-container .xBtnExhibitions {
+      font-size: 2em;
+      border: none;
+      cursor: pointer;
+      background: transparent;
+      color: #afafaf; }
+    header .exhibition-container .xBtnExhibitions:hover {
+      color: #f1b195;
+      transition: .25s ease-in-out;
+      cursor: pointer; }
+    header .exhibition-container .xBtnExhibitions:focus {
+      outline: 0; }
+    @media (max-width: 1200px) {
+      header .exhibition-container button {
+        margin: 0px 5px 0px 5px; } }
 
 footer {
   width: 100vw;

@@ -327,7 +327,9 @@ header {
 
         @media (max-width: 1290px) {
             width: 100%;
+            // height: 1366px;
             margin-left: 25px;
+            overflow: auto;
         }
 
         .photo-contact-container {
@@ -439,13 +441,27 @@ header {
                 display: flex;
                 justify-content: space-between;
                 align-items: flex-start;
+
+                
             }
-    
+
             .exhibition-container {
+                display: flex;
+                justify-content: space-between;
+                align-items: flex-start;
+                padding-left: 100px;
+
+                @media (max-width: 1290px) {
+                    width: 100vw;
+                    overflow: auto;
+                }
+    
+            .exhibition-history {
                 width: 50%;
                 height: 100%;
-                margin-left: 150px;
-                padding: 0px 40px;
+                // margin-left: 150px;
+                // padding: 0px 40px;
+
                   h3 {
                 // margin: 10px;
                 font-family: $font;
@@ -457,6 +473,7 @@ header {
                 display: flex;
                 justify-content: space-between;
                 align-items: flex-start;
+
             }
             li {
                 @extend h3;
@@ -469,7 +486,8 @@ header {
 
         }
         .awards-container {
-            
+            width: 50%;
+            padding-left: 50px;
 
         h3 {
             // margin: 10px;
@@ -498,7 +516,6 @@ header {
         }
 
         .xBtnExhibitions {
-            margin-right: 180px;
             font-size: 2em;
             border: none;
             cursor: pointer;
@@ -522,4 +539,5 @@ header {
                 margin: 0px 5px 0px 5px;
             }
         }
+    }
 }

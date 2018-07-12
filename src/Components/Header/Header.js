@@ -167,7 +167,8 @@ export default class Header extends Component {
                             </div>
                         </div>
                         <div className={exhibitionsDropdown}>
-                            <div className='exhibition-container'>
+                        <div className='exhibition-container'>
+                            <div className='exhibition-history'>
                             <h3>Exhibition History</h3>
                                 <li>Solo Exhibition, Quills, Louisville, KY 2017</li>
                                 <li>Pop-Up Art Show, Republic Bank First Friday Gallery Hop, Louisville, KY  2017</li>
@@ -204,6 +205,7 @@ export default class Header extends Component {
                             <div className='xBtnExhibitions-container'>
                                 <button className='xBtnExhibitions' onClick={this.handleClickExhibitions}><CloseIcon/></button>
                             </div>
+                        </div>
                         </div>
             </header>
         </div>
