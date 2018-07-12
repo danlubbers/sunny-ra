@@ -44,9 +44,9 @@ header {
                 transition-property: opacity;
                 z-index: -1;
 
-                // @media (min-width: #{$screen-lg}) {
-                //     display: none;
-                // }
+                @media (min-width: #{$screen-lg}) {
+                    display: none;
+                }
                }
     
                .slide-mobile-position {
@@ -67,11 +67,22 @@ header {
                    color: $font-color-grey;
                    font-family: $font;
                    letter-spacing: 4px;
-               }
+
+                }
+                .mobile-dropdown {
+                        
+                    li {
+                        @extend .mobile-text-content;
+                        display: flex;
+                        justify-content: center;
+                        margin: 10px 0px;
+                        font-size: 1em;
+                    }
+                }
                .horizontal-line{
                 width: 95vw;
                 border-bottom: 1px solid #999;
-                margin: 10px 0px 10px 10px;
+                margin: 20px 0px 10px 20px;
               }
             }
 

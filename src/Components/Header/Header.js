@@ -122,7 +122,34 @@ export default class Header extends Component {
                     <div className={mobileDropDown}>
                         <ul className='mobile-content-container'>
                             <div className='horizontal-line'></div>
-                            <li className='mobile-text-content'>PAINTINGS</li>
+                            <li className='mobile-text-content' >PAINTINGS</li>
+                                <ul className='mobile-dropdown'>
+                                    <li>2006</li>
+                                    <li>2008</li>
+                                    <li>2010</li>
+                                    <li>2012</li>
+                                    <li>2014</li>
+                                    <li>2015</li>
+                                </ul>
+                            <div className='horizontal-line'></div>
+                            <li className='mobile-text-content' >WORKS ON PAPER</li>
+                                <ul className='mobile-dropdown'>
+                                    <li>2006</li>
+                                    <li>2012</li>
+                                    <li>2016</li>
+                                </ul>
+                            <div className='horizontal-line'></div>
+                            <li className='mobile-text-content'>PHOTO GALLERY</li>
+                                <ul className='mobile-dropdown'>
+                                        <li>Installation Photos</li>
+                                        <li>Student Work</li>
+                                    </ul>
+                            <div className='horizontal-line'></div>
+                            <li className='mobile-text-content'>COMMISSIONED WORK</li>
+                            <div className='horizontal-line'></div>
+                            <li className='mobile-text-content'>ABOUT</li>
+                            <div className='horizontal-line'></div>
+                            <li className='mobile-text-content'>EXHIBITIONS</li>
                             <div className='horizontal-line'></div>
                         </ul>
                     </div>

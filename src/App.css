@@ -36,6 +36,9 @@ header {
     opacity: 0;
     transition-property: opacity;
     z-index: -1; }
+    @media (min-width: 965px) {
+      header .slide-mobile {
+        display: none; } }
   header .slide-mobile-position {
     top: 100px;
     left: 0px;
@@ -46,15 +49,20 @@ header {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center; }
-    header .mobile-content-container .mobile-text-content {
+    header .mobile-content-container .mobile-text-content, header .mobile-content-container .mobile-dropdown li {
       font-size: 1.2em;
       color: #afafaf;
       font-family: "Montserrat", sans-serif;
       letter-spacing: 4px; }
+    header .mobile-content-container .mobile-dropdown li {
+      display: flex;
+      justify-content: center;
+      margin: 10px 0px;
+      font-size: 1em; }
     header .mobile-content-container .horizontal-line {
       width: 95vw;
       border-bottom: 1px solid #999;
-      margin: 10px 0px 10px 10px; }
+      margin: 20px 0px 10px 20px; }
   header nav {
     display: flex;
     justify-content: space-between;
