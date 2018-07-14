@@ -33,85 +33,100 @@ export default class Works2016 extends Component {
         };
     
     return (
-        <div className='content-wrapper'>
-            <h1>2016 Works on Paper</h1>
-            <div className='carousel-container'>
-                <Slider ref={slider => (this.slider = slider)}{...settings} style={{position: 'relative',    zIndex: '500 !important'}}>
-            
-                    <div className='image-wrapper'>
-                        <div className='text-box'>
-                            {/* <h1></h1> */}
-                        </div>
-                        <div>
-                            <img className="carousel-image" src={works20161} alt=""/>
-                        </div>
+        <div className='works-container'>
+            <div className='works-container-desktop'>
+                <div className='content-wrapper'>
+                    <h1>2016 Works on Paper</h1>
+                    <div className='carousel-container'>
+                        <Slider ref={slider => (this.slider = slider)}{...settings} style={{position: 'relative',    zIndex: '500 !important'}}>
+                    
+                            <div className='image-wrapper'>
+                                <div className='text-box'>
+                                    {/* <h1></h1> */}
+                                </div>
+                                <div>
+                                    <img className="carousel-image" src={works20161} alt=""/>
+                                </div>
+                            </div>
+                            <div className='image-wrapper'>
+                                <div className='text-box'>
+                                    {/* <h1></h1> */}
+                                </div>
+                                <div>
+                                    <img className="carousel-image" src={works20162} alt=""/>
+                                </div>
+                            </div>
+                            <div className='image-wrapper'>
+                                <div className='text-box'>
+                                    {/* <h1></h1> */}
+                                </div>
+                                <div>
+                                    <img className="carousel-image" src={works20163} alt=""/>
+                                </div>
+                            </div>
+                            <div className='image-wrapper'>
+                                <div className='text-box'>
+                                    {/* <h1></h1> */}
+                                </div>
+                                <div>
+                                    <img className="carousel-image" src={works20164} alt=""/>
+                                </div>
+                            </div>
+                            <div className='image-wrapper'>
+                                <div className='text-box'>
+                                    {/* <h1></h1> */}
+                                </div>
+                                <div>
+                                    <img className="carousel-image" src={works20165} alt=""/>
+                                </div>
+                            </div>
+                            <div className='image-wrapper'>
+                                <div className='text-box'>
+                                    {/* <h1></h1> */}
+                                </div>
+                                <div>
+                                    <img className="carousel-image" src={works20166} alt=""/>
+                                </div>
+                            </div>
+                            <div className='image-wrapper'>
+                                <div className='text-box'>
+                                    {/* <h1></h1> */}
+                                </div>
+                                <div>
+                                    <img className="carousel-image" src={works20167} alt=""/>
+                                </div>
+                            </div>
+                            <div className='image-wrapper'>
+                                <div className='text-box'>
+                                    {/* <h1></h1> */}
+                                </div>
+                                <div>
+                                    <img className="carousel-image" src={works20168} alt=""/>
+                                </div>
+                            </div>
+                            <div className='image-wrapper'>
+                                <div className='text-box'>
+                                    {/* <h1></h1> */}
+                                </div>
+                                <div>
+                                    <img className="carousel-image" src={works20169} alt=""/>
+                                </div>
+                            </div>
+                        </Slider>
                     </div>
-                    <div className='image-wrapper'>
-                        <div className='text-box'>
-                            {/* <h1></h1> */}
-                        </div>
-                        <div>
-                            <img className="carousel-image" src={works20162} alt=""/>
-                        </div>
-                    </div>
-                    <div className='image-wrapper'>
-                        <div className='text-box'>
-                            {/* <h1></h1> */}
-                        </div>
-                        <div>
-                            <img className="carousel-image" src={works20163} alt=""/>
-                        </div>
-                    </div>
-                    <div className='image-wrapper'>
-                        <div className='text-box'>
-                            {/* <h1></h1> */}
-                        </div>
-                        <div>
-                            <img className="carousel-image" src={works20164} alt=""/>
-                        </div>
-                    </div>
-                    <div className='image-wrapper'>
-                        <div className='text-box'>
-                            {/* <h1></h1> */}
-                        </div>
-                        <div>
-                            <img className="carousel-image" src={works20165} alt=""/>
-                        </div>
-                    </div>
-                    <div className='image-wrapper'>
-                        <div className='text-box'>
-                            {/* <h1></h1> */}
-                        </div>
-                        <div>
-                            <img className="carousel-image" src={works20166} alt=""/>
-                        </div>
-                    </div>
-                    <div className='image-wrapper'>
-                        <div className='text-box'>
-                            {/* <h1></h1> */}
-                        </div>
-                        <div>
-                            <img className="carousel-image" src={works20167} alt=""/>
-                        </div>
-                    </div>
-                    <div className='image-wrapper'>
-                        <div className='text-box'>
-                            {/* <h1></h1> */}
-                        </div>
-                        <div>
-                            <img className="carousel-image" src={works20168} alt=""/>
-                        </div>
-                    </div>
-                    <div className='image-wrapper'>
-                        <div className='text-box'>
-                            {/* <h1></h1> */}
-                        </div>
-                        <div>
-                            <img className="carousel-image" src={works20169} alt=""/>
-                        </div>
-                    </div>
-                </Slider>
+                </div>
             </div>
+                <div className='images-container-mobile'>
+                    <img className='mobile-images' src={works20161} alt=''/>
+                    <img className='mobile-images' src={works20162} alt=''/>
+                    <img className='mobile-images' src={works20163} alt=''/>
+                    <img className='mobile-images' src={works20164} alt=''/>
+                    <img className='mobile-images' src={works20165} alt=''/>
+                    <img className='mobile-images' src={works20166} alt=''/>
+                    <img className='mobile-images' src={works20167} alt=''/>
+                    <img className='mobile-images' src={works20168} alt=''/>
+                    <img className='mobile-images' src={works20169} alt=''/>
+                </div>
         </div>
     )
     }
