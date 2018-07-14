@@ -11,6 +11,9 @@ header {
   background-color: #191919; }
   header .sunny-logo-container .sunny-logo {
     width: 400px; }
+    @media (max-width: 576px) {
+      header .sunny-logo-container .sunny-logo {
+        width: 225px; } }
   header .hamburgerBtn {
     display: none;
     font-size: 2em;
@@ -24,7 +27,7 @@ header {
   header .slide-mobile {
     background-color: #191919;
     width: 100vw;
-    height: 100vh;
+    height: 250vh;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
