@@ -23,6 +23,8 @@ import Installation from './Components/Gallery/Installation/Installation'
 import StudentWork from './Components/Gallery/StudentWork/StudentWork'
 import Commissioned from './Components/Commissioned/Commissioned'
 
+import AboutMobile from './Components/AboutMobile/AboutMobile';
+
 export default (
     <Switch>
         <Route exact path="/" component={Home} />
@@ -42,5 +44,7 @@ export default (
         <Route path="/studentwork" component={StudentWork} />
 
         <Route path="/commissioned" component={Commissioned} />
+
+        <Route path="/aboutmobile" component={AboutMobile} />
     </Switch>
 )
