@@ -62,10 +62,21 @@ header {
       justify-content: center;
       margin: 10px 0px;
       font-size: 1em; }
+    header .mobile-content-container .commissionMobileBtn {
+      margin: 10px 0px;
+      font-size: 1.2em;
+      font-family: "Montserrat", sans-serif;
+      color: #afafaf;
+      letter-spacing: 4px;
+      background: none;
+      border: none;
+      padding: 0; }
+    header .mobile-content-container .commissionBtn:focus {
+      outline: 0; }
     header .mobile-content-container .horizontal-line {
       width: 95vw;
       border-bottom: 1px solid #999;
-      margin: 20px 0px 10px 20px; }
+      margin: 20px 0px 10px 0px; }
   header nav {
     display: flex;
     justify-content: space-between;

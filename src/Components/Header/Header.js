@@ -124,28 +124,29 @@ export default class Header extends Component {
                             <div className='horizontal-line'></div>
                             <li className='mobile-text-content' >PAINTINGS</li>
                                 <ul className='mobile-dropdown'>
-                                    <li>2006</li>
-                                    <li>2008</li>
-                                    <li>2010</li>
-                                    <li>2012</li>
-                                    <li>2014</li>
-                                    <li>2015</li>
+                                    <Link to='/paintings2006'><li onClick={this.handleClickMobile}>2006</li></Link>
+                                    <Link to='/paintings2008'><li onClick={this.handleClickMobile}>2008</li></Link>
+                                    <Link to='/paintings2010'><li onClick={this.handleClickMobile}>2010</li></Link>
+                                    <Link to='/paintings2012'><li onClick={this.handleClickMobile}>2012</li></Link>
+                                    <Link to='/paintings2014'><li onClick={this.handleClickMobile}>2014</li></Link>
+                                    <Link to='/paintings2015'><li onClick={this.handleClickMobile}>2015</li></Link>
                                 </ul>
                             <div className='horizontal-line'></div>
                             <li className='mobile-text-content' >WORKS ON PAPER</li>
                                 <ul className='mobile-dropdown'>
-                                    <li>2006</li>
-                                    <li>2012</li>
-                                    <li>2016</li>
+                                    <Link to='/works2006'><li onClick={this.handleClickMobile}>2006</li></Link>
+                                    <Link to='/works2009'><li onClick={this.handleClickMobile}>2009</li></Link>
+                                    <Link to='/works2012'><li onClick={this.handleClickMobile}>2012</li></Link>
+                                    <Link to='/works2016'><li onClick={this.handleClickMobile}>2016</li></Link>
                                 </ul>
                             <div className='horizontal-line'></div>
                             <li className='mobile-text-content'>PHOTO GALLERY</li>
                                 <ul className='mobile-dropdown'>
-                                        <li>Installation Photos</li>
-                                        <li>Student Work</li>
+                                    <Link to='/installation'><li onClick={this.handleClickMobile}>Installation Photos</li></Link>
+                                    <Link to='/studentwork'><li onClick={this.handleClickMobile}>Student Work</li></Link>
                                     </ul>
                             <div className='horizontal-line'></div>
-                            <li className='mobile-text-content'>COMMISSIONED WORK</li>
+                            <Link to='/commissioned'><button className='commissionMobileBtn' onClick={this.handleClickMobile}>Commissioned Work</button></Link>
                             <div className='horizontal-line'></div>
                             <li className='mobile-text-content'>ABOUT</li>
                             <div className='horizontal-line'></div>

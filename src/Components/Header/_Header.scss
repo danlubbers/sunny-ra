@@ -83,10 +83,27 @@ header {
                         font-size: 1em;
                     }
                 }
+                
+                    .commissionMobileBtn {
+                        margin: 10px 0px;
+                        font-size: 1.2em;
+                        font-family: $font;
+                        color: $font-color-grey;
+                        letter-spacing: 4px;
+                        background: none;
+                        border: none;
+                        padding: 0;   
+                
+                    }
+                    
+                    .commissionBtn:focus {
+                       outline: 0;
+                    }
+                
                .horizontal-line{
                 width: 95vw;
                 border-bottom: 1px solid #999;
-                margin: 20px 0px 10px 20px;
+                margin: 20px 0px 10px 0px;
               }
             }
 
