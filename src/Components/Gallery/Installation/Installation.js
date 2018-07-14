@@ -66,334 +66,381 @@ export default class Carousel extends Component {
         };
     
     return (
-        <div className='content-wrapper'>
-        <h1>Installation Images</h1>
-            <div className='carousel-container'>
-                <Slider ref={slider => (this.slider = slider)}{...settings} style={{position: 'relative',    zIndex: '500 !important'}}>
-            
-                    <div className='image-wrapper'>
-                        <div className='text-box'>
-                            {/* <h1></h1> */}
-                        </div>
-                        <div>
-                            <img className="carousel-image" src={installation1} alt=""/>
-                        </div>
-                    </div>
-                    <div className='image-wrapper'>
-                        <div className='text-box'>
-                            {/* <h1></h1> */}
-                        </div>
-                        <div>
-                            <img className="carousel-image" src={installation2} alt=""/>
-                        </div>
-                    </div>
-                    <div className='image-wrapper'>
-                        <div className='text-box'>
-                            {/* <h1></h1> */}
-                        </div>
-                        <div>
-                            <img className="carousel-image" src={installation3} alt=""/>
-                        </div>
-                    </div>
-                    <div className='image-wrapper'>
-                        <div className='text-box'>
-                            {/* <h1></h1> */}
-                        </div>
-                        <div>
-                            <img className="carousel-image" src={installation4} alt=""/>
-                        </div>
-                    </div>
-                    <div className='image-wrapper'>
-                        <div className='text-box'>
-                            {/* <h1></h1> */}
-                        </div>
-                        <div>
-                            <img className="carousel-image" src={installation5} alt=""/>
-                        </div>
-                    </div>
-                    <div className='image-wrapper'>
-                        <div className='text-box'>
-                            {/* <h1></h1> */}
-                        </div>
-                        <div>
-                            <img className="carousel-image" src={installation6} alt=""/>
-                        </div>
-                    </div>
-                    <div className='image-wrapper'>
-                        <div className='text-box'>
-                            {/* <h1></h1> */}
-                        </div>
-                        <div>
-                            <img className="carousel-image" src={installation7} alt=""/>
-                        </div>
-                    </div>
-                    <div className='image-wrapper'>
-                        <div className='text-box'>
-                            {/* <h1>G</h1> */}
-                        </div>
-                        <div>
-                            <img className="carousel-image" src={installation8} alt=""/>
-                        </div>
-                    </div>
-                    <div className='image-wrapper'>
-                        <div className='text-box'>
-                            {/* <h1></h1> */}
-                        </div>
-                        <div>
-                            <img className="carousel-image" src={installation9} alt=""/>
-                        </div>
-                    </div>
-                    <div className='image-wrapper'>
-                        <div className='text-box'>
-                            {/* <h1></h1> */}
-                        </div>
-                        <div>
-                            <img className="carousel-image" src={installation10} alt=""/>
-                        </div>
-                    </div>
-                    <div className='image-wrapper'>
-                        <div className='text-box'>
-                            {/* <h1></h1> */}
-                        </div>
-                        <div>
-                            <img className="carousel-image" src={installation11} alt=""/>
-                        </div>
-                    </div>
-                    <div className='image-wrapper'>
-                        <div className='text-box'>
-                            {/* <h1></h1> */}
-                        </div>
-                        <div>
-                            <img className="carousel-image" src={installation12} alt=""/>
-                        </div>
-                    </div>
-                    <div className='image-wrapper'>
-                        <div className='text-box'>
-                            {/* <h1></h1> */}
-                        </div>
-                        <div>
-                            <img className="carousel-image" src={installation13} alt=""/>
-                        </div>
-                    </div>
-                    <div className='image-wrapper'>
-                        <div className='text-box'>
-                            {/* <h1></h1> */}
-                        </div>
-                        <div>
-                            <img className="carousel-image" src={installation14} alt=""/>
-                        </div>
-                    </div>
-                    <div className='image-wrapper'>
-                        <div className='text-box'>
-                            {/* <h1></h1> */}
-                        </div>
-                        <div>
-                            <img className="carousel-image" src={installation15} alt=""/>
-                        </div>
-                    </div>
-                    <div className='image-wrapper'>
-                        <div className='text-box'>
-                            {/* <h1></h1> */}
-                        </div>
-                        <div>
-                            <img className="carousel-image" src={installation16} alt=""/>
-                        </div>
-                    </div>
-                    <div className='image-wrapper'>
-                        <div className='text-box'>
-                            {/* <h1></h1> */}
-                        </div>
-                        <div>
-                            <img className="carousel-image" src={installation17} alt=""/>
-                        </div>
-                    </div>
-                    <div className='image-wrapper'>
-                        <div className='text-box'>
-                            {/* <h1></h1> */}
-                        </div>
-                        <div>
-                            <img className="carousel-image" src={installation18} alt=""/>
-                        </div>
-                    </div>
-                    <div className='image-wrapper'>
-                        <div className='text-box'>
-                            {/* <h1></h1> */}
-                        </div>
-                        <div>
-                            <img className="carousel-image" src={installation19} alt=""/>
-                        </div>
-                    </div>
-                    <div className='image-wrapper'>
-                        <div className='text-box'>
-                            {/* <h1></h1> */}
-                        </div>
-                        <div>
-                            <img className="carousel-image" src={installation20} alt=""/>
-                        </div>
-                    </div>
-                    <div className='image-wrapper'>
-                        <div className='text-box'>
-                            {/* <h1></h1> */}
-                        </div>
-                        <div>
-                            <img className="carousel-image" src={installation21} alt=""/>
-                        </div>
-                    </div>
-                    <div className='image-wrapper'>
-                        <div className='text-box'>
-                            {/* <h1></h1> */}
-                        </div>
-                        <div>
-                            <img className="carousel-image" src={installation22} alt=""/>
-                        </div>
-                    </div>
-                    <div className='image-wrapper'>
-                        <div className='text-box'>
-                            {/* <h1></h1> */}
-                        </div>
-                        <div>
-                            <img className="carousel-image" src={installation23} alt=""/>
-                        </div>
-                    </div>
-                    <div className='image-wrapper'>
-                        <div className='text-box'>
-                            {/* <h1></h1> */}
-                        </div>
-                        <div>
-                            <img className="carousel-image" src={installation24} alt=""/>
-                        </div>
-                    </div>
-                    <div className='image-wrapper'>
-                        <div className='text-box'>
-                            {/* <h1></h1> */}
-                        </div>
-                        <div>
-                            <img className="carousel-image" src={installation25} alt=""/>
-                        </div>
-                    </div>
-                    <div className='image-wrapper'>
-                        <div className='text-box'>
-                            {/* <h1></h1> */}
-                        </div>
-                        <div>
-                            <img className="carousel-image" src={installation26} alt=""/>
-                        </div>
-                    </div>
-                    <div className='image-wrapper'>
-                        <div className='text-box'>
-                            {/* <h1></h1> */}
-                        </div>
-                        <div>
-                            <img className="carousel-image" src={installation27} alt=""/>
-                        </div>
-                    </div>
-                    <div className='image-wrapper'>
-                        <div className='text-box'>
-                            {/* <h1></h1> */}
-                        </div>
-                        <div>
-                            <img className="carousel-image" src={installation28} alt=""/>
-                        </div>
-                    </div>
-                    <div className='image-wrapper'>
-                        <div className='text-box'>
-                            {/* <h1></h1> */}
-                        </div>
-                        <div>
-                            <img className="carousel-image" src={installation29} alt=""/>
-                        </div>
-                    </div>
-                    <div className='image-wrapper'>
-                        <div className='text-box'>
-                            {/* <h1></h1> */}
-                        </div>
-                        <div>
-                            <img className="carousel-image" src={installation30} alt=""/>
-                        </div>
-                    </div>
-                    <div className='image-wrapper'>
-                        <div className='text-box'>
-                            {/* <h1></h1> */}
-                        </div>
-                        <div>
-                            <img className="carousel-image" src={installation31} alt=""/>
-                        </div>
-                    </div>
-                    <div className='image-wrapper'>
-                        <div className='text-box'>
-                            {/* <h1></h1> */}
-                        </div>
-                        <div>
-                            <img className="carousel-image" src={installation32} alt=""/>
-                        </div>
-                    </div>
-                    <div className='image-wrapper'>
-                        <div className='text-box'>
-                            {/* <h1></h1> */}
-                        </div>
-                        <div>
-                            <img className="carousel-image" src={installation33} alt=""/>
-                        </div>
-                    </div>
-                    <div className='image-wrapper'>
-                        <div className='text-box'>
-                            {/* <h1></h1> */}
-                        </div>
-                        <div>
-                            <img className="carousel-image" src={installation34} alt=""/>
-                        </div>
-                    </div>
-                    <div className='image-wrapper'>
-                        <div className='text-box'>
-                            {/* <h1></h1> */}
-                        </div>
-                        <div>
-                            <img className="carousel-image" src={installation35} alt=""/>
-                        </div>
-                    </div>
-                    <div className='image-wrapper'>
-                        <div className='text-box'>
-                            {/* <h1></h1> */}
-                        </div>
-                        <div>
-                            <img className="carousel-image" src={installation36} alt=""/>
-                        </div>
-                    </div>
-                    <div className='image-wrapper'>
-                        <div className='text-box'>
-                            {/* <h1></h1> */}
-                        </div>
-                        <div>
-                            <img className="carousel-image" src={installation37} alt=""/>
-                        </div>
-                    </div>
-                    <div className='image-wrapper'>
-                        <div className='text-box'>
-                            {/* <h1></h1> */}
-                        </div>
-                        <div>
-                            <img className="carousel-image" src={installation38} alt=""/>
-                        </div>
-                    </div>
-                    <div className='image-wrapper'>
-                        <div className='text-box'>
-                            {/* <h1></h1> */}
-                        </div>
-                        <div>
-                            <img className="carousel-image" src={installation39} alt=""/>
-                        </div>
-                    </div>
-                    <div className='image-wrapper'>
-                        <div className='text-box'>
-                            {/* <h1></h1> */}
-                        </div>
-                        <div>
-                            <img className="carousel-image" src={installation40} alt=""/>
-                        </div>
-                    </div>
+        <div className='installation-container'>
+            <div className='installation-container-desktop'>
+                <div className='content-wrapper'>
+                <h1>Installation Images</h1>
+                    <div className='carousel-container'>
+                        <Slider ref={slider => (this.slider = slider)}{...settings} style={{position: 'relative',    zIndex: '500 !important'}}>
+                    
+                            <div className='image-wrapper'>
+                                <div className='text-box'>
+                                    {/* <h1></h1> */}
+                                </div>
+                                <div>
+                                    <img className="carousel-image" src={installation1} alt=""/>
+                                </div>
+                            </div>
+                            <div className='image-wrapper'>
+                                <div className='text-box'>
+                                    {/* <h1></h1> */}
+                                </div>
+                                <div>
+                                    <img className="carousel-image" src={installation2} alt=""/>
+                                </div>
+                            </div>
+                            <div className='image-wrapper'>
+                                <div className='text-box'>
+                                    {/* <h1></h1> */}
+                                </div>
+                                <div>
+                                    <img className="carousel-image" src={installation3} alt=""/>
+                                </div>
+                            </div>
+                            <div className='image-wrapper'>
+                                <div className='text-box'>
+                                    {/* <h1></h1> */}
+                                </div>
+                                <div>
+                                    <img className="carousel-image" src={installation4} alt=""/>
+                                </div>
+                            </div>
+                            <div className='image-wrapper'>
+                                <div className='text-box'>
+                                    {/* <h1></h1> */}
+                                </div>
+                                <div>
+                                    <img className="carousel-image" src={installation5} alt=""/>
+                                </div>
+                            </div>
+                            <div className='image-wrapper'>
+                                <div className='text-box'>
+                                    {/* <h1></h1> */}
+                                </div>
+                                <div>
+                                    <img className="carousel-image" src={installation6} alt=""/>
+                                </div>
+                            </div>
+                            <div className='image-wrapper'>
+                                <div className='text-box'>
+                                    {/* <h1></h1> */}
+                                </div>
+                                <div>
+                                    <img className="carousel-image" src={installation7} alt=""/>
+                                </div>
+                            </div>
+                            <div className='image-wrapper'>
+                                <div className='text-box'>
+                                    {/* <h1>G</h1> */}
+                                </div>
+                                <div>
+                                    <img className="carousel-image" src={installation8} alt=""/>
+                                </div>
+                            </div>
+                            <div className='image-wrapper'>
+                                <div className='text-box'>
+                                    {/* <h1></h1> */}
+                                </div>
+                                <div>
+                                    <img className="carousel-image" src={installation9} alt=""/>
+                                </div>
+                            </div>
+                            <div className='image-wrapper'>
+                                <div className='text-box'>
+                                    {/* <h1></h1> */}
+                                </div>
+                                <div>
+                                    <img className="carousel-image" src={installation10} alt=""/>
+                                </div>
+                            </div>
+                            <div className='image-wrapper'>
+                                <div className='text-box'>
+                                    {/* <h1></h1> */}
+                                </div>
+                                <div>
+                                    <img className="carousel-image" src={installation11} alt=""/>
+                                </div>
+                            </div>
+                            <div className='image-wrapper'>
+                                <div className='text-box'>
+                                    {/* <h1></h1> */}
+                                </div>
+                                <div>
+                                    <img className="carousel-image" src={installation12} alt=""/>
+                                </div>
+                            </div>
+                            <div className='image-wrapper'>
+                                <div className='text-box'>
+                                    {/* <h1></h1> */}
+                                </div>
+                                <div>
+                                    <img className="carousel-image" src={installation13} alt=""/>
+                                </div>
+                            </div>
+                            <div className='image-wrapper'>
+                                <div className='text-box'>
+                                    {/* <h1></h1> */}
+                                </div>
+                                <div>
+                                    <img className="carousel-image" src={installation14} alt=""/>
+                                </div>
+                            </div>
+                            <div className='image-wrapper'>
+                                <div className='text-box'>
+                                    {/* <h1></h1> */}
+                                </div>
+                                <div>
+                                    <img className="carousel-image" src={installation15} alt=""/>
+                                </div>
+                            </div>
+                            <div className='image-wrapper'>
+                                <div className='text-box'>
+                                    {/* <h1></h1> */}
+                                </div>
+                                <div>
+                                    <img className="carousel-image" src={installation16} alt=""/>
+                                </div>
+                            </div>
+                            <div className='image-wrapper'>
+                                <div className='text-box'>
+                                    {/* <h1></h1> */}
+                                </div>
+                                <div>
+                                    <img className="carousel-image" src={installation17} alt=""/>
+                                </div>
+                            </div>
+                            <div className='image-wrapper'>
+                                <div className='text-box'>
+                                    {/* <h1></h1> */}
+                                </div>
+                                <div>
+                                    <img className="carousel-image" src={installation18} alt=""/>
+                                </div>
+                            </div>
+                            <div className='image-wrapper'>
+                                <div className='text-box'>
+                                    {/* <h1></h1> */}
+                                </div>
+                                <div>
+                                    <img className="carousel-image" src={installation19} alt=""/>
+                                </div>
+                            </div>
+                            <div className='image-wrapper'>
+                                <div className='text-box'>
+                                    {/* <h1></h1> */}
+                                </div>
+                                <div>
+                                    <img className="carousel-image" src={installation20} alt=""/>
+                                </div>
+                            </div>
+                            <div className='image-wrapper'>
+                                <div className='text-box'>
+                                    {/* <h1></h1> */}
+                                </div>
+                                <div>
+                                    <img className="carousel-image" src={installation21} alt=""/>
+                                </div>
+                            </div>
+                            <div className='image-wrapper'>
+                                <div className='text-box'>
+                                    {/* <h1></h1> */}
+                                </div>
+                                <div>
+                                    <img className="carousel-image" src={installation22} alt=""/>
+                                </div>
+                            </div>
+                            <div className='image-wrapper'>
+                                <div className='text-box'>
+                                    {/* <h1></h1> */}
+                                </div>
+                                <div>
+                                    <img className="carousel-image" src={installation23} alt=""/>
+                                </div>
+                            </div>
+                            <div className='image-wrapper'>
+                                <div className='text-box'>
+                                    {/* <h1></h1> */}
+                                </div>
+                                <div>
+                                    <img className="carousel-image" src={installation24} alt=""/>
+                                </div>
+                            </div>
+                            <div className='image-wrapper'>
+                                <div className='text-box'>
+                                    {/* <h1></h1> */}
+                                </div>
+                                <div>
+                                    <img className="carousel-image" src={installation25} alt=""/>
+                                </div>
+                            </div>
+                            <div className='image-wrapper'>
+                                <div className='text-box'>
+                                    {/* <h1></h1> */}
+                                </div>
+                                <div>
+                                    <img className="carousel-image" src={installation26} alt=""/>
+                                </div>
+                            </div>
+                            <div className='image-wrapper'>
+                                <div className='text-box'>
+                                    {/* <h1></h1> */}
+                                </div>
+                                <div>
+                                    <img className="carousel-image" src={installation27} alt=""/>
+                                </div>
+                            </div>
+                            <div className='image-wrapper'>
+                                <div className='text-box'>
+                                    {/* <h1></h1> */}
+                                </div>
+                                <div>
+                                    <img className="carousel-image" src={installation28} alt=""/>
+                                </div>
+                            </div>
+                            <div className='image-wrapper'>
+                                <div className='text-box'>
+                                    {/* <h1></h1> */}
+                                </div>
+                                <div>
+                                    <img className="carousel-image" src={installation29} alt=""/>
+                                </div>
+                            </div>
+                            <div className='image-wrapper'>
+                                <div className='text-box'>
+                                    {/* <h1></h1> */}
+                                </div>
+                                <div>
+                                    <img className="carousel-image" src={installation30} alt=""/>
+                                </div>
+                            </div>
+                            <div className='image-wrapper'>
+                                <div className='text-box'>
+                                    {/* <h1></h1> */}
+                                </div>
+                                <div>
+                                    <img className="carousel-image" src={installation31} alt=""/>
+                                </div>
+                            </div>
+                            <div className='image-wrapper'>
+                                <div className='text-box'>
+                                    {/* <h1></h1> */}
+                                </div>
+                                <div>
+                                    <img className="carousel-image" src={installation32} alt=""/>
+                                </div>
+                            </div>
+                            <div className='image-wrapper'>
+                                <div className='text-box'>
+                                    {/* <h1></h1> */}
+                                </div>
+                                <div>
+                                    <img className="carousel-image" src={installation33} alt=""/>
+                                </div>
+                            </div>
+                            <div className='image-wrapper'>
+                                <div className='text-box'>
+                                    {/* <h1></h1> */}
+                                </div>
+                                <div>
+                                    <img className="carousel-image" src={installation34} alt=""/>
+                                </div>
+                            </div>
+                            <div className='image-wrapper'>
+                                <div className='text-box'>
+                                    {/* <h1></h1> */}
+                                </div>
+                                <div>
+                                    <img className="carousel-image" src={installation35} alt=""/>
+                                </div>
+                            </div>
+                            <div className='image-wrapper'>
+                                <div className='text-box'>
+                                    {/* <h1></h1> */}
+                                </div>
+                                <div>
+                                    <img className="carousel-image" src={installation36} alt=""/>
+                                </div>
+                            </div>
+                            <div className='image-wrapper'>
+                                <div className='text-box'>
+                                    {/* <h1></h1> */}
+                                </div>
+                                <div>
+                                    <img className="carousel-image" src={installation37} alt=""/>
+                                </div>
+                            </div>
+                            <div className='image-wrapper'>
+                                <div className='text-box'>
+                                    {/* <h1></h1> */}
+                                </div>
+                                <div>
+                                    <img className="carousel-image" src={installation38} alt=""/>
+                                </div>
+                            </div>
+                            <div className='image-wrapper'>
+                                <div className='text-box'>
+                                    {/* <h1></h1> */}
+                                </div>
+                                <div>
+                                    <img className="carousel-image" src={installation39} alt=""/>
+                                </div>
+                            </div>
+                            <div className='image-wrapper'>
+                                <div className='text-box'>
+                                    {/* <h1></h1> */}
+                                </div>
+                                <div>
+                                    <img className="carousel-image" src={installation40} alt=""/>
+                                </div>
+                            </div>
 
-                </Slider>
+                        </Slider>
+                    </div>
+                </div>
             </div>
+            <div className='images-container-mobile'>
+                    <img className='mobile-images' src={installation1} alt=''/>
+                    <img className='mobile-images' src={installation2} alt=''/>
+                    <img className='mobile-images' src={installation3} alt=''/>
+                    <img className='mobile-images' src={installation4} alt=''/>
+                    <img className='mobile-images' src={installation5} alt=''/>
+                    <img className='mobile-images' src={installation6} alt=''/>
+                    <img className='mobile-images' src={installation7} alt=''/>
+                    <img className='mobile-images' src={installation8} alt=''/>
+                    <img className='mobile-images' src={installation9} alt=''/>
+                    <img className='mobile-images' src={installation10} alt=''/>
+                    <img className='mobile-images' src={installation11} alt=''/>
+                    <img className='mobile-images' src={installation12} alt=''/>
+                    <img className='mobile-images' src={installation13} alt=''/>
+                    <img className='mobile-images' src={installation14} alt=''/>
+                    <img className='mobile-images' src={installation15} alt=''/>
+                    <img className='mobile-images' src={installation16} alt=''/>
+                    <img className='mobile-images' src={installation17} alt=''/>
+                    <img className='mobile-images' src={installation18} alt=''/>
+                    <img className='mobile-images' src={installation19} alt=''/>
+                    <img className='mobile-images' src={installation20} alt=''/>
+                    <img className='mobile-images' src={installation21} alt=''/>
+                    <img className='mobile-images' src={installation22} alt=''/>
+                    <img className='mobile-images' src={installation23} alt=''/>
+                    <img className='mobile-images' src={installation24} alt=''/>
+                    <img className='mobile-images' src={installation25} alt=''/>
+                    <img className='mobile-images' src={installation26} alt=''/>
+                    <img className='mobile-images' src={installation27} alt=''/>
+                    <img className='mobile-images' src={installation28} alt=''/>
+                    <img className='mobile-images' src={installation29} alt=''/>
+                    <img className='mobile-images' src={installation30} alt=''/>
+                    <img className='mobile-images' src={installation31} alt=''/>
+                    <img className='mobile-images' src={installation30} alt=''/>
+                    <img className='mobile-images' src={installation32} alt=''/>
+                    <img className='mobile-images' src={installation33} alt=''/>
+                    <img className='mobile-images' src={installation34} alt=''/>
+                    <img className='mobile-images' src={installation35} alt=''/>
+                    <img className='mobile-images' src={installation36} alt=''/>
+                    <img className='mobile-images' src={installation37} alt=''/>
+                    <img className='mobile-images' src={installation38} alt=''/>
+                    <img className='mobile-images' src={installation39} alt=''/>
+                    <img className='mobile-images' src={installation40} alt=''/>
+                </div>
         </div>
     )
     }
