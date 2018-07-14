@@ -543,10 +543,7 @@ footer {
         margin-top: 50px; } }
     @media (max-width: 965px) {
       .content-wrapper .carousel-container {
-        margin-top: 75px; } }
-    @media (max-width: 768px) {
-      .content-wrapper .carousel-container {
-        margin-top: 100px; } }
+        display: none; } }
     .content-wrapper .carousel-container .text-box {
       position: fixed;
       height: 25px;
