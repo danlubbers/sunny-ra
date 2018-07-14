@@ -62,7 +62,7 @@ header {
       justify-content: center;
       margin: 10px 0px;
       font-size: 1em; }
-    header .mobile-content-container .commissionMobileBtn {
+    header .mobile-content-container .commissionMobileBtn, header .mobile-content-container .aboutMobileBtn, header .mobile-content-container .exhibitionsMobileBtn {
       margin: 10px 0px;
       font-size: 1.2em;
       font-family: "Montserrat", sans-serif;
@@ -71,7 +71,11 @@ header {
       background: none;
       border: none;
       padding: 0; }
-    header .mobile-content-container .commissionBtn:focus {
+    header .mobile-content-container .commissionMobileBtn:focus, header .mobile-content-container .aboutMobileBtn:focus, header .mobile-content-container .exhibitionsMobileBtn:focus {
+      outline: 0; }
+    header .mobile-content-container .aboutMobileBtn:focus {
+      outline: 0; }
+    header .mobile-content-container .exhibitionsMobileBtn:focus {
       outline: 0; }
     header .mobile-content-container .horizontal-line {
       width: 95vw;
@@ -311,7 +315,7 @@ header {
     top: 100px;
     right: 0px;
     opacity: 1;
-    z-index: 500; }
+    z-index: 595; }
   header .about-container {
     width: 85%;
     height: 100%;

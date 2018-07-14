@@ -96,10 +96,27 @@ header {
                 
                     }
                     
-                    .commissionBtn:focus {
+                    .commissionMobileBtn:focus {
                        outline: 0;
                     }
                 
+                    .aboutMobileBtn {
+                        @extend .commissionMobileBtn;
+                    }
+
+                    .aboutMobileBtn:focus {
+                        outline: 0;
+                    }
+
+                    .exhibitionsMobileBtn {
+                        @extend .commissionMobileBtn;
+                    }
+
+                    .exhibitionsMobileBtn:focus {
+                        outline: 0;
+                    }
+
+
                .horizontal-line{
                 width: 95vw;
                 border-bottom: 1px solid #999;
@@ -418,7 +435,7 @@ header {
         top: 100px;
         right: 0px;
         opacity: 1;
-        z-index: 500;
+        z-index: 595;
     }
     .about-container {
         width: 85%;
