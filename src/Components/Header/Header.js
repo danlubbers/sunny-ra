@@ -148,7 +148,7 @@ export default class Header extends Component {
                             <div className='horizontal-line'></div>
                             <Link to='/commissioned'><button className='commissionMobileBtn' onClick={this.handleClickMobile}>Commissioned Work</button></Link>
                             <div className='horizontal-line'></div>
-                            <li><button className='aboutMobileBtn' onClick={this.handleClickAbout} >About</button></li>
+                            <Link to="/aboutmobile"><button className='aboutMobileBtn' onClick={this.handleClickMobile} >About</button></Link>
                             <div className='horizontal-line'></div>
                             <li><button className='exhibitionsMobileBtn' onClick={this.handleClickExhibitions} >Exhibitions</button></li>
                             <div className='horizontal-line'></div>
