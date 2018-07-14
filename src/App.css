@@ -500,6 +500,9 @@ footer {
     footer .footer-content h1 {
       font-family: "Montserrat", sans-serif;
       color: #cc9780; }
+      @media (max-width: 576px) {
+        footer .footer-content h1 {
+          font-size: .7em; } }
   footer .danlubbers, footer a {
     color: #7d7d7d; }
   footer .danlubbers:hover {
@@ -510,16 +513,16 @@ footer {
   .home-container-desktop {
     display: none; } }
 
-.home-container-mobile {
+.images-container-mobile {
   width: 100vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center; }
   @media (min-width: 965px) {
-    .home-container-mobile {
+    .images-container-mobile {
       display: none; } }
-  .home-container-mobile .mobile-images {
+  .images-container-mobile .mobile-images {
     width: 90%;
     margin-top: 15px; }
 

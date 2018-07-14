@@ -1,0 +1,23 @@
+.paintings2006-container-desktop {
+
+    @media (max-width: #{$screen-lg}) {
+        display: none;
+    }
+}
+
+.images-container-mobile {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    @media (min-width: #{$screen-lg}) {
+        display: none;
+    }
+
+    .mobile-images {
+        width: 90%;
+        margin-top: 15px;
+    }
+}

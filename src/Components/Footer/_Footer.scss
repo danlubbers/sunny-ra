@@ -28,6 +28,11 @@ footer {
         h1{
             font-family: $font;
             color: $font-color;
+
+            @media (max-width: #{$screen-sm}) {
+                font-size: .7em;
+            }
+                       
         }
     }
         .danlubbers, a{

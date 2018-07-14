@@ -20,7 +20,7 @@ export default function Home() {
             <Carousel />
             </div>
 
-            <div className='home-container-mobile'>
+            <div className='images-container-mobile'>
                 <img className='mobile-images' src={blacksand} alt='blacksand'/>
                 <img className='mobile-images' src={mammoth} alt='mammoth'/>
                 <img className='mobile-images' src={flight} alt='flight'/>
