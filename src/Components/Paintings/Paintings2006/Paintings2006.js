@@ -29,8 +29,8 @@ export default class Paintings2006 extends Component {
         };
     
     return (
-        <div className='paintings2006-container'>
-            <div className='paintings2006-container-desktop'>
+        <div className='paintings-container'>
+            <div className='paintings-container-desktop'>
                 <div className='content-wrapper'>
                     <h1>2006 Paintings</h1>
                     <div className='carousel-container'>
@@ -80,13 +80,13 @@ export default class Paintings2006 extends Component {
                     </div>
                 </div>
             </div>
-            <div className='images-container-mobile'>
-                <img className='mobile-images' src={paintings20061} alt=''/>
-                <img className='mobile-images' src={paintings20062} alt=''/>
-                <img className='mobile-images' src={paintings20063} alt=''/>
-                <img className='mobile-images' src={paintings20064} alt=''/>
-                <img className='mobile-images' src={paintings20065} alt=''/>
-            </div>
+                <div className='images-container-mobile'>
+                    <img className='mobile-images' src={paintings20061} alt=''/>
+                    <img className='mobile-images' src={paintings20062} alt=''/>
+                    <img className='mobile-images' src={paintings20063} alt=''/>
+                    <img className='mobile-images' src={paintings20064} alt=''/>
+                    <img className='mobile-images' src={paintings20065} alt=''/>
+                </div>
         </div>
     )
     }

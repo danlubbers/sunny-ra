@@ -34,8 +34,8 @@ export default class Paintings2008 extends Component {
         };
     
     return (
-        <div className='paintings2008-container'>
-            <div className='paintings2008-container-desktop'>
+        <div className='paintings-container'>
+            <div className='paintings-container-desktop'>
                 <div className='content-wrapper'>
                     <h1>2008 Paintings</h1>
                     <div className='carousel-container'>
