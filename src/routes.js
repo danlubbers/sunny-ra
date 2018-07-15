@@ -24,6 +24,7 @@ import StudentWork from './Components/Gallery/StudentWork/StudentWork'
 import Commissioned from './Components/Commissioned/Commissioned'
 
 import AboutMobile from './Components/AboutMobile/AboutMobile';
+import ExhibitionMobile from './Components/ExhibitionMobile/ExhibitionMobile';
 
 export default (
     <Switch>
@@ -46,5 +47,6 @@ export default (
         <Route path="/commissioned" component={Commissioned} />
 
         <Route path="/aboutmobile" component={AboutMobile} />
+        <Route path="/exhibitionmobile" component={ExhibitionMobile} />
     </Switch>
 )

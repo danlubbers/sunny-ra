@@ -1,4 +1,10 @@
 .home-container-desktop {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    // background-color: yellow;
 
     @media (max-width: #{$screen-lg}) {
         display: none;

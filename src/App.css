@@ -512,9 +512,15 @@ footer {
     color: #969696;
     transition: .35s; }
 
-@media (max-width: 965px) {
-  .home-container-desktop {
-    display: none; } }
+.home-container-desktop {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; }
+  @media (max-width: 965px) {
+    .home-container-desktop {
+      display: none; } }
 
 .images-container-mobile {
   width: 100vw;
