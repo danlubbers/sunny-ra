@@ -14,6 +14,9 @@ export default class Header extends Component {
     
             this.state = {
                 showMobile: false,
+                showMobilePainting: false,
+                showMobileWorks: false,
+                showMobileGallery: false,
                 showPainting: false,
                 showWorks: false,
                 showGallery: false,
@@ -22,6 +25,7 @@ export default class Header extends Component {
                 showExhibitions: false
             }
             this.handleClickMobile = this.handleClickMobile.bind(this);
+            this.handleClickMobilePainting = this.handleClickMobilePainting.bind(this);
             this.handleOverPainting = this.handleOverPainting.bind(this);
             this.handleOverWorks = this.handleOverWorks.bind(this);
             this.handleOverGallery = this.handleOverGallery.bind(this);
@@ -33,6 +37,10 @@ export default class Header extends Component {
 
         handleClickMobile() {
             this.setState({showMobile: !this.state.showMobile})
+        }
+
+        handleClickMobilePainting() {
+            this.setState({showMobilePainting: !this.state.showMobilePainting})
         }
 
         handleOverPainting() {
@@ -103,8 +111,9 @@ export default class Header extends Component {
 
     render() {
         let email = 'sunnyra23@gmail.com'
-        let {showAbout, showPainting, showWorks, showGallery, showExhibitions, showMobile} = this.state;
+        let {showAbout, showPainting, showWorks, showGallery, showExhibitions, showMobile, showMobilePainting, showMobileWorks, showMobileGallery} = this.state;
         let mobileDropDown = showMobile ? 'slide-mobile slide-mobile-position' : 'slide-mobile';
+        let mobilePainting = showMobilePainting ? 'slide-mobile-painting slide-mobile-painting-position' : 'slide-mobile-painting';
         let exhibitionsDropdown = showExhibitions ?  'slide-exhibitions slide-exhibitions-position' : 'slide-exhibitions';
         let aboutDropDown = showAbout ? 'slide-about slide-about-position' : 'slide-about';
         let paintingDropDown = showPainting ? 'slide-painting slide-painting-position' : 'slide-painting';
@@ -132,7 +141,7 @@ export default class Header extends Component {
                                     <Link to='/paintings2015'><li onClick={this.handleClickMobile}>2015</li></Link>
                                 </ul>
                             <div className='horizontal-line'></div>
-                            <li className='mobile-text-content' >WORKS ON PAPER</li>
+                            <li className='mobile-text-content'>WORKS ON PAPER</li>
                                 <ul className='mobile-dropdown'>
                                     <Link to='/works2006'><li onClick={this.handleClickMobile}>2006</li></Link>
                                     <Link to='/works2009'><li onClick={this.handleClickMobile}>2009</li></Link>
