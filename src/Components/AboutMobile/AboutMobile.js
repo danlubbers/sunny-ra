@@ -17,10 +17,10 @@ export default function AboutMobile () {
                     <h3 className='artist-educator-mobile'>ARTIST / EDUCATOR</h3>
                     <br/>
                     <h3>Education:</h3>
-                    <h4>Hunter College, CUNY; Master of Fine Arts</h4>
-                    <h4>University of Pennsylvania; Bachelor of Fine Arts, Cum Laude</h4>
-                    <h4>Pennsylvania Academy of the Fine Arts; Painting Certificate</h4>
-                    <h4>Penn Study Abroad; London, England</h4>
+                    <li>Hunter College, CUNY; Master of Fine Arts</li>
+                    <li>University of Pennsylvania; Bachelor of Fine Arts, Cum Laude</li>
+                    <li>Pennsylvania Academy of the Fine Arts; Painting Certificate</li>
+                    <li>Penn Study Abroad; London, England</li>
                     <br/>
                     <h3>Other Art Related Experience:</h3>
                     <h4>Vermont Studio Center Residency</h4>
