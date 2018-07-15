@@ -625,6 +625,57 @@ footer {
       color: #646464;
       text-transform: uppercase; }
 
+.exhibition-container-mobile {
+  width: 100%;
+  height: 100%;
+  padding: 0px 15px 15px 15px;
+  background-color: #191919;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center; }
+  .exhibition-container-mobile .awards-container-mobile, .exhibition-container-mobile .exhibition-history-mobile {
+    width: 100%;
+    padding-left: 10px; }
+    .exhibition-container-mobile .awards-container-mobile h3, .exhibition-container-mobile .exhibition-history-mobile h3, .exhibition-container-mobile .awards-container-mobile header .about-container .education-container h4, header .about-container .education-container .exhibition-container-mobile .awards-container-mobile h4, .exhibition-container-mobile .exhibition-history-mobile header .about-container .education-container h4, header .about-container .education-container .exhibition-container-mobile .exhibition-history-mobile h4, .exhibition-container-mobile .awards-container-mobile header .exhibition-container .exhibition-history li, header .exhibition-container .exhibition-history .exhibition-container-mobile .awards-container-mobile li, .exhibition-container-mobile .exhibition-history-mobile header .exhibition-container .exhibition-history li, header .exhibition-container .exhibition-history .exhibition-container-mobile .exhibition-history-mobile li, .exhibition-container-mobile .awards-container-mobile header .exhibition-container .awards-container h4, header .exhibition-container .awards-container .exhibition-container-mobile .awards-container-mobile h4, .exhibition-container-mobile .exhibition-history-mobile header .exhibition-container .awards-container h4, header .exhibition-container .awards-container .exhibition-container-mobile .exhibition-history-mobile h4 {
+      margin-top: 15px;
+      font-family: "Montserrat", sans-serif;
+      line-height: 20px;
+      letter-spacing: 1.5px;
+      font-size: 1em;
+      color: #646464;
+      text-transform: uppercase;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start; }
+    .exhibition-container-mobile .awards-container-mobile li, .exhibition-container-mobile .exhibition-history-mobile li {
+      margin-top: 0px;
+      font-family: "Montserrat", sans-serif;
+      font-size: .8em;
+      color: #afafaf;
+      line-height: 20px;
+      letter-spacing: 1.5px;
+      text-transform: uppercase; }
+  .exhibition-container-mobile .exhibition-history-mobile h3, .exhibition-container-mobile .exhibition-history-mobile header .about-container .education-container h4, header .about-container .education-container .exhibition-container-mobile .exhibition-history-mobile h4, .exhibition-container-mobile .exhibition-history-mobile header .exhibition-container .exhibition-history li, header .exhibition-container .exhibition-history .exhibition-container-mobile .exhibition-history-mobile li, .exhibition-container-mobile .exhibition-history-mobile header .exhibition-container .awards-container h4, header .exhibition-container .awards-container .exhibition-container-mobile .exhibition-history-mobile h4 {
+    margin-top: 15px;
+    font-family: "Montserrat", sans-serif;
+    line-height: 20px;
+    letter-spacing: 1.5px;
+    font-size: 1em;
+    color: #646464;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; }
+  .exhibition-container-mobile .exhibition-history-mobile li {
+    margin-top: 0px;
+    font-family: "Montserrat", sans-serif;
+    font-size: .8em;
+    color: #afafaf;
+    line-height: 20px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase; }
+
 html {
   height: 100vh;
   width: 100vw; }

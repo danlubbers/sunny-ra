@@ -1,8 +1,5 @@
 import React from 'react'
-
 import SunnyPortrait2 from '../../assets/sunny-portrait-2.jpg';
-// Icons
-import CloseIcon from 'react-icons/lib/fa/times-circle';
 
 export default function AboutMobile () {
 
