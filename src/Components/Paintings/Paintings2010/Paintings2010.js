@@ -7,7 +7,9 @@ import paintings20103 from '../../../assets/images/paintings/2010/paintings2010-
 import paintings20104 from '../../../assets/images/paintings/2010/paintings2010-4.jpg';
 import paintings20105 from '../../../assets/images/paintings/2010/paintings2010-5.jpg';
 import paintings20106 from '../../../assets/images/paintings/2010/paintings2010-6.jpg';
+import paintings20106M from '../../../assets/images/paintings/2010/paintings2010-6-mobile.jpg';
 import paintings20107 from '../../../assets/images/paintings/2010/paintings2010-7.jpg';
+import paintings20107M from '../../../assets/images/paintings/2010/paintings2010-7-mobile.jpg';
 import paintings20108 from '../../../assets/images/paintings/2010/paintings2010-8.jpg';
 
 
@@ -115,8 +117,8 @@ export default class Paintings2010 extends Component {
                 <img className='mobile-images' src={paintings20103} alt=''/>
                 <img className='mobile-images' src={paintings20104} alt=''/>
                 <img className='mobile-images' src={paintings20105} alt=''/>
-                <img className='mobile-images' src={paintings20106} alt=''/>
-                <img className='mobile-images' src={paintings20107} alt=''/>
+                <img className='mobile-images' src={paintings20106M} alt=''/>
+                <img className='mobile-images' src={paintings20107M} alt=''/>
                 <img className='mobile-images' src={paintings20108} alt=''/>
             </div>
         </div>

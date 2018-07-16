@@ -5,7 +5,9 @@ import commissioned1 from '../../assets/images/commissioned/commissioned-1.jpg';
 import commissioned2 from '../../assets/images/commissioned/commissioned-2.jpg';
 import commissioned3 from '../../assets/images/commissioned/commissioned-3.jpg';
 import commissioned4 from '../../assets/images/commissioned/commissioned-4.jpg';
+import commissioned4M from '../../assets/images/commissioned/commissioned-4-mobile.jpg';
 import commissioned5 from '../../assets/images/commissioned/commissioned-5.jpg';
+import commissioned5M from '../../assets/images/commissioned/commissioned-5-mobile.jpg';
 import commissioned6 from '../../assets/images/commissioned/commissioned-6.jpg';
 import commissioned7 from '../../assets/images/commissioned/commissioned-7.jpg';
 import commissioned8 from '../../assets/images/commissioned/commissioned-8.jpg';
@@ -148,8 +150,8 @@ export default class Carousel extends Component {
                     <img className='mobile-images' src={commissioned1} alt=''/>
                     <img className='mobile-images' src={commissioned2} alt=''/>
                     <img className='mobile-images' src={commissioned3} alt=''/>
-                    <img className='mobile-images' src={commissioned4} alt=''/>
-                    <img className='mobile-images' src={commissioned5} alt=''/>
+                    <img className='mobile-images' src={commissioned4M} alt=''/>
+                    <img className='mobile-images' src={commissioned5M} alt=''/>
                     <img className='mobile-images' src={commissioned6} alt=''/>
                     <img className='mobile-images' src={commissioned7} alt=''/>
                     <img className='mobile-images' src={commissioned8} alt=''/>

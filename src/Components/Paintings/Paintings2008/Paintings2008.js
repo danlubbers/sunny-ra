@@ -4,11 +4,17 @@ import Slider from 'react-slick';
 import paintings20081 from '../../../assets/images/paintings/2008/paintings2008-1.jpg';
 import paintings20082 from '../../../assets/images/paintings/2008/paintings2008-2.jpg';
 import paintings20083 from '../../../assets/images/paintings/2008/paintings2008-3.jpg';
+import paintings20083M from '../../../assets/images/paintings/2008/paintings2008-3-mobile.jpg';
 import paintings20084 from '../../../assets/images/paintings/2008/paintings2008-4.jpg';
+import paintings20084M from '../../../assets/images/paintings/2008/paintings2008-4-mobile.jpg';
 import paintings20085 from '../../../assets/images/paintings/2008/paintings2008-5.jpg';
+import paintings20085M from '../../../assets/images/paintings/2008/paintings2008-5-mobile.jpg';
 import paintings20086 from '../../../assets/images/paintings/2008/paintings2008-6.jpg';
+import paintings20086M from '../../../assets/images/paintings/2008/paintings2008-6-mobile.jpg';
 import paintings20087 from '../../../assets/images/paintings/2008/paintings2008-7.jpg';
+import paintings20087M from '../../../assets/images/paintings/2008/paintings2008-7-mobile.jpg';
 import paintings20088 from '../../../assets/images/paintings/2008/paintings2008-8.jpg';
+import paintings20088M from '../../../assets/images/paintings/2008/paintings2008-8-mobile.jpg';
 import paintings20089 from '../../../assets/images/paintings/2008/paintings2008-9.jpg';
 
 
@@ -120,12 +126,12 @@ export default class Paintings2008 extends Component {
                 <div className='images-container-mobile'>
                     <img className='mobile-images' src={paintings20081} alt=''/>
                     <img className='mobile-images' src={paintings20082} alt=''/>
-                    <img className='mobile-images' src={paintings20083} alt=''/>
-                    <img className='mobile-images' src={paintings20084} alt=''/>
-                    <img className='mobile-images' src={paintings20085} alt=''/>
-                    <img className='mobile-images' src={paintings20086} alt=''/>
-                    <img className='mobile-images' src={paintings20087} alt=''/>
-                    <img className='mobile-images' src={paintings20088} alt=''/>
+                    <img className='mobile-images' src={paintings20083M} alt=''/>
+                    <img className='mobile-images' src={paintings20084M} alt=''/>
+                    <img className='mobile-images' src={paintings20085M} alt=''/>
+                    <img className='mobile-images' src={paintings20086M} alt=''/>
+                    <img className='mobile-images' src={paintings20087M} alt=''/>
+                    <img className='mobile-images' src={paintings20088M} alt=''/>
                     <img className='mobile-images' src={paintings20089} alt=''/>
                 </div>
         </div>

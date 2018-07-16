@@ -22,7 +22,9 @@ import studentwork18 from '../../../assets/images/studentwork/studentwork-18.jpg
 import studentwork19 from '../../../assets/images/studentwork/studentwork-19.jpg';
 import studentwork20 from '../../../assets/images/studentwork/studentwork-20.jpg';
 import studentwork21 from '../../../assets/images/studentwork/studentwork-21.jpg';
+import studentwork21M from '../../../assets/images/studentwork/studentwork-21-mobile.jpg';
 import studentwork22 from '../../../assets/images/studentwork/studentwork-22.jpg';
+import studentwork22M from '../../../assets/images/studentwork/studentwork-22-mobile.jpg';
 import studentwork23 from '../../../assets/images/studentwork/studentwork-23.jpg';
 import studentwork24 from '../../../assets/images/studentwork/studentwork-24.jpg';
 import studentwork25 from '../../../assets/images/studentwork/studentwork-25.jpg';
@@ -365,8 +367,8 @@ export default class Carousel extends Component {
                     <img className='mobile-images' src={studentwork18} alt=''/>
                     <img className='mobile-images' src={studentwork19} alt=''/>
                     <img className='mobile-images' src={studentwork20} alt=''/>
-                    <img className='mobile-images' src={studentwork21} alt=''/>
-                    <img className='mobile-images' src={studentwork22} alt=''/>
+                    <img className='mobile-images' src={studentwork21M} alt=''/>
+                    <img className='mobile-images' src={studentwork22M} alt=''/>
                     <img className='mobile-images' src={studentwork23} alt=''/>
                     <img className='mobile-images' src={studentwork24} alt=''/>
                     <img className='mobile-images' src={studentwork25} alt=''/>

@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import Slider from 'react-slick';
 
 import installation1 from '../../../assets/images/installation/installation-1.jpg';
+import installation1M from '../../../assets/images/installation/installation-1-mobile.jpg';
 import installation2 from '../../../assets/images/installation/installation-2.jpg';
 import installation3 from '../../../assets/images/installation/installation-3.jpg';
 import installation4 from '../../../assets/images/installation/installation-4.jpg';
@@ -399,7 +400,7 @@ export default class Carousel extends Component {
                 </div>
             </div>
             <div className='images-container-mobile'>
-                    <img className='mobile-images' src={installation1} alt=''/>
+                    <img className='mobile-images' src={installation1M} alt=''/>
                     <img className='mobile-images' src={installation2} alt=''/>
                     <img className='mobile-images' src={installation3} alt=''/>
                     <img className='mobile-images' src={installation4} alt=''/>

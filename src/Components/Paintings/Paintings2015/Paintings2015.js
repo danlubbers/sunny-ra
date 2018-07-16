@@ -7,6 +7,7 @@ import paintings20153 from '../../../assets/images/paintings/2015/paintings2015-
 import paintings20154 from '../../../assets/images/paintings/2015/paintings2015-4.jpg';
 import paintings20155 from '../../../assets/images/paintings/2015/paintings2015-5.jpg';
 import paintings20156 from '../../../assets/images/paintings/2015/paintings2015-6.jpg';
+import paintings20156M from '../../../assets/images/paintings/2015/paintings2015-6-mobile.jpg';
 import paintings20157 from '../../../assets/images/paintings/2015/paintings2015-7.jpg';
 import paintings20158 from '../../../assets/images/paintings/2015/paintings2015-8.jpg';
 import paintings20159 from '../../../assets/images/paintings/2015/paintings2015-9.jpg';
@@ -124,7 +125,7 @@ export default class Paintings2015 extends Component {
                     <img className='mobile-images' src={paintings20153} alt=''/>
                     <img className='mobile-images' src={paintings20154} alt=''/>
                     <img className='mobile-images' src={paintings20155} alt=''/>
-                    <img className='mobile-images' src={paintings20156} alt=''/>
+                    <img className='mobile-images' src={paintings20156M} alt=''/>
                     <img className='mobile-images' src={paintings20157} alt=''/>
                     <img className='mobile-images' src={paintings20158} alt=''/>
                     <img className='mobile-images' src={paintings20159} alt=''/>

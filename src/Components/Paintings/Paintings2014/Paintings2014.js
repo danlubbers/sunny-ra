@@ -2,12 +2,14 @@ import React, {Component} from 'react';
 import Slider from 'react-slick';
 
 import paintings20141 from '../../../assets/images/paintings/2014/paintings2014-1.jpg';
+import paintings20141M from '../../../assets/images/paintings/2014/paintings2014-1-mobile.jpg';
 import paintings20142 from '../../../assets/images/paintings/2014/paintings2014-2.jpg';
 import paintings20143 from '../../../assets/images/paintings/2014/paintings2014-3.jpg';
 import paintings20144 from '../../../assets/images/paintings/2014/paintings2014-4.jpg';
 import paintings20145 from '../../../assets/images/paintings/2014/paintings2014-5.jpg';
 import paintings20146 from '../../../assets/images/paintings/2014/paintings2014-6.jpg';
 import paintings20147 from '../../../assets/images/paintings/2014/paintings2014-7.jpg';
+import paintings20147M from '../../../assets/images/paintings/2014/paintings2014-7-mobile.jpg';
 import paintings20148 from '../../../assets/images/paintings/2014/paintings2014-8.jpg';
 
 
@@ -110,13 +112,13 @@ export default class Paintings2014 extends Component {
                 </div>
             </div>
                 <div className='images-container-mobile'>
-                    <img className='mobile-images' src={paintings20141} alt=''/>
+                    <img className='mobile-images' src={paintings20141M} alt=''/>
                     <img className='mobile-images' src={paintings20142} alt=''/>
                     <img className='mobile-images' src={paintings20143} alt=''/>
                     <img className='mobile-images' src={paintings20144} alt=''/>
                     <img className='mobile-images' src={paintings20145} alt=''/>
                     <img className='mobile-images' src={paintings20146} alt=''/>
-                    <img className='mobile-images' src={paintings20147} alt=''/>
+                    <img className='mobile-images' src={paintings20147M} alt=''/>
                     <img className='mobile-images' src={paintings20148} alt=''/>
                 </div>
         </div>
