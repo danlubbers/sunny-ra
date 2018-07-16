@@ -66,6 +66,7 @@ header {
                    align-items: center;
 
                .mobile-text-content {
+                   margin: 10px 0px;
                    font-size: 1.2em;
                    color: $font-color-grey;
                    font-family: $font;
@@ -81,8 +82,9 @@ header {
                         @extend .mobile-text-content;
                         display: flex;
                         justify-content: center;
-                        margin: 10px 0px;
+                        margin: 20px 0px 10px 0px;
                         font-size: 1em;
+                        color: rgb(125, 125, 125);
                     }
                 }
                 

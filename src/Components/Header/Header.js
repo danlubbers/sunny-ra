@@ -15,9 +15,6 @@ export default class Header extends Component {
     
             this.state = {
                 showMobile: false,
-                showMobilePainting: false,
-                showMobileWorks: false,
-                showMobileGallery: false,
                 showPainting: false,
                 showWorks: false,
                 showGallery: false,
@@ -112,9 +109,8 @@ export default class Header extends Component {
 
     render() {
         let email = 'sunnyra23@gmail.com'
-        let {showAbout, showPainting, showWorks, showGallery, showExhibitions, showMobile, showMobilePainting, showMobileWorks, showMobileGallery} = this.state;
+        let {showAbout, showPainting, showWorks, showGallery, showExhibitions, showMobile} = this.state;
         let mobileDropDown = showMobile ? 'slide-mobile slide-mobile-position' : 'slide-mobile';
-        let mobilePainting = showMobilePainting ? 'slide-mobile-painting slide-mobile-painting-position' : 'slide-mobile-painting';
         let exhibitionsDropdown = showExhibitions ?  'slide-exhibitions slide-exhibitions-position' : 'slide-exhibitions';
         let aboutDropDown = showAbout ? 'slide-about slide-about-position' : 'slide-about';
         let paintingDropDown = showPainting ? 'slide-painting slide-painting-position' : 'slide-painting';
@@ -132,7 +128,6 @@ export default class Header extends Component {
                     <div className={mobileDropDown}>
                         <ul className='mobile-content-container'>
                             <div className='horizontal-line'></div>
-
                             <Toggle>
                                 {({on, toggle})=> (
                                     <div>
@@ -150,9 +145,7 @@ export default class Header extends Component {
                                     </div>
                                 )}
                             </Toggle>
-
                             <div className='horizontal-line'></div>
-
                             <Toggle>
                                 {({on, toggle})=> (
                                     <div>
@@ -168,7 +161,6 @@ export default class Header extends Component {
                                     </div>
                                 )}
                             </Toggle>
-                            
                             <div className='horizontal-line'></div>
                             <Toggle>
                                 {({on, toggle})=> (
@@ -176,14 +168,13 @@ export default class Header extends Component {
                                         <li className='mobile-text-content' onClick={toggle}>PHOTO GALLERY</li>
                                         {on && 
                                             <ul className='mobile-dropdown'>
-                                                <Link to='/installation'><li onClick={this.handleClickMobile}>Installation Photos</li></Link>
+                                                <Link to='/installation'><li onClick={this.handleClickMobile}>Installations</li></Link>
                                                 <Link to='/studentwork'><li onClick={this.handleClickMobile}>Student Work</li></Link>
                                             </ul>
                                         }
                                     </div>
                                 )}
                             </Toggle>
-                             
                             <div className='horizontal-line'></div>
                             <Link to='/commissioned'><button className='commissionMobileBtn' onClick={this.handleClickMobile}>Commissioned Work</button></Link>
                             <div className='horizontal-line'></div>
