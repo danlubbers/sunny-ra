@@ -150,21 +150,40 @@ export default class Header extends Component {
                                     </div>
                                 )}
                             </Toggle>
+
+                            <div className='horizontal-line'></div>
+
+                            <Toggle>
+                                {({on, toggle})=> (
+                                    <div>
+                                        <li className='mobile-text-content' onClick={toggle}>WORKS ON PAPER</li>
+                                        {on && 
+                                            <ul className='mobile-dropdown'>
+                                                <Link to='/works2006'><li onClick={this.handleClickMobile}>2006</li></Link>
+                                                <Link to='/works2009'><li onClick={this.handleClickMobile}>2009</li></Link>
+                                                <Link to='/works2012'><li onClick={this.handleClickMobile}>2012</li></Link>
+                                                <Link to='/works2016'><li onClick={this.handleClickMobile}>2016</li></Link>
+                                            </ul>
+                                        }
+                                    </div>
+                                )}
+                            </Toggle>
                             
                             <div className='horizontal-line'></div>
-                            <li className='mobile-text-content'>WORKS ON PAPER</li>
-                                <ul className='mobile-dropdown'>
-                                    <Link to='/works2006'><li onClick={this.handleClickMobile}>2006</li></Link>
-                                    <Link to='/works2009'><li onClick={this.handleClickMobile}>2009</li></Link>
-                                    <Link to='/works2012'><li onClick={this.handleClickMobile}>2012</li></Link>
-                                    <Link to='/works2016'><li onClick={this.handleClickMobile}>2016</li></Link>
-                                </ul>
-                            <div className='horizontal-line'></div>
-                            <li className='mobile-text-content'>PHOTO GALLERY</li>
-                                <ul className='mobile-dropdown'>
-                                    <Link to='/installation'><li onClick={this.handleClickMobile}>Installation Photos</li></Link>
-                                    <Link to='/studentwork'><li onClick={this.handleClickMobile}>Student Work</li></Link>
-                                    </ul>
+                            <Toggle>
+                                {({on, toggle})=> (
+                                    <div>
+                                        <li className='mobile-text-content' onClick={toggle}>PHOTO GALLERY</li>
+                                        {on && 
+                                            <ul className='mobile-dropdown'>
+                                                <Link to='/installation'><li onClick={this.handleClickMobile}>Installation Photos</li></Link>
+                                                <Link to='/studentwork'><li onClick={this.handleClickMobile}>Student Work</li></Link>
+                                            </ul>
+                                        }
+                                    </div>
+                                )}
+                            </Toggle>
+                             
                             <div className='horizontal-line'></div>
                             <Link to='/commissioned'><button className='commissionMobileBtn' onClick={this.handleClickMobile}>Commissioned Work</button></Link>
                             <div className='horizontal-line'></div>
