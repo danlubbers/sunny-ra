@@ -1,5 +1,6 @@
 import React, {Component} from 'react'
 import {Link} from 'react-router-dom';
+import Toggle from '../../Components/Toggle/Toggle';
 // Images
 import SunnyLogo from '../../assets/sunny-ra-logo.png';
 // import SunnyPortrait from '../../assets/sunny-portrait.jpg';
@@ -131,15 +132,25 @@ export default class Header extends Component {
                     <div className={mobileDropDown}>
                         <ul className='mobile-content-container'>
                             <div className='horizontal-line'></div>
-                            <li className='mobile-text-content' >PAINTINGS</li>
-                                <ul className='mobile-dropdown'>
-                                    <Link to='/paintings2006'><li onClick={this.handleClickMobile}>2006</li></Link>
-                                    <Link to='/paintings2008'><li onClick={this.handleClickMobile}>2008</li></Link>
-                                    <Link to='/paintings2010'><li onClick={this.handleClickMobile}>2010</li></Link>
-                                    <Link to='/paintings2012'><li onClick={this.handleClickMobile}>2012</li></Link>
-                                    <Link to='/paintings2014'><li onClick={this.handleClickMobile}>2014</li></Link>
-                                    <Link to='/paintings2015'><li onClick={this.handleClickMobile}>2015</li></Link>
-                                </ul>
+
+                            <Toggle>
+                                {({on, toggle})=> (
+                                    <div>
+                                        <li className='mobile-text-content' onClick={toggle} >Paintings</li>
+                                            {on && 
+                                            <ul className='mobile-dropdown'>
+                                                <Link to='/paintings2006'><li onClick={this.handleClickMobile}>2006</li></Link>
+                                                <Link to='/paintings2008'><li onClick={this.handleClickMobile}>2008</li></Link>
+                                                <Link to='/paintings2010'><li onClick={this.handleClickMobile}>2010</li></Link>
+                                                <Link to='/paintings2012'><li onClick={this.handleClickMobile}>2012</li></Link>
+                                                <Link to='/paintings2014'><li onClick={this.handleClickMobile}>2014</li></Link>
+                                                <Link to='/paintings2015'><li onClick={this.handleClickMobile}>2015</li></Link>
+                                            </ul>
+                                            }
+                                    </div>
+                                )}
+                            </Toggle>
+                            
                             <div className='horizontal-line'></div>
                             <li className='mobile-text-content'>WORKS ON PAPER</li>
                                 <ul className='mobile-dropdown'>
