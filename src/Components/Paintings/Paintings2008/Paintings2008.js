@@ -52,7 +52,7 @@ export default class Paintings2008 extends Component {
                                     <h1  className='text-overlay'>Float 46in x 70in oil on canvas October 2009 SOLD</h1>
                                 </div>
                                 <div>
-                                    <img className="carousel-image" src={paintings20081} alt=""/>
+                                    <img className="carousel-image" src={paintings20081} alt="Float"/>
                                 </div>
                             </div>
                             <div className='image-wrapper'>
@@ -60,7 +60,7 @@ export default class Paintings2008 extends Component {
                                 <h1  className='text-overlay'>Left Behind 42in x 32in oil on canvas October 2010 SOLD</h1>
                                 </div>
                                 <div>
-                                    <img className="carousel-image" src={paintings20082} alt=""/>
+                                    <img className="carousel-image" src={paintings20082} alt="Left Behind"/>
                                 </div>
                             </div>
                             <div className='image-wrapper'>
@@ -68,7 +68,7 @@ export default class Paintings2008 extends Component {
                                 <h1  className='text-overlay'>Fallen 20in x 46in oil on canvas November 2009 SOLD</h1>
                                 </div>
                                 <div>
-                                    <img className="carousel-image" src={paintings20083} alt=""/>
+                                    <img className="carousel-image" src={paintings20083} alt="Fallen"/>
                                 </div>
                             </div>
                             <div className='image-wrapper'>
@@ -76,7 +76,7 @@ export default class Paintings2008 extends Component {
                                 <h1  className='text-overlay'>Taking You Out 20in x 46in oil on canvas October 2009 SOLD</h1>
                                 </div>
                                 <div>
-                                    <img className="carousel-image" src={paintings20084} alt=""/>
+                                    <img className="carousel-image" src={paintings20084} alt="Taking You Out"/>
                                 </div>
                             </div>
                             <div className='image-wrapper'>
@@ -84,7 +84,7 @@ export default class Paintings2008 extends Component {
                                 <h1  className='text-overlay'>Aftershock 20in x 46in oil on canvas September 2009</h1>
                                 </div>
                                 <div>
-                                    <img className="carousel-image" src={paintings20085} alt=""/>
+                                    <img className="carousel-image" src={paintings20085} alt="Aftershock"/>
                                 </div>
                             </div>
                             <div className='image-wrapper'>
@@ -92,7 +92,7 @@ export default class Paintings2008 extends Component {
                                 <h1  className='text-overlay'>Burn Out Bright 20in x 46in oil on canvas September 2009</h1>
                                 </div>
                                 <div>
-                                    <img className="carousel-image" src={paintings20086} alt=""/>
+                                    <img className="carousel-image" src={paintings20086} alt="Burn Out Bright"/>
                                 </div>
                             </div>
                             <div className='image-wrapper'>
@@ -100,15 +100,15 @@ export default class Paintings2008 extends Component {
                                 <h1  className='text-overlay'>Runway 20in x 46in oil on canvas August 2009</h1>
                                 </div>
                                 <div>
-                                    <img className="carousel-image" src={paintings20087} alt=""/>
+                                    <img className="carousel-image" src={paintings20087} alt="Runway"/>
                                 </div>
                             </div>
                             <div className='image-wrapper'>
                                 <div className='text-box'>
-                                <h1  className='text-overlay'></h1>
+                                {/* <h1  className='text-overlay'></h1> */}
                                 </div>
                                 <div>
-                                    <img className="carousel-image" src={paintings20088} alt=""/>
+                                    <img className="carousel-image" src={paintings20088} alt="untitled"/>
                                 </div>
                             </div>
                             <div className='image-wrapper'>
@@ -116,7 +116,7 @@ export default class Paintings2008 extends Component {
                                 <h1  className='text-overlay'>Blur 16 ft across acrylic paint, pastel, graphite, vellum and canvas November 2009</h1>
                                 </div>
                                 <div>
-                                    <img className="carousel-image" src={paintings20089} alt=""/>
+                                    <img className="carousel-image" src={paintings20089} alt="Blur"/>
                                 </div>
                             </div>
                         </Slider>
@@ -124,15 +124,15 @@ export default class Paintings2008 extends Component {
                 </div>
             </div>
                 <div className='images-container-mobile'>
-                    <img className='mobile-images' src={paintings20081} alt=''/>
-                    <img className='mobile-images' src={paintings20082} alt=''/>
-                    <img className='mobile-images' src={paintings20083M} alt=''/>
-                    <img className='mobile-images' src={paintings20084M} alt=''/>
-                    <img className='mobile-images' src={paintings20085M} alt=''/>
-                    <img className='mobile-images' src={paintings20086M} alt=''/>
-                    <img className='mobile-images' src={paintings20087M} alt=''/>
-                    <img className='mobile-images' src={paintings20088M} alt=''/>
-                    <img className='mobile-images' src={paintings20089} alt=''/>
+                    <img className='mobile-images' src={paintings20081} alt='Float'/>
+                    <img className='mobile-images' src={paintings20082} alt='Left Behind'/>
+                    <img className='mobile-images' src={paintings20083M} alt='Fallen'/>
+                    <img className='mobile-images' src={paintings20084M} alt='Taking You Out'/>
+                    <img className='mobile-images' src={paintings20085M} alt='Aftershock'/>
+                    <img className='mobile-images' src={paintings20086M} alt='Burn Out Bright'/>
+                    <img className='mobile-images' src={paintings20087M} alt='Runway'/>
+                    <img className='mobile-images' src={paintings20088M} alt='untitled'/>
+                    <img className='mobile-images' src={paintings20089} alt='Blur'/>
                 </div>
         </div>
     )

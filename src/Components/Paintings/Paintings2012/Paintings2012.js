@@ -44,82 +44,82 @@ export default class Paintings2012 extends Component {
                 
                         <div className='image-wrapper'>
                             <div className='text-box'>
-                                {/* <h1></h1> */}
+                                <h1 className='text-overlay'>A Breath 44in x 70in oil on canvas</h1>
                             </div>
                             <div>
-                                <img className="carousel-image" src={paintings20121} alt=""/>
+                                <img className="carousel-image" src={paintings20121} alt="A Breath"/>
                             </div>
                         </div>
                         <div className='image-wrapper'>
                             <div className='text-box'>
-                                {/* <h1></h1> */}
+                                <h1 className='text-overlay'>Aurora 44in x 68in oil on canvas</h1>
                             </div>
                             <div>
-                                <img className="carousel-image" src={paintings20122} alt=""/>
+                                <img className="carousel-image" src={paintings20122} alt="Aurora"/>
                             </div>
                         </div>
                         <div className='image-wrapper'>
                             <div className='text-box'>
-                                {/* <h1></h1> */}
+                                <h1 className='text-overlay'>Night Fog 44in x 68in oil on canvas</h1>
                             </div>
                             <div>
-                                <img className="carousel-image" src={paintings20123} alt=""/>
+                                <img className="carousel-image" src={paintings20123} alt="Night Fog"/>
                             </div>
                         </div>
                         <div className='image-wrapper'>
                             <div className='text-box'>
-                                {/* <h1></h1> */}
+                                <h1 className='text-overlay'>Escalate 49in x 22in oil on canvas N/A</h1>
                             </div>
                             <div>
-                                <img className="carousel-image" src={paintings20124} alt=""/>
+                                <img className="carousel-image" src={paintings20124} alt="Escalate"/>
                             </div>
                         </div>
                         <div className='image-wrapper'>
                             <div className='text-box'>
-                                {/* <h1></h1> */}
+                                <h1 className='text-overlay'>The Underground 44in x 70in oil on canvas</h1>
                             </div>
                             <div>
-                                <img className="carousel-image" src={paintings20125} alt=""/>
+                                <img className="carousel-image" src={paintings20125} alt="The Underground"/>
                             </div>
                         </div>
                         <div className='image-wrapper'>
                             <div className='text-box'>
-                                {/* <h1></h1> */}
+                                <h1 className='text-overlay'>Passing 24in x 48in oil on canvas N/</h1>
                             </div>
                             <div>
-                                <img className="carousel-image" src={paintings20126} alt=""/>
+                                <img className="carousel-image" src={paintings20126} alt="Passing"/>
                             </div>
                         </div>
                         <div className='image-wrapper'>
                             <div className='text-box'>
-                                {/* <h1></h1> */}
+                                <h1 className='text-overlay'>Heads Up 44in x 68in oil on canvas SOLD</h1>
                             </div>
                             <div>
-                                <img className="carousel-image" src={paintings20127} alt=""/>
+                                <img className="carousel-image" src={paintings20127} alt="Heads Up"/>
                             </div>
                         </div>
                         <div className='image-wrapper'>
                             <div className='text-box'>
-                                {/* <h1></h1> */}
+                                <h1 className='text-overlay'>Overturn 68in x 44in oil on canvas N/A</h1>
                             </div>
                             <div>
-                                <img className="carousel-image" src={paintings20128} alt=""/>
+                                <img className="carousel-image" src={paintings20128} alt="Overturn"/>
                             </div>
                         </div>
                         <div className='image-wrapper'>
                             <div className='text-box'>
-                                {/* <h1></h1> */}
+                                <h1 className='text-overlay'>Sirens 32in x 42in oil on canvas</h1>
                             </div>
                             <div>
-                                <img className="carousel-image" src={paintings20129} alt=""/>
+                                <img className="carousel-image" src={paintings20129} alt="Sirens"/>
                             </div>
                         </div>
                         <div className='image-wrapper'>
                             <div className='text-box'>
-                                {/* <h1></h1> */}
+                                <h1 className='text-overlay'>Veil 42in x 32in oil on canvas</h1>
                             </div>
                             <div>
-                                <img className="carousel-image" src={paintings201210} alt=""/>
+                                <img className="carousel-image" src={paintings201210} alt="Veil"/>
                             </div>
                         </div>
                     </Slider>
@@ -127,16 +127,16 @@ export default class Paintings2012 extends Component {
             </div>
         </div>
             <div className='images-container-mobile'>
-                <img className='mobile-images' src={paintings20121} alt=''/>
-                <img className='mobile-images' src={paintings20122} alt=''/>
-                <img className='mobile-images' src={paintings20123} alt=''/>
-                <img className='mobile-images' src={paintings20124} alt=''/>
-                <img className='mobile-images' src={paintings20125} alt=''/>
-                <img className='mobile-images' src={paintings20126} alt=''/>
-                <img className='mobile-images' src={paintings20127} alt=''/>
-                <img className='mobile-images' src={paintings20128} alt=''/>
-                <img className='mobile-images' src={paintings20129} alt=''/>
-                <img className='mobile-images' src={paintings201210} alt=''/>
+                <img className='mobile-images' src={paintings20121} alt='A Breath'/>
+                <img className='mobile-images' src={paintings20122} alt='Aurora'/>
+                <img className='mobile-images' src={paintings20123} alt='Night Fog'/>
+                <img className='mobile-images' src={paintings20124} alt='Escalate'/>
+                <img className='mobile-images' src={paintings20125} alt='The Underground'/>
+                <img className='mobile-images' src={paintings20126} alt='Passing'/>
+                <img className='mobile-images' src={paintings20127} alt='Heads Up'/>
+                <img className='mobile-images' src={paintings20128} alt='Overturn'/>
+                <img className='mobile-images' src={paintings20129} alt='Sirens'/>
+                <img className='mobile-images' src={paintings201210} alt='Veil'/>
             </div>
         </div>
     )

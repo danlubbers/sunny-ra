@@ -69,50 +69,50 @@ export default class Paintings2015 extends Component {
                             </div>
                             <div className='image-wrapper'>
                                 <div className='text-box'>
-                                    {/* <h1></h1> */}
+                                    <h1 className='text-overlay'>Trickle 48in x 32in oil on canvas 2015</h1>
                                 </div>
                                 <div>
-                                    <img className="carousel-image" src={paintings20154} alt=""/>
+                                    <img className="carousel-image" src={paintings20154} alt="Trickle"/>
                                 </div>
                             </div>
                             <div className='image-wrapper'>
                                 <div className='text-box'>
-                                    {/* <h1></h1> */}
+                                    <h1 className='text-overlay'>Sneak 44in x 68in oil on canvas 2015</h1>
                                 </div>
                                 <div>
-                                    <img className="carousel-image" src={paintings20155} alt=""/>
+                                    <img className="carousel-image" src={paintings20155} alt="Sneak"/>
                                 </div>
                             </div>
                             <div className='image-wrapper'>
                                 <div className='text-box'>
-                                    {/* <h1></h1> */}
+                                    <h1 className='text-overlay'>Accumulation 30in x 44in oil on canvas 2015</h1>
                                 </div>
                                 <div>
-                                    <img className="carousel-image" src={paintings20156} alt=""/>
+                                    <img className="carousel-image" src={paintings20156} alt="Accumulation"/>
                                 </div>
                             </div>
                             <div className='image-wrapper'>
                                 <div className='text-box'>
-                                    {/* <h1></h1> */}
+                                    <h1 className='text-overlay'>detail of accumulation</h1>
                                 </div>
                                 <div>
-                                    <img className="carousel-image" src={paintings20157} alt=""/>
+                                    <img className="carousel-image" src={paintings20157} alt="Accumulation"/>
                                 </div>
                             </div>
                             <div className='image-wrapper'>
                                 <div className='text-box'>
-                                    {/* <h1></h1> */}
+                                    <h1 className='text-overlay'>Spotlight 14in x 11in oil on paper 2015</h1>
                                 </div>
                                 <div>
-                                    <img className="carousel-image" src={paintings20158} alt=""/>
+                                    <img className="carousel-image" src={paintings20158} alt="Spotlight"/>
                                 </div>
                             </div>
                             <div className='image-wrapper'>
                                 <div className='text-box'>
-                                    {/* <h1></h1> */}
+                                    <h1 className='text-overlay'>Carved 48in x 24in oil on canvas 2015</h1>
                                 </div>
                                 <div>
-                                    <img className="carousel-image" src={paintings20159} alt=""/>
+                                    <img className="carousel-image" src={paintings20159} alt="Carved"/>
                                 </div>
                             </div>
                         </Slider>
@@ -123,12 +123,12 @@ export default class Paintings2015 extends Component {
                     <img className='mobile-images' src={paintings20151} alt=''/>
                     <img className='mobile-images' src={paintings20152} alt=''/>
                     <img className='mobile-images' src={paintings20153} alt=''/>
-                    <img className='mobile-images' src={paintings20154} alt=''/>
-                    <img className='mobile-images' src={paintings20155} alt=''/>
-                    <img className='mobile-images' src={paintings20156M} alt=''/>
-                    <img className='mobile-images' src={paintings20157} alt=''/>
-                    <img className='mobile-images' src={paintings20158} alt=''/>
-                    <img className='mobile-images' src={paintings20159} alt=''/>
+                    <img className='mobile-images' src={paintings20154} alt='Trickle'/>
+                    <img className='mobile-images' src={paintings20155} alt='Sneak'/>
+                    <img className='mobile-images' src={paintings20156M} alt='Accumulation'/>
+                    <img className='mobile-images' src={paintings20157} alt='Accumulation'/>
+                    <img className='mobile-images' src={paintings20158} alt='Spotlight'/>
+                    <img className='mobile-images' src={paintings20159} alt='Carved'/>
                 </div>
         </div>
     )

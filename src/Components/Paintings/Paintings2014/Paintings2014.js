@@ -45,63 +45,63 @@ export default class Paintings2014 extends Component {
                     
                             <div className='image-wrapper'>
                                 <div className='text-box'>
-                                    {/* <h1></h1> */}
+                                    <h1 className='text-overlay'>Curl 30in x 48in oil on canvas 2014</h1>
                                 </div>
                                 <div>
-                                    <img className="carousel-image" src={paintings20141} alt=""/>
+                                    <img className="carousel-image" src={paintings20141} alt="Curl"/>
                                 </div>
                             </div>
                             <div className='image-wrapper'>
                                 <div className='text-box'>
-                                    {/* <h1></h1> */}
+                                    <h1 className='text-overlay'>Split 44in x 68in oil on canvas 2014 N/A</h1>
                                 </div>
                                 <div>
-                                    <img className="carousel-image" src={paintings20142} alt=""/>
+                                    <img className="carousel-image" src={paintings20142} alt="Split"/>
                                 </div>
                             </div>
                             <div className='image-wrapper'>
                                 <div className='text-box'>
-                                    {/* <h1></h1> */}
+                                    <h1 className='text-overlay'>Molten 46in x 30in oil on canvas 2014</h1>
                                 </div>
                                 <div>
-                                    <img className="carousel-image" src={paintings20143} alt=""/>
+                                    <img className="carousel-image" src={paintings20143} alt="Molten"/>
                                 </div>
                             </div>
                             <div className='image-wrapper'>
                                 <div className='text-box'>
-                                    {/* <h1></h1> */}
+                                    <h1 className='text-overlay'>The Fall 42in x 30in oil on canvas 2014</h1>
                                 </div>
                                 <div>
-                                    <img className="carousel-image" src={paintings20144} alt=""/>
+                                    <img className="carousel-image" src={paintings20144} alt="The Fall"/>
                                 </div>
                             </div>
                             <div className='image-wrapper'>
                                 <div className='text-box'>
-                                    {/* <h1></h1> */}
+                                    <h1 className='text-overlay'>Within Reach 32in x 42in oil on canvas 2014 SOLD</h1>
                                 </div>
                                 <div>
-                                    <img className="carousel-image" src={paintings20145} alt=""/>
+                                    <img className="carousel-image" src={paintings20145} alt="Within Reach"/>
                                 </div>
                             </div>
                             <div className='image-wrapper'>
                                 <div className='text-box'>
-                                    {/* <h1></h1> */}
+                                    <h1 className='text-overlay'>Pacific 48in x 30in oil on canvas 2014</h1>
                                 </div>
                                 <div>
-                                    <img className="carousel-image" src={paintings20146} alt=""/>
+                                    <img className="carousel-image" src={paintings20146} alt="Pacific"/>
                                 </div>
                             </div>
                             <div className='image-wrapper'>
                                 <div className='text-box'>
-                                    {/* <h1></h1> */}
+                                    <h1 className='text-overlay'>Negative Seven 30in x 44in oil on canvas 2014 N/A</h1>
                                 </div>
                                 <div>
-                                    <img className="carousel-image" src={paintings20147} alt=""/>
+                                    <img className="carousel-image" src={paintings20147} alt="Negative Seven"/>
                                 </div>
                             </div>
                             <div className='image-wrapper'>
                                 <div className='text-box'>
-                                    {/* <h1></h1> */}
+                                    <h1 className='text-overlay'>detail of Negative Seven 2014</h1>
                                 </div>
                                 <div>
                                     <img className="carousel-image" src={paintings20148} alt=""/>
@@ -112,14 +112,14 @@ export default class Paintings2014 extends Component {
                 </div>
             </div>
                 <div className='images-container-mobile'>
-                    <img className='mobile-images' src={paintings20141M} alt=''/>
-                    <img className='mobile-images' src={paintings20142} alt=''/>
-                    <img className='mobile-images' src={paintings20143} alt=''/>
-                    <img className='mobile-images' src={paintings20144} alt=''/>
-                    <img className='mobile-images' src={paintings20145} alt=''/>
-                    <img className='mobile-images' src={paintings20146} alt=''/>
-                    <img className='mobile-images' src={paintings20147M} alt=''/>
-                    <img className='mobile-images' src={paintings20148} alt=''/>
+                    <img className='mobile-images' src={paintings20141M} alt='Curl'/>
+                    <img className='mobile-images' src={paintings20142} alt='Split'/>
+                    <img className='mobile-images' src={paintings20143} alt='Molten'/>
+                    <img className='mobile-images' src={paintings20144} alt='The Fall'/>
+                    <img className='mobile-images' src={paintings20145} alt='Within Reach'/>
+                    <img className='mobile-images' src={paintings20146} alt='Pacific'/>
+                    <img className='mobile-images' src={paintings20147M} alt='Negative Seven'/>
+                    <img className='mobile-images' src={paintings20148} alt='Negative Seven'/>
                 </div>
         </div>
     )

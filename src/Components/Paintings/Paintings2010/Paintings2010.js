@@ -45,66 +45,66 @@ export default class Paintings2010 extends Component {
                 
                         <div className='image-wrapper'>
                             <div className='text-box'>
-                                {/* <h1></h1> */}
+                                <h1 className='text-overlay'>Rise 50in x 74in oil on canvas December 2010</h1>
                             </div>
                             <div>
-                                <img className="carousel-image" src={paintings20101} alt=""/>
+                                <img className="carousel-image" src={paintings20101} alt="Rise"/>
                             </div>
                         </div>
                         <div className='image-wrapper'>
                             <div className='text-box'>
-                                {/* <h1></h1> */}
+                                <h1 className='text-overlay'>Regrets 62in x 82in oil on canvas November 2010</h1>
                             </div>
                             <div>
-                                <img className="carousel-image" src={paintings20102} alt=""/>
+                                <img className="carousel-image" src={paintings20102} alt="Regrets"/>
                             </div>
                         </div>
                         <div className='image-wrapper'>
                             <div className='text-box'>
-                                {/* <h1></h1> */}
+                                <h1 className='text-overlay'>River 50in x 74in oil on canvas December 2010</h1>
                             </div>
                             <div>
-                                <img className="carousel-image" src={paintings20103} alt=""/>
+                                <img className="carousel-image" src={paintings20103} alt="River"/>
                             </div>
                         </div>
                         <div className='image-wrapper'>
                             <div className='text-box'>
-                                {/* <h1></h1> */}
+                                <h1 className='text-overlay'>Below 62in x 82in oil on canvas November 2010</h1>
                             </div>
                             <div>
-                                <img className="carousel-image" src={paintings20104} alt=""/>
+                                <img className="carousel-image" src={paintings20104} alt="Below"/>
                             </div>
                         </div>
                         <div className='image-wrapper'>
                             <div className='text-box'>
-                                {/* <h1></h1> */}
+                                <h1 className='text-overlay'>Sliver 44in x 72in oil on canvas March 2010</h1>
                             </div>
                             <div>
-                                <img className="carousel-image" src={paintings20105} alt=""/>
+                                <img className="carousel-image" src={paintings20105} alt="Sliver"/>
                             </div>
                         </div>
                         <div className='image-wrapper'>
                             <div className='text-box'>
-                                {/* <h1></h1> */}
+                                <h1 className='text-overlay'>Steel oil on canvas 2010</h1>
                             </div>
                             <div>
-                                <img className="carousel-image" src={paintings20106} alt=""/>
+                                <img className="carousel-image" src={paintings20106} alt="Steel"/>
                             </div>
                         </div>
                         <div className='image-wrapper'>
                             <div className='text-box'>
-                                {/* <h1></h1> */}
+                                <h1 className='text-overlay'>Flourescent oil on canvas 2010</h1>
                             </div>
                             <div>
-                                <img className="carousel-image" src={paintings20107} alt=""/>
+                                <img className="carousel-image" src={paintings20107} alt="Flourescent"/>
                             </div>
                         </div>
                         <div className='image-wrapper'>
                             <div className='text-box'>
-                                {/* <h1></h1> */}
+                                <h1 className='text-overlay'>detail of flourescent</h1>
                             </div>
                             <div>
-                                <img className="carousel-image" src={paintings20108} alt=""/>
+                                <img className="carousel-image" src={paintings20108} alt="Flourescent"/>
                             </div>
                         </div>
                     </Slider>
@@ -112,14 +112,14 @@ export default class Paintings2010 extends Component {
             </div>
         </div>
             <div className='images-container-mobile'>
-                <img className='mobile-images' src={paintings20101} alt=''/>
-                <img className='mobile-images' src={paintings20102} alt=''/>
-                <img className='mobile-images' src={paintings20103} alt=''/>
-                <img className='mobile-images' src={paintings20104} alt=''/>
-                <img className='mobile-images' src={paintings20105} alt=''/>
-                <img className='mobile-images' src={paintings20106M} alt=''/>
-                <img className='mobile-images' src={paintings20107M} alt=''/>
-                <img className='mobile-images' src={paintings20108} alt=''/>
+                <img className='mobile-images' src={paintings20101} alt='Rise'/>
+                <img className='mobile-images' src={paintings20102} alt='Regrets'/>
+                <img className='mobile-images' src={paintings20103} alt='River'/>
+                <img className='mobile-images' src={paintings20104} alt='Below'/>
+                <img className='mobile-images' src={paintings20105} alt='Sliver'/>
+                <img className='mobile-images' src={paintings20106M} alt='Steel'/>
+                <img className='mobile-images' src={paintings20107M} alt='Flourescent'/>
+                <img className='mobile-images' src={paintings20108} alt='Flourescent'/>
             </div>
         </div>
     )

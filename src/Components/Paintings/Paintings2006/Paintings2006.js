@@ -41,7 +41,7 @@ export default class Paintings2006 extends Component {
                                     <h1 className='text-overlay'>The Final Round 54in x 40in oil on canvas December 2006</h1>
                                 </div>
                                 <div>
-                                    <img className="carousel-image" src={paintings20061} alt=""/>
+                                    <img className="carousel-image" src={paintings20061} alt="The Final Round"/>
                                 </div>
                             </div>
                             <div className='image-wrapper'>
@@ -49,7 +49,7 @@ export default class Paintings2006 extends Component {
                                     <h1 className='text-overlay'>It's Not Enough 43in x 34in oil on canvas October 2006</h1>
                                 </div>
                                 <div>
-                                    <img className="carousel-image" src={paintings20062} alt=""/>
+                                    <img className="carousel-image" src={paintings20062} alt="It's Not Enough"/>
                                 </div>
                             </div>
                             <div className='image-wrapper'>
@@ -57,7 +57,7 @@ export default class Paintings2006 extends Component {
                                     <h1 className='text-overlay'>The Only One 38in x 50in oil on canvas July 2006</h1>
                                 </div>
                                 <div>
-                                    <img className="carousel-image" src={paintings20063} alt=""/>
+                                    <img className="carousel-image" src={paintings20063} alt="The Only One"/>
                                 </div>
                             </div>
                             <div className='image-wrapper'>
@@ -65,7 +65,7 @@ export default class Paintings2006 extends Component {
                                     <h1 className='text-overlay'>Make it Tomorrow 50in x 40in oil on canvas May 2006</h1>
                                 </div>
                                 <div>
-                                    <img className="carousel-image" src={paintings20064} alt=""/>
+                                    <img className="carousel-image" src={paintings20064} alt="Make it Tomorrow"/>
                                 </div>
                             </div>
                             <div className='image-wrapper'>
@@ -73,7 +73,7 @@ export default class Paintings2006 extends Component {
                                     <h1 className='text-overlay'>Go Ahead 52in x 40in oil on canvas April 2006</h1>
                                 </div>
                                 <div>
-                                    <img className="carousel-image" src={paintings20065} alt=""/>
+                                    <img className="carousel-image" src={paintings20065} alt="Go Ahead"/>
                                 </div>
                             </div>
                         </Slider>
@@ -81,11 +81,11 @@ export default class Paintings2006 extends Component {
                 </div>
             </div>
                 <div className='images-container-mobile'>
-                    <img className='mobile-images' src={paintings20061} alt=''/>
-                    <img className='mobile-images' src={paintings20062} alt=''/>
-                    <img className='mobile-images' src={paintings20063} alt=''/>
-                    <img className='mobile-images' src={paintings20064} alt=''/>
-                    <img className='mobile-images' src={paintings20065} alt=''/>
+                    <img className='mobile-images' src={paintings20061} alt='The Final Round'/>
+                    <img className='mobile-images' src={paintings20062} alt="It's Not Enough"/>
+                    <img className='mobile-images' src={paintings20063} alt='The Only One'/>
+                    <img className='mobile-images' src={paintings20064} alt='Make it Tomorrow'/>
+                    <img className='mobile-images' src={paintings20065} alt='Go Ahead'/>
                 </div>
         </div>
     )
