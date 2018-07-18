@@ -38,7 +38,7 @@ export default class Paintings2006 extends Component {
                     
                             <div className='image-wrapper'>
                                 <div className='text-box'>
-                                    {/* <h1></h1> */}
+                                    <h1 className='text-overlay'>The Final Round 54in x 40in oil on canvas December 2006</h1>
                                 </div>
                                 <div>
                                     <img className="carousel-image" src={paintings20061} alt=""/>
@@ -46,7 +46,7 @@ export default class Paintings2006 extends Component {
                             </div>
                             <div className='image-wrapper'>
                                 <div className='text-box'>
-                                    {/* <h1></h1> */}
+                                    <h1 className='text-overlay'>It's Not Enough 43in x 34in oil on canvas October 2006</h1>
                                 </div>
                                 <div>
                                     <img className="carousel-image" src={paintings20062} alt=""/>
@@ -54,7 +54,7 @@ export default class Paintings2006 extends Component {
                             </div>
                             <div className='image-wrapper'>
                                 <div className='text-box'>
-                                    {/* <h1></h1> */}
+                                    <h1 className='text-overlay'>The Only One 38in x 50in oil on canvas July 2006</h1>
                                 </div>
                                 <div>
                                     <img className="carousel-image" src={paintings20063} alt=""/>
@@ -62,7 +62,7 @@ export default class Paintings2006 extends Component {
                             </div>
                             <div className='image-wrapper'>
                                 <div className='text-box'>
-                                    {/* <h1></h1> */}
+                                    <h1 className='text-overlay'>Make it Tomorrow 50in x 40in oil on canvas May 2006</h1>
                                 </div>
                                 <div>
                                     <img className="carousel-image" src={paintings20064} alt=""/>
@@ -70,7 +70,7 @@ export default class Paintings2006 extends Component {
                             </div>
                             <div className='image-wrapper'>
                                 <div className='text-box'>
-                                    {/* <h1></h1> */}
+                                    <h1 className='text-overlay'>Go Ahead 52in x 40in oil on canvas April 2006</h1>
                                 </div>
                                 <div>
                                     <img className="carousel-image" src={paintings20065} alt=""/>

@@ -48,7 +48,7 @@ export default class Carousel extends Component {
                     
                             <div className='image-wrapper'>
                                 <div className='text-box'>
-                                    <h1>Botanical Gardens</h1>
+                                    <h1 className='text-overlay'>Botanica Gardens</h1>
                                 </div>
                                 <div>
                                     <img className="carousel-image" src={commissioned1} alt="Botanical Gardens"/>
@@ -56,7 +56,7 @@ export default class Carousel extends Component {
                             </div>
                             <div className='image-wrapper'>
                                 <div className='text-box'>
-                                    <h1>Botanical Gardens</h1>
+                                    <h1 className='text-overlay'>Botanica Gardens</h1>
                                 </div>
                                 <div>
                                     <img className="carousel-image" src={commissioned2} alt="Botanical Gardens"/>
@@ -64,7 +64,9 @@ export default class Carousel extends Component {
                             </div>
                             <div className='image-wrapper'>
                                 <div className='text-box'>
-                                    <h1>12in x 12in Botanical Gardens Plein Air Painting Competition  September 2016</h1>
+                                    <br/><br/>
+                                    <h1 className='text-overlay'>12in x 12in Botanica Gardens Plein Air</h1>
+                                    <h1 className='text-overlay'>Painting Competition  September 2016</h1>
                                 </div>
                                 <div>
                                     <img className="carousel-image" src={commissioned3} alt="Botanical Gardens"/>
@@ -72,7 +74,7 @@ export default class Carousel extends Component {
                             </div>
                             <div className='image-wrapper'>
                                 <div className='text-box'>
-                                    <h1>18in x 48in oil on canvas for Botanica show 2014</h1>
+                                    <h1 className='text-overlay'>18in x 48in oil on canvas for Botanica show 2014</h1>
                                 </div>
                                 <div>
                                     <img className="carousel-image" src={commissioned4} alt="Botanical Gardens"/>
@@ -80,7 +82,7 @@ export default class Carousel extends Component {
                             </div>
                             <div className='image-wrapper'>
                                 <div className='text-box'>
-                                    <h1>18in x 48in oil on canvas for Botanica show 2014</h1>
+                                    <h1 className='text-overlay'>18in x 48in oil on canvas for Botanica show 2014</h1>
                                 </div>
                                 <div>
                                     <img className="carousel-image" src={commissioned5} alt="Botanical Gardens"/>
@@ -88,7 +90,7 @@ export default class Carousel extends Component {
                             </div>
                             <div className='image-wrapper'>
                                 <div className='text-box'>
-                                    <h1>8in x 8in oil on canvas for LVA's Art Squared 2014</h1>
+                                    <h1 className='text-overlay'>8in x 8in oil on canvas for LVA's Art Squared 2014</h1>
                                 </div>
                                 <div>
                                     <img className="carousel-image" src={commissioned6} alt="LVA Squared"/>
@@ -96,7 +98,7 @@ export default class Carousel extends Component {
                             </div>
                             <div className='image-wrapper'>
                                 <div className='text-box'>
-                                    <h1>8in x 8in oil on canvas for LVA's Art Squared 2014</h1>
+                                    <h1 className='text-overlay'>8in x 8in oil on canvas for LVA's Art Squared 2014</h1>
                                 </div>
                                 <div>
                                     <img className="carousel-image" src={commissioned7} alt="LVA Squared"/>
@@ -104,7 +106,7 @@ export default class Carousel extends Component {
                             </div>
                             <div className='image-wrapper'>
                                 <div className='text-box'>
-                                    <h1>Golden Gate 42in x 34in oil on canvas 2013</h1>
+                                    <h1 className='text-overlay'>Golden Gate 42in x 34in oil on canvas 2013</h1>
                                 </div>
                                 <div>
                                     <img className="carousel-image" src={commissioned8} alt="Golden Gate Bridge"/>
@@ -112,7 +114,7 @@ export default class Carousel extends Component {
                             </div>
                             <div className='image-wrapper'>
                                 <div className='text-box'>
-                                    <h1>Detail of Golden Gate</h1>
+                                    <h1 className='text-overlay'>Detail of Golden Gate</h1>
                                 </div>
                                 <div>
                                     <img className="carousel-image" src={commissioned9} alt="Golden Gate Bridge"/>
@@ -120,7 +122,7 @@ export default class Carousel extends Component {
                             </div>
                             <div className='image-wrapper'>
                                 <div className='text-box'>
-                                    <h1>Detail of Golden Gate</h1>
+                                    <h1 className='text-overlay'>Detail of Golden Gate</h1>
                                 </div>
                                 <div>
                                     <img className="carousel-image" src={commissioned10} alt="Golden Gate Bridge"/>
@@ -128,7 +130,10 @@ export default class Carousel extends Component {
                             </div>
                             <div className='image-wrapper'>
                                 <div className='text-box'>
-                                    <h1>Drawing for painting 24in x 36in charcoal on paper</h1>
+                                    <br/>
+                                    <br/>
+                                    <h1 className='text-overlay'>Drawing for painting 24in x 36in</h1>
+                                    <h1 className='text-overlay'>charcoal on paper</h1>
                                 </div>
                                 <div>
                                     <img className="carousel-image" src={commissioned11} alt="Golden Gate Bridge"/>
@@ -136,7 +141,7 @@ export default class Carousel extends Component {
                             </div>
                             <div className='image-wrapper'>
                                 <div className='text-box'>
-                                    <h1>Drawing for painting 24in x 36in charcoal on paper</h1>
+                                    <h1 className='text-overlay'>Drawing for painting 24in x 36in charcoal on paper</h1>
                                 </div>
                                 <div>
                                     <img className="carousel-image" src={commissioned12} alt="Golden Gate Bridge"/>
@@ -147,18 +152,18 @@ export default class Carousel extends Component {
                 </div>
             </div>
                 <div className='images-container-mobile'>
-                    <img className='mobile-images' src={commissioned1} alt=''/>
-                    <img className='mobile-images' src={commissioned2} alt=''/>
-                    <img className='mobile-images' src={commissioned3} alt=''/>
-                    <img className='mobile-images' src={commissioned4M} alt=''/>
-                    <img className='mobile-images' src={commissioned5M} alt=''/>
-                    <img className='mobile-images' src={commissioned6} alt=''/>
-                    <img className='mobile-images' src={commissioned7} alt=''/>
-                    <img className='mobile-images' src={commissioned8} alt=''/>
-                    <img className='mobile-images' src={commissioned9} alt=''/>
-                    <img className='mobile-images' src={commissioned10} alt=''/>
-                    <img className='mobile-images' src={commissioned11} alt=''/>
-                    <img className='mobile-images' src={commissioned12} alt=''/>
+                    <img className='mobile-images' src={commissioned1} alt='Botanica Gardens'/>
+                    <img className='mobile-images' src={commissioned2} alt='Botanica Gardens'/>
+                    <img className='mobile-images' src={commissioned3} alt='Botanica Gardens'/>
+                    <img className='mobile-images' src={commissioned4M} alt='Botanica Gardens'/>
+                    <img className='mobile-images' src={commissioned5M} alt='Botanica Gardens'/>
+                    <img className='mobile-images' src={commissioned6} alt='LVA Squared'/>
+                    <img className='mobile-images' src={commissioned7} alt='LVA Squared'/>
+                    <img className='mobile-images' src={commissioned8} alt='Golden Gate Bridge'/>
+                    <img className='mobile-images' src={commissioned9} alt='Golden Gate Bridge'/>
+                    <img className='mobile-images' src={commissioned10} alt='Golden Gate Bridge'/>
+                    <img className='mobile-images' src={commissioned11} alt='Golden Gate Bridge'/>
+                    <img className='mobile-images' src={commissioned12} alt='Golden Gate Bridge'/>
                 </div>
         </div>
     )
