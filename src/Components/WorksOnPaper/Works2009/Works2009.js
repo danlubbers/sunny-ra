@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import Slider from 'react-slick';
 
 import works20091 from '../../../assets/images/works/2009/works2009-1.jpg';
+import works20091M from '../../../assets/images/works/2009/works2009-1-mobile.jpg';
 import works20092 from '../../../assets/images/works/2009/works2009-2.jpg';
 import works20093 from '../../../assets/images/works/2009/works2009-3.jpg';
 import works20094 from '../../../assets/images/works/2009/works2009-4.jpg';
@@ -180,7 +181,7 @@ export default class Works2009 extends Component {
                 </div>
             </div>
                 <div className='images-container-mobile'>
-                    <img className='mobile-images' src={works20091} alt='Take Off'/>
+                    <img className='mobile-images' src={works20091M} alt='Take Off'/>
                     <img className='mobile-images' src={works20092} alt='Break #2'/>
                     <img className='mobile-images' src={works20093} alt='Break #1'/>
                     <img className='mobile-images' src={works20094} alt='The Peak'/>
