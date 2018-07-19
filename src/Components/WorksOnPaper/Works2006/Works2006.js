@@ -38,42 +38,42 @@ export default class Works2006 extends Component {
                 
                         <div className='image-wrapper'>
                             <div className='text-box'>
-                                {/* <h1></h1> */}
+                                <h1 className='text-overlay'>Road of Resistance 40in x 30in charcoal on paper</h1>
                             </div>
                             <div>
-                                <img className="carousel-image" src={works20061} alt=""/>
+                                <img className="carousel-image" src={works20061} alt="Road of Resistance"/>
                             </div>
                         </div>
                         <div className='image-wrapper'>
                             <div className='text-box'>
-                                {/* <h1></h1> */}
+                                <h1 className='text-overlay'>Do You See Me 40in x 30in charcoal on paper</h1>
                             </div>
                             <div>
-                                <img className="carousel-image" src={works20062} alt=""/>
+                                <img className="carousel-image" src={works20062} alt="Do You See Me"/>
                             </div>
                         </div>
                         <div className='image-wrapper'>
                             <div className='text-box'>
-                                {/* <h1></h1> */}
+                                <h1 className='text-overlay'>Cross the Dark Line 24in x 34in charcoal on paper</h1>
                             </div>
                             <div>
-                                <img className="carousel-image" src={works20063} alt=""/>
+                                <img className="carousel-image" src={works20063} alt="Cross the Dark Line"/>
                             </div>
                         </div>
                         <div className='image-wrapper'>
                             <div className='text-box'>
-                                {/* <h1></h1> */}
+                                <h1 className='text-overlay'>Run 30in x 20in charcoal on paper</h1>
                             </div>
                             <div>
-                                <img className="carousel-image" src={works20064} alt=""/>
+                                <img className="carousel-image" src={works20064} alt="Run"/>
                             </div>
                         </div>
                         <div className='image-wrapper'>
                             <div className='text-box'>
-                                {/* <h1></h1> */}
+                                <h1 className='text-overlay'>Seeing it Through the Rough 43in x 34in charcoal on paper</h1>
                             </div>
                             <div>
-                                <img className="carousel-image" src={works20065} alt=""/>
+                                <img className="carousel-image" src={works20065} alt="Seeing it Through the Rough"/>
                             </div>
                         </div>
                     </Slider>
@@ -81,11 +81,11 @@ export default class Works2006 extends Component {
             </div>
         </div>
             <div className='images-container-mobile'>
-                    <img className='mobile-images' src={works20061} alt=''/>
-                    <img className='mobile-images' src={works20062} alt=''/>
-                    <img className='mobile-images' src={works20063} alt=''/>
-                    <img className='mobile-images' src={works20064} alt=''/>
-                    <img className='mobile-images' src={works20065} alt=''/>
+                    <img className='mobile-images' src={works20061} alt='Road of Resistance'/>
+                    <img className='mobile-images' src={works20062} alt='Do You See Me'/>
+                    <img className='mobile-images' src={works20063} alt='Cross the Dark Line'/>
+                    <img className='mobile-images' src={works20064} alt='Run'/>
+                    <img className='mobile-images' src={works20065} alt='Seeing it Through the Rough'/>
                 </div>
         </div>
     )

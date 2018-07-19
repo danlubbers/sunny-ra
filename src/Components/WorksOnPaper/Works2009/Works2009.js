@@ -49,119 +49,119 @@ export default class Works2009 extends Component {
                     
                             <div className='image-wrapper'>
                                 <div className='text-box'>
-                                    {/* <h1></h1> */}
+                                    <h1 className='text-overlay'>Take Off 33in x 66in pastel on paper</h1>
                                 </div>
                                 <div>
-                                    <img className="carousel-image" src={works20091} alt=""/>
+                                    <img className="carousel-image" src={works20091} alt="Take Off"/>
                                 </div>
                             </div>
                             <div className='image-wrapper'>
                                 <div className='text-box'>
-                                    {/* <h1></h1> */}
+                                    <h1 className='text-overlay'>Break #2 conte on mylar 42in x 36in</h1>
                                 </div>
                                 <div>
-                                    <img className="carousel-image" src={works20092} alt=""/>
+                                    <img className="carousel-image" src={works20092} alt="Break #2"/>
                                 </div>
                             </div>
                             <div className='image-wrapper'>
                                 <div className='text-box'>
-                                    {/* <h1></h1> */}
+                                    <h1 className='text-overlay'>Break #1 conte on mylar 42in x 36in</h1>
                                 </div>
                                 <div>
-                                    <img className="carousel-image" src={works20093} alt=""/>
+                                    <img className="carousel-image" src={works20093} alt="Break #1"/>
                                 </div>
                             </div>
                             <div className='image-wrapper'>
                                 <div className='text-box'>
-                                    {/* <h1></h1> */}
+                                    <h1 className='text-overlay'>The Peak 8in x 6in etching May 2010</h1>
                                 </div>
                                 <div>
-                                    <img className="carousel-image" src={works20094} alt=""/>
+                                    <img className="carousel-image" src={works20094} alt="The Peak"/>
                                 </div>
                             </div>
                             <div className='image-wrapper'>
                                 <div className='text-box'>
-                                    {/* <h1></h1> */}
+                                    <h1 className='text-overlay'>Spin 6in x 4.5in etching April 2010</h1>
                                 </div>
                                 <div>
-                                    <img className="carousel-image" src={works20095} alt=""/>
+                                    <img className="carousel-image" src={works20095} alt="Spin"/>
                                 </div>
                             </div>
                             <div className='image-wrapper'>
                                 <div className='text-box'>
-                                    {/* <h1></h1> */}
+                                    <h1 className='text-overlay'>Shrapnel 4in x 6in etching February 2010</h1>
                                 </div>
                                 <div>
-                                    <img className="carousel-image" src={works20096} alt=""/>
+                                    <img className="carousel-image" src={works20096} alt="Shrapnel"/>
                                 </div>
                             </div>
                             <div className='image-wrapper'>
                                 <div className='text-box'>
-                                    {/* <h1></h1> */}
+                                    <h1 className='text-overlay'>Barrier 10in x 8in pastel on paper March 2010 SOLD</h1>
                                 </div>
                                 <div>
-                                    <img className="carousel-image" src={works20097} alt=""/>
+                                    <img className="carousel-image" src={works20097} alt="Barrier"/>
                                 </div>
                             </div>
                             <div className='image-wrapper'>
                                 <div className='text-box'>
-                                    {/* <h1></h1> */}
+                                    <h1 className='text-overlay'>Lit 8in x 10in pastel on paper March 2010 SOLD</h1>
                                 </div>
                                 <div>
-                                    <img className="carousel-image" src={works20098} alt=""/>
+                                    <img className="carousel-image" src={works20098} alt="Lit"/>
                                 </div>
                             </div>
                             <div className='image-wrapper'>
                                 <div className='text-box'>
-                                    {/* <h1></h1> */}
+                                    <h1 className='text-overlay'>Signal 10in x 8in pastel on paper February 2010</h1>
                                 </div>
                                 <div>
-                                    <img className="carousel-image" src={works20099} alt=""/>
+                                    <img className="carousel-image" src={works20099} alt="Signal"/>
                                 </div>
                             </div>
                             <div className='image-wrapper'>
                                 <div className='text-box'>
-                                    {/* <h1></h1> */}
+                                    <h1 className='text-overlay'>Atlantic 8in x 10in pastel on paper February 2010</h1>
                                 </div>
                                 <div>
-                                    <img className="carousel-image" src={works200910} alt=""/>
+                                    <img className="carousel-image" src={works200910} alt="Atlantic"/>
                                 </div>
                             </div>
                             <div className='image-wrapper'>
                                 <div className='text-box'>
-                                    {/* <h1></h1> */}
+                                    <h1 className='text-overlay'>Unearth #1 24in x 36in conte on vellum December 2009</h1>
                                 </div>
                                 <div>
-                                    <img className="carousel-image" src={works200911} alt=""/>
+                                    <img className="carousel-image" src={works200911} alt="Unearth #1"/>
                                 </div>
                             </div>
                             <div className='image-wrapper'>
                                 <div className='text-box'>
-                                    {/* <h1></h1> */}
+                                    <h1 className='text-overlay'>Unearth #2 24in x 36in conte on vellum December 2009</h1>
                                 </div>
                                 <div>
-                                    <img className="carousel-image" src={works200912} alt=""/>
+                                    <img className="carousel-image" src={works200912} alt="Unearth #2"/>
                                 </div>
                             </div>
                             <div className='image-wrapper'>
                                 <div className='text-box'>
-                                    {/* <h1></h1> */}
+                                    <h1 className='text-overlay'>Wall Installation mixed media on collaged paper October 2009</h1>
                                 </div>
                                 <div>
-                                    <img className="carousel-image" src={works200913} alt=""/>
+                                    <img className="carousel-image" src={works200913} alt="Wall Installation"/>
                                 </div>
                             </div>
                             <div className='image-wrapper'>
                                 <div className='text-box'>
-                                    {/* <h1></h1> */}
+                                    <h1 className='text-overlay'>Raging 36in x 52in pastel and acrylic on collaged paper April 2009</h1>
                                 </div>
                                 <div>
-                                    <img className="carousel-image" src={works200914} alt=""/>
+                                    <img className="carousel-image" src={works200914} alt="Raging"/>
                                 </div>
                             </div>
                             <div className='image-wrapper'>
                                 <div className='text-box'>
-                                    {/* <h1></h1> */}
+                                    <h1 className='text-overlay'>Addition Subtraction 38in x 50in pastel and acrylic on collaged paper August 2008</h1>
                                 </div>
                                 <div>
                                     <img className="carousel-image" src={works200915} alt=""/>
@@ -169,7 +169,7 @@ export default class Works2009 extends Component {
                             </div>
                             <div className='image-wrapper'>
                                 <div className='text-box'>
-                                    {/* <h1></h1> */}
+                                    <h1 className='text-overlay'>Fragments of Memories 50in x 38in pastel and acrylic on collaged paper May 2008</h1>
                                 </div>
                                 <div>
                                     <img className="carousel-image" src={works200916} alt=""/>
@@ -180,22 +180,22 @@ export default class Works2009 extends Component {
                 </div>
             </div>
                 <div className='images-container-mobile'>
-                    <img className='mobile-images' src={works20091} alt=''/>
-                    <img className='mobile-images' src={works20092} alt=''/>
-                    <img className='mobile-images' src={works20093} alt=''/>
-                    <img className='mobile-images' src={works20094} alt=''/>
-                    <img className='mobile-images' src={works20095} alt=''/>
-                    <img className='mobile-images' src={works20096} alt=''/>
-                    <img className='mobile-images' src={works20097} alt=''/>
-                    <img className='mobile-images' src={works20098} alt=''/>
-                    <img className='mobile-images' src={works20099} alt=''/>
-                    <img className='mobile-images' src={works200910} alt=''/>
-                    <img className='mobile-images' src={works200911} alt=''/>
-                    <img className='mobile-images' src={works200912} alt=''/>
-                    <img className='mobile-images' src={works200913} alt=''/>
-                    <img className='mobile-images' src={works200914} alt=''/>
-                    <img className='mobile-images' src={works200915} alt=''/>
-                    <img className='mobile-images' src={works200916} alt=''/>
+                    <img className='mobile-images' src={works20091} alt='Take Off'/>
+                    <img className='mobile-images' src={works20092} alt='Break #2'/>
+                    <img className='mobile-images' src={works20093} alt='Break #1'/>
+                    <img className='mobile-images' src={works20094} alt='The Peak'/>
+                    <img className='mobile-images' src={works20095} alt='Spin'/>
+                    <img className='mobile-images' src={works20096} alt='Shrapnel'/>
+                    <img className='mobile-images' src={works20097} alt='Barrier'/>
+                    <img className='mobile-images' src={works20098} alt='Lit'/>
+                    <img className='mobile-images' src={works20099} alt='Signal'/>
+                    <img className='mobile-images' src={works200910} alt='Atlantic'/>
+                    <img className='mobile-images' src={works200911} alt='Unearth #1'/>
+                    <img className='mobile-images' src={works200912} alt='Unearth #2'/>
+                    <img className='mobile-images' src={works200913} alt='Wall Installation'/>
+                    <img className='mobile-images' src={works200914} alt='Raging'/>
+                    <img className='mobile-images' src={works200915} alt='Addition Subtraction'/>
+                    <img className='mobile-images' src={works200916} alt='Fragments of Memories'/>
                 </div>
         </div>
     )
