@@ -42,7 +42,7 @@ export default class Works2016 extends Component {
                     
                             <div className='image-wrapper'>
                                 <div className='text-box'>
-                                    {/* <h1></h1> */}
+                                    {/* <h1 className='text-overlay'></h1> */}
                                 </div>
                                 <div>
                                     <img className="carousel-image" src={works20161} alt=""/>
@@ -50,7 +50,7 @@ export default class Works2016 extends Component {
                             </div>
                             <div className='image-wrapper'>
                                 <div className='text-box'>
-                                    {/* <h1></h1> */}
+                                    {/* <h1 className='text-overlay'></h1> */}
                                 </div>
                                 <div>
                                     <img className="carousel-image" src={works20162} alt=""/>
@@ -58,7 +58,7 @@ export default class Works2016 extends Component {
                             </div>
                             <div className='image-wrapper'>
                                 <div className='text-box'>
-                                    {/* <h1></h1> */}
+                                    {/* <h1 className='text-overlay'></h1> */}
                                 </div>
                                 <div>
                                     <img className="carousel-image" src={works20163} alt=""/>
@@ -66,7 +66,7 @@ export default class Works2016 extends Component {
                             </div>
                             <div className='image-wrapper'>
                                 <div className='text-box'>
-                                    {/* <h1></h1> */}
+                                    {/* <h1 className='text-overlay'></h1> */}
                                 </div>
                                 <div>
                                     <img className="carousel-image" src={works20164} alt=""/>
@@ -74,7 +74,7 @@ export default class Works2016 extends Component {
                             </div>
                             <div className='image-wrapper'>
                                 <div className='text-box'>
-                                    {/* <h1></h1> */}
+                                    {/* <h1 className='text-overlay'></h1> */}
                                 </div>
                                 <div>
                                     <img className="carousel-image" src={works20165} alt=""/>
@@ -82,7 +82,7 @@ export default class Works2016 extends Component {
                             </div>
                             <div className='image-wrapper'>
                                 <div className='text-box'>
-                                    {/* <h1></h1> */}
+                                    {/* <h1 className='text-overlay'></h1> */}
                                 </div>
                                 <div>
                                     <img className="carousel-image" src={works20166} alt=""/>
@@ -90,7 +90,7 @@ export default class Works2016 extends Component {
                             </div>
                             <div className='image-wrapper'>
                                 <div className='text-box'>
-                                    {/* <h1></h1> */}
+                                    {/* <h1 className='text-overlay'></h1> */}
                                 </div>
                                 <div>
                                     <img className="carousel-image" src={works20167} alt=""/>
@@ -98,7 +98,7 @@ export default class Works2016 extends Component {
                             </div>
                             <div className='image-wrapper'>
                                 <div className='text-box'>
-                                    {/* <h1></h1> */}
+                                    {/* <h1 className='text-overlay'></h1> */}
                                 </div>
                                 <div>
                                     <img className="carousel-image" src={works20168} alt=""/>
@@ -106,7 +106,7 @@ export default class Works2016 extends Component {
                             </div>
                             <div className='image-wrapper'>
                                 <div className='text-box'>
-                                    {/* <h1></h1> */}
+                                    {/* <h1 className='text-overlay'></h1> */}
                                 </div>
                                 <div>
                                     <img className="carousel-image" src={works20169} alt=""/>

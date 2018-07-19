@@ -46,106 +46,106 @@ export default class Works2012 extends Component {
                     
                             <div className='image-wrapper'>
                                 <div className='text-box'>
-                                    {/* <h1></h1> */}
+                                    <h1 className='text-overlay'>untitled 48in x 72in conte and pastel on paper</h1>
                                 </div>
                                 <div>
-                                    <img className="carousel-image" src={works20121} alt=""/>
+                                    <img className="carousel-image" src={works20121} alt="untitled"/>
                                 </div>
                             </div>
                             <div className='image-wrapper'>
                                 <div className='text-box'>
-                                    {/* <h1></h1> */}
+                                    <h1 className='text-overlay'>untitled 48in x 78in conte and pastel on paper</h1>
                                 </div>
                                 <div>
-                                    <img className="carousel-image" src={works20122} alt=""/>
+                                    <img className="carousel-image" src={works20122} alt="untitled"/>
                                 </div>
                             </div>
                             <div className='image-wrapper'>
                                 <div className='text-box'>
-                                    {/* <h1></h1> */}
+                                    <h1 className='text-overlay'>Backwards 8in x 10in pastel on paper</h1>
                                 </div>
                                 <div>
-                                    <img className="carousel-image" src={works20123} alt=""/>
+                                    <img className="carousel-image" src={works20123} alt="Backwards"/>
                                 </div>
                             </div>
                             <div className='image-wrapper'>
                                 <div className='text-box'>
-                                    {/* <h1></h1> */}
+                                    <h1 className='text-overlay'>Glide 8in x 10in pastel on paper</h1>
                                 </div>
                                 <div>
-                                    <img className="carousel-image" src={works20124} alt=""/>
+                                    <img className="carousel-image" src={works20124} alt="Glide"/>
                                 </div>
                             </div>
                             <div className='image-wrapper'>
                                 <div className='text-box'>
-                                    {/* <h1></h1> */}
+                                    <h1 className='text-overlay'>Sled 8in x 10in pastel on paper</h1>
                                 </div>
                                 <div>
-                                    <img className="carousel-image" src={works20125} alt=""/>
+                                    <img className="carousel-image" src={works20125} alt="Sled"/>
                                 </div>
                             </div>
                             <div className='image-wrapper'>
                                 <div className='text-box'>
-                                    {/* <h1></h1> */}
+                                    <h1 className='text-overlay'>Lowland 8in x 10in pastel on paper</h1>
                                 </div>
                                 <div>
-                                    <img className="carousel-image" src={works20126} alt=""/>
+                                    <img className="carousel-image" src={works20126} alt="Lowland"/>
                                 </div>
                             </div>
                             <div className='image-wrapper'>
                                 <div className='text-box'>
-                                    {/* <h1></h1> */}
+                                    <h1 className='text-overlay'>Mobile 8in x 10in pastel on paper</h1>
                                 </div>
                                 <div>
-                                    <img className="carousel-image" src={works20127} alt=""/>
+                                    <img className="carousel-image" src={works20127} alt="Mobile"/>
                                 </div>
                             </div>
                             <div className='image-wrapper'>
                                 <div className='text-box'>
-                                    {/* <h1></h1> */}
+                                    <h1 className='text-overlay'>Nite Light 8in x 10in pastel on paper</h1>
                                 </div>
                                 <div>
-                                    <img className="carousel-image" src={works20128} alt=""/>
+                                    <img className="carousel-image" src={works20128} alt="Nite Light"/>
                                 </div>
                             </div>
                             <div className='image-wrapper'>
                                 <div className='text-box'>
-                                    {/* <h1></h1> */}
+                                    <h1 className='text-overlay'>Willow 8in x 10in pastel on paper</h1>
                                 </div>
                                 <div>
-                                    <img className="carousel-image" src={works20129} alt=""/>
+                                    <img className="carousel-image" src={works20129} alt="Willow"/>
                                 </div>
                             </div>
                             <div className='image-wrapper'>
                                 <div className='text-box'>
-                                    {/* <h1></h1> */}
+                                    <h1 className='text-overlay'>Passing 18inx24in charcoal on paper</h1>
                                 </div>
                                 <div>
-                                    <img className="carousel-image" src={works201210} alt=""/>
+                                    <img className="carousel-image" src={works201210} alt="Passing"/>
                                 </div>
                             </div>
                             <div className='image-wrapper'>
                                 <div className='text-box'>
-                                    {/* <h1></h1> */}
+                                    <h1 className='text-overlay'>By Force 18in x 24in charcoal on paper</h1>
                                 </div>
                                 <div>
-                                    <img className="carousel-image" src={works201211} alt=""/>
+                                    <img className="carousel-image" src={works201211} alt="By Force"/>
                                 </div>
                             </div>
                             <div className='image-wrapper'>
                                 <div className='text-box'>
-                                    {/* <h1></h1> */}
+                                    <h1 className='text-overlay'>DC Subway 18inx24in charcoal on paper</h1>
                                 </div>
                                 <div>
-                                    <img className="carousel-image" src={works201212} alt=""/>
+                                    <img className="carousel-image" src={works201212} alt="DC Subway"/>
                                 </div>
                             </div>
                             <div className='image-wrapper'>
                                 <div className='text-box'>
-                                    {/* <h1></h1> */}
+                                    <h1 className='text-overlay'>Ravine 18in x24in charcoal on paper</h1>
                                 </div>
                                 <div>
-                                    <img className="carousel-image" src={works201213} alt=""/>
+                                    <img className="carousel-image" src={works201213} alt="Ravine"/>
                                 </div>
                             </div>
                         </Slider>
@@ -153,19 +153,19 @@ export default class Works2012 extends Component {
                 </div>
             </div>
                 <div className='images-container-mobile'>
-                    <img className='mobile-images' src={works20121} alt=''/>
-                    <img className='mobile-images' src={works20122} alt=''/>
-                    <img className='mobile-images' src={works20123} alt=''/>
-                    <img className='mobile-images' src={works20124} alt=''/>
-                    <img className='mobile-images' src={works20125} alt=''/>
-                    <img className='mobile-images' src={works20126} alt=''/>
-                    <img className='mobile-images' src={works20127} alt=''/>
-                    <img className='mobile-images' src={works20128} alt=''/>
-                    <img className='mobile-images' src={works20129} alt=''/>
-                    <img className='mobile-images' src={works201210} alt=''/>
-                    <img className='mobile-images' src={works201211} alt=''/>
-                    <img className='mobile-images' src={works201212} alt=''/>
-                    <img className='mobile-images' src={works201213} alt=''/>
+                    <img className='mobile-images' src={works20121} alt='untitled'/>
+                    <img className='mobile-images' src={works20122} alt='untitled'/>
+                    <img className='mobile-images' src={works20123} alt='Backwards'/>
+                    <img className='mobile-images' src={works20124} alt='Glide'/>
+                    <img className='mobile-images' src={works20125} alt='Sled'/>
+                    <img className='mobile-images' src={works20126} alt='Lowland'/>
+                    <img className='mobile-images' src={works20127} alt='Mobile'/>
+                    <img className='mobile-images' src={works20128} alt='Nite Light'/>
+                    <img className='mobile-images' src={works20129} alt='Willow'/>
+                    <img className='mobile-images' src={works201210} alt='Passing'/>
+                    <img className='mobile-images' src={works201211} alt='By Force'/>
+                    <img className='mobile-images' src={works201212} alt='DC Subway'/>
+                    <img className='mobile-images' src={works201213} alt='Ravine'/>
                 </div>
         </div>
     )
