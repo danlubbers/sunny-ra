@@ -69,7 +69,8 @@ export default class Paintings2015 extends Component {
                             </div>
                             <div className='image-wrapper'>
                                 <div className='text-box'>
-                                    <h1 className='text-overlay'>Trickle 48in x 32in oil on canvas 2015</h1>
+                                    <h1 className='text-overlay'>Trickle</h1>
+                                    <h2>48in x 32in oil on canvas 2015</h2>
                                 </div>
                                 <div>
                                     <img className="carousel-image" src={paintings20154} alt="Trickle"/>
@@ -77,7 +78,8 @@ export default class Paintings2015 extends Component {
                             </div>
                             <div className='image-wrapper'>
                                 <div className='text-box'>
-                                    <h1 className='text-overlay'>Sneak 44in x 68in oil on canvas 2015</h1>
+                                    <h1 className='text-overlay'>Sneak</h1>
+                                    <h2>44in x 68in oil on canvas 2015</h2>
                                 </div>
                                 <div>
                                     <img className="carousel-image" src={paintings20155} alt="Sneak"/>
@@ -85,7 +87,8 @@ export default class Paintings2015 extends Component {
                             </div>
                             <div className='image-wrapper'>
                                 <div className='text-box'>
-                                    <h1 className='text-overlay'>Accumulation 30in x 44in oil on canvas 2015</h1>
+                                    <h1 className='text-overlay'>Accumulation</h1>
+                                    <h2>30in x 44in oil on canvas 2015</h2>
                                 </div>
                                 <div>
                                     <img className="carousel-image" src={paintings20156} alt="Accumulation"/>
@@ -101,7 +104,8 @@ export default class Paintings2015 extends Component {
                             </div>
                             <div className='image-wrapper'>
                                 <div className='text-box'>
-                                    <h1 className='text-overlay'>Spotlight 14in x 11in oil on paper 2015</h1>
+                                    <h1 className='text-overlay'>Spotlight</h1>
+                                    <h2>14in x 11in oil on paper 2015</h2>
                                 </div>
                                 <div>
                                     <img className="carousel-image" src={paintings20158} alt="Spotlight"/>
@@ -109,7 +113,8 @@ export default class Paintings2015 extends Component {
                             </div>
                             <div className='image-wrapper'>
                                 <div className='text-box'>
-                                    <h1 className='text-overlay'>Carved 48in x 24in oil on canvas 2015</h1>
+                                    <h1 className='text-overlay'>Carved</h1>
+                                    <h2>48in x 24in oil on canvas 2015</h2>
                                 </div>
                                 <div>
                                     <img className="carousel-image" src={paintings20159} alt="Carved"/>

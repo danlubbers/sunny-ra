@@ -44,7 +44,8 @@ export default class Paintings2012 extends Component {
                 
                         <div className='image-wrapper'>
                             <div className='text-box'>
-                                <h1 className='text-overlay'>A Breath 44in x 70in oil on canvas</h1>
+                                <h1 className='text-overlay'>A Breath</h1>
+                                <h2>44in x 70in oil on canvas</h2>
                             </div>
                             <div>
                                 <img className="carousel-image" src={paintings20121} alt="A Breath"/>
@@ -52,7 +53,8 @@ export default class Paintings2012 extends Component {
                         </div>
                         <div className='image-wrapper'>
                             <div className='text-box'>
-                                <h1 className='text-overlay'>Aurora 44in x 68in oil on canvas</h1>
+                                <h1 className='text-overlay'>Aurora</h1>
+                                <h2>44in x 68in oil on canvas</h2>
                             </div>
                             <div>
                                 <img className="carousel-image" src={paintings20122} alt="Aurora"/>
@@ -60,7 +62,8 @@ export default class Paintings2012 extends Component {
                         </div>
                         <div className='image-wrapper'>
                             <div className='text-box'>
-                                <h1 className='text-overlay'>Night Fog 44in x 68in oil on canvas</h1>
+                                <h1 className='text-overlay'>Night Fog</h1>
+                                <h2>44in x 68in oil on canvas</h2>
                             </div>
                             <div>
                                 <img className="carousel-image" src={paintings20123} alt="Night Fog"/>
@@ -68,7 +71,8 @@ export default class Paintings2012 extends Component {
                         </div>
                         <div className='image-wrapper'>
                             <div className='text-box'>
-                                <h1 className='text-overlay'>Escalate 49in x 22in oil on canvas N/A</h1>
+                                <h1 className='text-overlay'>Escalate</h1>
+                                <h2>49in x 22in oil on canvas N/A</h2>
                             </div>
                             <div>
                                 <img className="carousel-image" src={paintings20124} alt="Escalate"/>
@@ -76,7 +80,8 @@ export default class Paintings2012 extends Component {
                         </div>
                         <div className='image-wrapper'>
                             <div className='text-box'>
-                                <h1 className='text-overlay'>The Underground 44in x 70in oil on canvas</h1>
+                                <h1 className='text-overlay'>The Underground</h1>
+                                <h2>44in x 70in oil on canvas</h2>
                             </div>
                             <div>
                                 <img className="carousel-image" src={paintings20125} alt="The Underground"/>
@@ -84,7 +89,8 @@ export default class Paintings2012 extends Component {
                         </div>
                         <div className='image-wrapper'>
                             <div className='text-box'>
-                                <h1 className='text-overlay'>Passing 24in x 48in oil on canvas N/</h1>
+                                <h1 className='text-overlay'>Passing</h1>
+                                <h2>24in x 48in oil on canvas N/A</h2>
                             </div>
                             <div>
                                 <img className="carousel-image" src={paintings20126} alt="Passing"/>
@@ -92,7 +98,8 @@ export default class Paintings2012 extends Component {
                         </div>
                         <div className='image-wrapper'>
                             <div className='text-box'>
-                                <h1 className='text-overlay'>Heads Up 44in x 68in oil on canvas SOLD</h1>
+                                <h1 className='text-overlay'>Heads Up</h1>
+                                <h2>44in x 68in oil on canvas SOLD</h2>
                             </div>
                             <div>
                                 <img className="carousel-image" src={paintings20127} alt="Heads Up"/>
@@ -100,7 +107,8 @@ export default class Paintings2012 extends Component {
                         </div>
                         <div className='image-wrapper'>
                             <div className='text-box'>
-                                <h1 className='text-overlay'>Overturn 68in x 44in oil on canvas N/A</h1>
+                                <h1 className='text-overlay'>Overturn</h1>
+                                <h2>68in x 44in oil on canvas N/A</h2>
                             </div>
                             <div>
                                 <img className="carousel-image" src={paintings20128} alt="Overturn"/>
@@ -108,7 +116,8 @@ export default class Paintings2012 extends Component {
                         </div>
                         <div className='image-wrapper'>
                             <div className='text-box'>
-                                <h1 className='text-overlay'>Sirens 32in x 42in oil on canvas</h1>
+                                <h1 className='text-overlay'>Sirens</h1>
+                                <h2>32in x 42in oil on canvas</h2>
                             </div>
                             <div>
                                 <img className="carousel-image" src={paintings20129} alt="Sirens"/>
@@ -116,7 +125,8 @@ export default class Paintings2012 extends Component {
                         </div>
                         <div className='image-wrapper'>
                             <div className='text-box'>
-                                <h1 className='text-overlay'>Veil 42in x 32in oil on canvas</h1>
+                                <h1 className='text-overlay'>Veil</h1>
+                                <h2>42in x 32in oil on canvas</h2>
                             </div>
                             <div>
                                 <img className="carousel-image" src={paintings201210} alt="Veil"/>

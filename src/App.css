@@ -562,7 +562,7 @@ footer {
       position: fixed;
       height: 25px;
       width: 100vw;
-      margin: 0px 0px 0px 0px;
+      margin: 10px 0px 0px 0px;
       color: #dddddd;
       z-index: 1;
       display: flex;
@@ -572,6 +572,8 @@ footer {
       visibility: hidden; }
       .content-wrapper .carousel-container .text-box .text-overlay {
         font-size: 1.2em; }
+      .content-wrapper .carousel-container .text-box h2 {
+        margin-top: 5px; }
       .content-wrapper .carousel-container .text-box .carousel-image {
         display: flex;
         justify-content: center;

@@ -45,7 +45,8 @@ export default class Paintings2010 extends Component {
                 
                         <div className='image-wrapper'>
                             <div className='text-box'>
-                                <h1 className='text-overlay'>Rise 50in x 74in oil on canvas December 2010</h1>
+                                <h1 className='text-overlay'>Rise</h1>
+                                <h2>50in x 74in oil on canvas December 2010</h2>
                             </div>
                             <div>
                                 <img className="carousel-image" src={paintings20101} alt="Rise"/>
@@ -53,7 +54,8 @@ export default class Paintings2010 extends Component {
                         </div>
                         <div className='image-wrapper'>
                             <div className='text-box'>
-                                <h1 className='text-overlay'>Regrets 62in x 82in oil on canvas November 2010</h1>
+                                <h1 className='text-overlay'>Regrets</h1>
+                                <h2>62in x 82in oil on canvas November 2010</h2>
                             </div>
                             <div>
                                 <img className="carousel-image" src={paintings20102} alt="Regrets"/>
@@ -61,7 +63,8 @@ export default class Paintings2010 extends Component {
                         </div>
                         <div className='image-wrapper'>
                             <div className='text-box'>
-                                <h1 className='text-overlay'>River 50in x 74in oil on canvas December 2010</h1>
+                                <h1 className='text-overlay'>River</h1>
+                                <h2>50in x 74in oil on canvas December 2010</h2>
                             </div>
                             <div>
                                 <img className="carousel-image" src={paintings20103} alt="River"/>
@@ -69,7 +72,8 @@ export default class Paintings2010 extends Component {
                         </div>
                         <div className='image-wrapper'>
                             <div className='text-box'>
-                                <h1 className='text-overlay'>Below 62in x 82in oil on canvas November 2010</h1>
+                                <h1 className='text-overlay'>Below</h1>
+                                <h2>62in x 82in oil on canvas November 2010</h2>
                             </div>
                             <div>
                                 <img className="carousel-image" src={paintings20104} alt="Below"/>
@@ -77,7 +81,8 @@ export default class Paintings2010 extends Component {
                         </div>
                         <div className='image-wrapper'>
                             <div className='text-box'>
-                                <h1 className='text-overlay'>Sliver 44in x 72in oil on canvas March 2010</h1>
+                                <h1 className='text-overlay'>Sliver</h1>
+                                <h2>44in x 72in oil on canvas March 2010</h2>
                             </div>
                             <div>
                                 <img className="carousel-image" src={paintings20105} alt="Sliver"/>
@@ -85,7 +90,8 @@ export default class Paintings2010 extends Component {
                         </div>
                         <div className='image-wrapper'>
                             <div className='text-box'>
-                                <h1 className='text-overlay'>Steel oil on canvas 2010</h1>
+                                <h1 className='text-overlay'>Steel</h1>
+                                <h2>oil on canvas 2010</h2>
                             </div>
                             <div>
                                 <img className="carousel-image" src={paintings20106} alt="Steel"/>
@@ -93,7 +99,8 @@ export default class Paintings2010 extends Component {
                         </div>
                         <div className='image-wrapper'>
                             <div className='text-box'>
-                                <h1 className='text-overlay'>Flourescent oil on canvas 2010</h1>
+                                <h1 className='text-overlay'>Flourescent</h1>
+                                <h2>oil on canvas 2010</h2>
                             </div>
                             <div>
                                 <img className="carousel-image" src={paintings20107} alt="Flourescent"/>
