@@ -46,7 +46,8 @@ export default class Works2012 extends Component {
                     
                             <div className='image-wrapper'>
                                 <div className='text-box'>
-                                    <h1 className='text-overlay'>untitled 48in x 72in conte and pastel on paper</h1>
+                                    <h1 className='text-overlay'>untitled</h1>
+                                    <h2>48in x 72in conte and pastel on paper</h2>
                                 </div>
                                 <div>
                                     <img className="carousel-image" src={works20121} alt="untitled"/>
@@ -54,7 +55,8 @@ export default class Works2012 extends Component {
                             </div>
                             <div className='image-wrapper'>
                                 <div className='text-box'>
-                                    <h1 className='text-overlay'>untitled 48in x 78in conte and pastel on paper</h1>
+                                    <h1 className='text-overlay'>untitled</h1>
+                                    <h2>48in x 78in conte and pastel on paper</h2>
                                 </div>
                                 <div>
                                     <img className="carousel-image" src={works20122} alt="untitled"/>
@@ -62,7 +64,8 @@ export default class Works2012 extends Component {
                             </div>
                             <div className='image-wrapper'>
                                 <div className='text-box'>
-                                    <h1 className='text-overlay'>Backwards 8in x 10in pastel on paper</h1>
+                                    <h1 className='text-overlay'>Backwards</h1>
+                                    <h2>8in x 10in pastel on paper</h2>
                                 </div>
                                 <div>
                                     <img className="carousel-image" src={works20123} alt="Backwards"/>
@@ -70,7 +73,8 @@ export default class Works2012 extends Component {
                             </div>
                             <div className='image-wrapper'>
                                 <div className='text-box'>
-                                    <h1 className='text-overlay'>Glide 8in x 10in pastel on paper</h1>
+                                    <h1 className='text-overlay'>Glide</h1>
+                                    <h2>8in x 10in pastel on paper</h2>
                                 </div>
                                 <div>
                                     <img className="carousel-image" src={works20124} alt="Glide"/>
@@ -78,7 +82,8 @@ export default class Works2012 extends Component {
                             </div>
                             <div className='image-wrapper'>
                                 <div className='text-box'>
-                                    <h1 className='text-overlay'>Sled 8in x 10in pastel on paper</h1>
+                                    <h1 className='text-overlay'>Sled</h1>
+                                    <h2>8in x 10in pastel on paper</h2>
                                 </div>
                                 <div>
                                     <img className="carousel-image" src={works20125} alt="Sled"/>
@@ -86,7 +91,8 @@ export default class Works2012 extends Component {
                             </div>
                             <div className='image-wrapper'>
                                 <div className='text-box'>
-                                    <h1 className='text-overlay'>Lowland 8in x 10in pastel on paper</h1>
+                                    <h1 className='text-overlay'>Lowland</h1>
+                                    <h2>8in x 10in pastel on paper</h2>
                                 </div>
                                 <div>
                                     <img className="carousel-image" src={works20126} alt="Lowland"/>
@@ -94,7 +100,8 @@ export default class Works2012 extends Component {
                             </div>
                             <div className='image-wrapper'>
                                 <div className='text-box'>
-                                    <h1 className='text-overlay'>Mobile 8in x 10in pastel on paper</h1>
+                                    <h1 className='text-overlay'>Mobile</h1>
+                                    <h2>8in x 10in pastel on paper</h2>
                                 </div>
                                 <div>
                                     <img className="carousel-image" src={works20127} alt="Mobile"/>
@@ -102,7 +109,8 @@ export default class Works2012 extends Component {
                             </div>
                             <div className='image-wrapper'>
                                 <div className='text-box'>
-                                    <h1 className='text-overlay'>Nite Light 8in x 10in pastel on paper</h1>
+                                    <h1 className='text-overlay'>Nite Light</h1>
+                                    <h2>8in x 10in pastel on paper</h2>
                                 </div>
                                 <div>
                                     <img className="carousel-image" src={works20128} alt="Nite Light"/>
@@ -110,7 +118,8 @@ export default class Works2012 extends Component {
                             </div>
                             <div className='image-wrapper'>
                                 <div className='text-box'>
-                                    <h1 className='text-overlay'>Willow 8in x 10in pastel on paper</h1>
+                                    <h1 className='text-overlay'>Willow</h1>
+                                    <h2>8in x 10in pastel on paper</h2>
                                 </div>
                                 <div>
                                     <img className="carousel-image" src={works20129} alt="Willow"/>
@@ -118,7 +127,8 @@ export default class Works2012 extends Component {
                             </div>
                             <div className='image-wrapper'>
                                 <div className='text-box'>
-                                    <h1 className='text-overlay'>Passing 18inx24in charcoal on paper</h1>
+                                    <h1 className='text-overlay'>Passing</h1>
+                                    <h2>18in x 24in charcoal on paper</h2>
                                 </div>
                                 <div>
                                     <img className="carousel-image" src={works201210} alt="Passing"/>
@@ -126,7 +136,8 @@ export default class Works2012 extends Component {
                             </div>
                             <div className='image-wrapper'>
                                 <div className='text-box'>
-                                    <h1 className='text-overlay'>By Force 18in x 24in charcoal on paper</h1>
+                                    <h1 className='text-overlay'>By Force</h1>
+                                    <h2>18in x 24in charcoal on paper</h2>
                                 </div>
                                 <div>
                                     <img className="carousel-image" src={works201211} alt="By Force"/>
@@ -134,7 +145,8 @@ export default class Works2012 extends Component {
                             </div>
                             <div className='image-wrapper'>
                                 <div className='text-box'>
-                                    <h1 className='text-overlay'>DC Subway 18inx24in charcoal on paper</h1>
+                                    <h1 className='text-overlay'>DC Subway</h1>
+                                    <h2>18in x 24in charcoal on paper</h2>
                                 </div>
                                 <div>
                                     <img className="carousel-image" src={works201212} alt="DC Subway"/>
@@ -142,7 +154,8 @@ export default class Works2012 extends Component {
                             </div>
                             <div className='image-wrapper'>
                                 <div className='text-box'>
-                                    <h1 className='text-overlay'>Ravine 18in x24in charcoal on paper</h1>
+                                    <h1 className='text-overlay'>Ravine</h1>
+                                    <h2>18in x24in charcoal on paper</h2>
                                 </div>
                                 <div>
                                     <img className="carousel-image" src={works201213} alt="Ravine"/>

@@ -64,9 +64,8 @@ export default class Carousel extends Component {
                             </div>
                             <div className='image-wrapper'>
                                 <div className='text-box'>
-                                    <br/><br/>
-                                    <h1 className='text-overlay'>12in x 12in Botanica Gardens Plein Air</h1>
-                                    <h1 className='text-overlay'>Painting Competition  September 2016</h1>
+                                    <h1 className='text-overlay'>Botanica Gardens Plein Air</h1>
+                                    <h2>12in x 12in Painting Competition September 2016</h2>
                                 </div>
                                 <div>
                                     <img className="carousel-image" src={commissioned3} alt="Botanical Gardens"/>
@@ -106,7 +105,8 @@ export default class Carousel extends Component {
                             </div>
                             <div className='image-wrapper'>
                                 <div className='text-box'>
-                                    <h1 className='text-overlay'>Golden Gate 42in x 34in oil on canvas 2013</h1>
+                                    <h1 className='text-overlay'>Golden Gate</h1>
+                                    <h2>42in x 34in oil on canvas 2013</h2>
                                 </div>
                                 <div>
                                     <img className="carousel-image" src={commissioned8} alt="Golden Gate Bridge"/>
@@ -130,10 +130,8 @@ export default class Carousel extends Component {
                             </div>
                             <div className='image-wrapper'>
                                 <div className='text-box'>
-                                    <br/>
-                                    <br/>
-                                    <h1 className='text-overlay'>Drawing for painting 24in x 36in</h1>
-                                    <h1 className='text-overlay'>charcoal on paper</h1>
+                                    <h1 className='text-overlay'>Drawing for painting</h1>
+                                    <h2>24in x 36in charcoal on paper</h2>
                                 </div>
                                 <div>
                                     <img className="carousel-image" src={commissioned11} alt="Golden Gate Bridge"/>
@@ -141,7 +139,8 @@ export default class Carousel extends Component {
                             </div>
                             <div className='image-wrapper'>
                                 <div className='text-box'>
-                                    <h1 className='text-overlay'>Drawing for painting 24in x 36in charcoal on paper</h1>
+                                    <h1 className='text-overlay'>Drawing for painting</h1>
+                                    <h2>24in x 36in charcoal on paper</h2>
                                 </div>
                                 <div>
                                     <img className="carousel-image" src={commissioned12} alt="Golden Gate Bridge"/>

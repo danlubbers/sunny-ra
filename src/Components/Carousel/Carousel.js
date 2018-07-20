@@ -43,7 +43,8 @@ export default class Carousel extends Component {
             
                     <div className='image-wrapper'>
                         <div className='text-box'>
-                            <h1 className='text-overlay'>Black Sand 44in x 68in Oil on Canvas</h1>
+                            <h1 className='text-overlay'>Black Sand</h1>
+                            <h2>44in x 68in Oil on Canvas</h2>
                         </div>
                         <div>
                             <img className="carousel-image" src={blacksand} alt="Black Sand"/>
@@ -51,7 +52,8 @@ export default class Carousel extends Component {
                     </div>
                     <div className='image-wrapper'>
                         <div className='text-box'>
-                            <h1 className='text-overlay'>Mammoth 42in x 38in Oil on Canvas</h1>
+                            <h1 className='text-overlay'>Mammoth</h1>
+                            <h2>42in x 38in Oil on Canvas</h2>
                         </div>
                         <div>
                             <img className="carousel-image" src={mammoth} alt="Mammoth"/>
@@ -59,7 +61,8 @@ export default class Carousel extends Component {
                     </div>
                     <div className='image-wrapper'>
                         <div className='text-box'>
-                            <h1 className='text-overlay'>Flight 11in x 14in Oil on Paper</h1>
+                            <h1 className='text-overlay'>Flight</h1>
+                            <h2>11in x 14in Oil on Paper</h2>
                         </div>
                         <div>
                             <img className="carousel-image" src={flight} alt="Flight"/>
@@ -67,7 +70,8 @@ export default class Carousel extends Component {
                     </div>
                     <div className='image-wrapper'>
                         <div className='text-box'>
-                            <h1 className='text-overlay'>Manta 16in x 20in Oil on Canvas mounted on panel</h1>
+                            <h1 className='text-overlay'>Manta</h1>
+                            <h2>16in x 20in Oil on Canvas mounted on panel</h2>
                         </div>
                         <div>
                             <img className="carousel-image" src={manta} alt="Manta"/>
@@ -75,7 +79,8 @@ export default class Carousel extends Component {
                     </div>
                     <div className='image-wrapper'>
                         <div className='text-box'>
-                            <h1 className='text-overlay'>Kinetic 14in x 11in Oil on Paper</h1>
+                            <h1 className='text-overlay'>Kinetic</h1>
+                            <h2>14in x 11in Oil on Paper</h2>
                         </div>
                         <div>
                             <img className="carousel-image" src={kinetic} alt="Kinetic"/>
@@ -83,7 +88,8 @@ export default class Carousel extends Component {
                     </div>
                     <div className='image-wrapper'>
                         <div className='text-box'>
-                            <h1 className='text-overlay'>Might 11in x 14in Oil on Paper</h1>
+                            <h1 className='text-overlay'>Might</h1>
+                            <h2>11in x 14in Oil on Paper</h2>
                         </div>
                         <div>
                             <img className="carousel-image" src={might} alt="Might"/>
@@ -91,7 +97,8 @@ export default class Carousel extends Component {
                     </div>
                     <div className='image-wrapper'>
                         <div className='text-box'>
-                            <h1 className='text-overlay'>Radiate 32in x 48in Oil on Canvas</h1>
+                            <h1 className='text-overlay'>Radiate</h1>
+                            <h2>32in x 48in Oil on Canvas</h2>
                         </div>
                         <div>
                             <img className="carousel-image" src={radiate} alt="Radiate"/>
@@ -99,7 +106,8 @@ export default class Carousel extends Component {
                     </div>
                     <div className='image-wrapper'>
                         <div className='text-box'>
-                            <h1 className='text-overlay'>Nebula 12in x 16in Oil on Canvas mounted on Panel "SOLD"</h1>
+                            <h1 className='text-overlay'>Nebula</h1>
+                            <h2>12in x 16in Oil on Canvas mounted on Panel "SOLD"</h2>
                         </div>
                         <div>
                             <img className="carousel-image" src={nebula} alt="Nebula"/>
@@ -107,7 +115,8 @@ export default class Carousel extends Component {
                     </div>
                     <div className='image-wrapper'>
                         <div className='text-box'>
-                            <h1 className='text-overlay'>Chase 16in x 12in Oil on Canvas mounted on Panel "SOLD"</h1>
+                            <h1 className='text-overlay'>Chase</h1>
+                            <h2>16in x 12in Oil on Canvas mounted on Panel "SOLD"</h2>
                         </div>
                         <div>
                             <img className="carousel-image" src={chase} alt="Chase"/>
@@ -115,7 +124,8 @@ export default class Carousel extends Component {
                     </div>
                     <div className='image-wrapper'>
                         <div className='text-box'>
-                            <h1 className='text-overlay'>Harvest 11in x 14in Oil on Paper</h1>
+                            <h1 className='text-overlay'>Harvest</h1>
+                            <h2>11in x 14in Oil on Paper</h2>
                         </div>
                         <div>
                             <img className="carousel-image" src={harvest} alt="Harvest"/>
@@ -123,7 +133,8 @@ export default class Carousel extends Component {
                     </div>
                     <div className='image-wrapper'>
                         <div className='text-box'>
-                            <h1 className='text-overlay'>Expedition 16in x 12in Oil on Canvas mounted on Panel</h1>
+                            <h1 className='text-overlay'>Expedition</h1>
+                            <h2>16in x 12in Oil on Canvas mounted on Panel</h2>
                         </div>
                         <div>
                             <img className="carousel-image" src={expedition} alt="Expedition"/>
