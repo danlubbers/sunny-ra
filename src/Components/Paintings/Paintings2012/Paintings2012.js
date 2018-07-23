@@ -9,6 +9,7 @@ import paintings20125 from '../../../assets/images/paintings/2012/paintings2012-
 import paintings20126 from '../../../assets/images/paintings/2012/paintings2012-6.jpg';
 import paintings20126M from '../../../assets/images/paintings/2012/paintings2012-6-mobile.jpg';
 import paintings20127 from '../../../assets/images/paintings/2012/paintings2012-7.jpg';
+import paintings20127M from '../../../assets/images/paintings/2012/paintings2012-7-mobile.jpg';
 import paintings20128 from '../../../assets/images/paintings/2012/paintings2012-8.jpg';
 import paintings20129 from '../../../assets/images/paintings/2012/paintings2012-9.jpg';
 import paintings201210 from '../../../assets/images/paintings/2012/paintings2012-10.jpg';
@@ -90,8 +91,8 @@ export default class Paintings2012 extends Component {
                         </div>
                         <div className='image-wrapper'>
                             <div className='text-box'>
-                                <h1 className='text-overlay'>Passing</h1>
-                                <h2>24in x 48in oil on canvas N/A</h2>
+                                <h1 className='text-overlay-2'>Passing</h1>
+                                <h2 className='text-overlay-2'>24in x 48in oil on canvas N/A</h2>
                             </div>
                             <div>
                                 <img className="carousel-image" src={paintings20126} alt="Passing"/>
@@ -99,8 +100,8 @@ export default class Paintings2012 extends Component {
                         </div>
                         <div className='image-wrapper'>
                             <div className='text-box'>
-                                <h1 className='text-overlay'>Heads Up</h1>
-                                <h2>44in x 68in oil on canvas SOLD</h2>
+                                <h1 className='text-overlay-2'>Heads Up</h1>
+                                <h2 className='text-overlay-2'>44in x 68in oil on canvas SOLD</h2>
                             </div>
                             <div>
                                 <img className="carousel-image" src={paintings20127} alt="Heads Up"/>
@@ -144,7 +145,7 @@ export default class Paintings2012 extends Component {
                 <img className='mobile-images' src={paintings20124} alt='Escalate'/>
                 <img className='mobile-images' src={paintings20125} alt='The Underground'/>
                 <img className='mobile-images' src={paintings20126M} alt='Passing'/>
-                <img className='mobile-images' src={paintings20127} alt='Heads Up'/>
+                <img className='mobile-images' src={paintings20127M} alt='Heads Up'/>
                 <img className='mobile-images' src={paintings20128} alt='Overturn'/>
                 <img className='mobile-images' src={paintings20129} alt='Sirens'/>
                 <img className='mobile-images' src={paintings201210} alt='Veil'/>

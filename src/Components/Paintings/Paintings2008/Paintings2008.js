@@ -67,8 +67,8 @@ export default class Paintings2008 extends Component {
                             </div>
                             <div className='image-wrapper'>
                                 <div className='text-box'>
-                                <h1  className='text-overlay'>Fallen</h1>
-                                <h2>20in x 46in oil on canvas November 2009 SOLD</h2>
+                                <h1 className='text-overlay-2'>Fallen</h1>
+                                <h2 className='text-overlay-2'>20in x 46in oil on canvas November 2009 SOLD</h2>
                                 </div>
                                 <div>
                                     <img className="carousel-image" src={paintings20083} alt="Fallen"/>
@@ -76,8 +76,8 @@ export default class Paintings2008 extends Component {
                             </div>
                             <div className='image-wrapper'>
                                 <div className='text-box'>
-                                <h1  className='text-overlay'>Taking You Out</h1>
-                                <h2>20in x 46in oil on canvas October 2009 SOLD</h2>
+                                <h1 className='text-overlay-2'>Taking You Out</h1>
+                                <h2 className='text-overlay-2'>20in x 46in oil on canvas October 2009 SOLD</h2>
                                 </div>
                                 <div>
                                     <img className="carousel-image" src={paintings20084} alt="Taking You Out"/>
@@ -85,8 +85,8 @@ export default class Paintings2008 extends Component {
                             </div>
                             <div className='image-wrapper'>
                                 <div className='text-box'>
-                                <h1  className='text-overlay'>Aftershock</h1>
-                                <h2>20in x 46in oil on canvas September 2009</h2>
+                                <h1 className='text-overlay-2'>Aftershock</h1>
+                                <h2 className='text-overlay-2'>20in x 46in oil on canvas September 2009</h2>
                                 </div>
                                 <div>
                                     <img className="carousel-image" src={paintings20085} alt="Aftershock"/>
@@ -94,8 +94,8 @@ export default class Paintings2008 extends Component {
                             </div>
                             <div className='image-wrapper'>
                                 <div className='text-box'>
-                                <h1  className='text-overlay'>Burn Out Bright</h1>
-                                <h2>20in x 46in oil on canvas September 2009</h2>
+                                <h1 className='text-overlay-2'>Burn Out Bright</h1>
+                                <h2 className='text-overlay-2'>20in x 46in oil on canvas September 2009</h2>
                                 </div>
                                 <div>
                                     <img className="carousel-image" src={paintings20086} alt="Burn Out Bright"/>
@@ -103,8 +103,8 @@ export default class Paintings2008 extends Component {
                             </div>
                             <div className='image-wrapper'>
                                 <div className='text-box'>
-                                <h1  className='text-overlay'>Runway</h1>
-                                <h2>20in x 46in oil on canvas August 2009</h2>
+                                <h1 className='text-overlay-2'>Runway</h1>
+                                <h2 className='text-overlay-2'>20in x 46in oil on canvas August 2009</h2>
                                 </div>
                                 <div>
                                     <img className="carousel-image" src={paintings20087} alt="Runway"/>

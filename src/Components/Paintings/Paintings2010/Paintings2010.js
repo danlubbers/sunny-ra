@@ -90,8 +90,8 @@ export default class Paintings2010 extends Component {
                         </div>
                         <div className='image-wrapper'>
                             <div className='text-box'>
-                                <h1 className='text-overlay'>Steel</h1>
-                                <h2>oil on canvas 2010</h2>
+                                <h1 className='text-overlay-2'>Steel</h1>
+                                <h2 className='text-overlay-2'>oil on canvas 2010</h2>
                             </div>
                             <div>
                                 <img className="carousel-image" src={paintings20106} alt="Steel"/>
@@ -99,8 +99,8 @@ export default class Paintings2010 extends Component {
                         </div>
                         <div className='image-wrapper'>
                             <div className='text-box'>
-                                <h1 className='text-overlay'>Flourescent</h1>
-                                <h2>oil on canvas 2010</h2>
+                                <h1 className='text-overlay-2'>Flourescent</h1>
+                                <h2 className='text-overlay-2'>oil on canvas 2010</h2>
                             </div>
                             <div>
                                 <img className="carousel-image" src={paintings20107} alt="Flourescent"/>

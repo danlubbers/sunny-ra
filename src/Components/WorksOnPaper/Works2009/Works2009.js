@@ -50,8 +50,8 @@ export default class Works2009 extends Component {
                     
                             <div className='image-wrapper'>
                                 <div className='text-box'>
-                                    <h1 className='text-overlay'>Take Off</h1>
-                                    <h2>33in x 66in pastel on paper</h2>
+                                    <h1 className='text-overlay-2'>Take Off</h1>
+                                    <h2 className='text-overlay-2'>33in x 66in pastel on paper</h2>
                                 </div>
                                 <div>
                                     <img className="carousel-image" src={works20091} alt="Take Off"/>
@@ -59,8 +59,8 @@ export default class Works2009 extends Component {
                             </div>
                             <div className='image-wrapper'>
                                 <div className='text-box'>
-                                    <h1 className='text-overlay'>Break #2</h1>
-                                    <h2>conte on mylar 42in x 36in</h2>
+                                    <h1 className='text-overlay-2'>Break #2</h1>
+                                    <h2 className='text-overlay-2'>conte on mylar 42in x 36in</h2>
                                 </div>
                                 <div>
                                     <img className="carousel-image" src={works20092} alt="Break #2"/>
@@ -68,8 +68,8 @@ export default class Works2009 extends Component {
                             </div>
                             <div className='image-wrapper'>
                                 <div className='text-box'>
-                                    <h1 className='text-overlay'>Break #1</h1>
-                                    <h2>conte on mylar 42in x 36in</h2>
+                                    <h1 className='text-overlay-2'>Break #1</h1>
+                                    <h2 className='text-overlay-2'>conte on mylar 42in x 36in</h2>
                                 </div>
                                 <div>
                                     <img className="carousel-image" src={works20093} alt="Break #1"/>
@@ -140,8 +140,8 @@ export default class Works2009 extends Component {
                             </div>
                             <div className='image-wrapper'>
                                 <div className='text-box'>
-                                    <h1 className='text-overlay'>Unearth #1</h1>
-                                    <h2>24in x 36in conte on vellum December 2009</h2>
+                                    <h1 className='text-overlay-2'>Unearth #1</h1>
+                                    <h2 className='text-overlay-2'>24in x 36in conte on vellum December 2009</h2>
                                 </div>
                                 <div>
                                     <img className="carousel-image" src={works200911} alt="Unearth #1"/>
@@ -149,8 +149,8 @@ export default class Works2009 extends Component {
                             </div>
                             <div className='image-wrapper'>
                                 <div className='text-box'>
-                                    <h1 className='text-overlay'>Unearth #2</h1>
-                                    <h2>24in x 36in conte on vellum December 2009</h2>
+                                    <h1 className='text-overlay-2'>Unearth #2</h1>
+                                    <h2 className='text-overlay-2'>24in x 36in conte on vellum December 2009</h2>
                                 </div>
                                 <div>
                                     <img className="carousel-image" src={works200912} alt="Unearth #2"/>
@@ -167,8 +167,8 @@ export default class Works2009 extends Component {
                             </div>
                             <div className='image-wrapper'>
                                 <div className='text-box'>
-                                    <h1 className='text-overlay'>Raging</h1>
-                                    <h2>36in x 52in pastel and acrylic on collaged paper April 2009</h2>
+                                    <h1 className='text-overlay-2'>Raging</h1>
+                                    <h2 className='text-overlay-2'>36in x 52in pastel and acrylic on collaged paper April 2009</h2>
                                 </div>
                                 <div>
                                     <img className="carousel-image" src={works200914} alt="Raging"/>

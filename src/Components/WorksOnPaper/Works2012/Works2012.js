@@ -56,8 +56,8 @@ export default class Works2012 extends Component {
                             </div>
                             <div className='image-wrapper'>
                                 <div className='text-box'>
-                                    <h1 className='text-overlay'>untitled</h1>
-                                    <h2>48in x 78in conte and pastel on paper</h2>
+                                    <h1 className='text-overlay-2'>untitled</h1>
+                                    <h2 className='text-overlay-2'>48in x 78in conte and pastel on paper</h2>
                                 </div>
                                 <div>
                                     <img className="carousel-image" src={works20122} alt="untitled"/>

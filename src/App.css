@@ -572,6 +572,8 @@ footer {
       visibility: hidden; }
       .content-wrapper .carousel-container .text-box .text-overlay {
         font-size: 1.2em; }
+      .content-wrapper .carousel-container .text-box .text-overlay-2 {
+        color: black; }
       .content-wrapper .carousel-container .text-box h2 {
         margin-top: 10px; }
       .content-wrapper .carousel-container .text-box .carousel-image {

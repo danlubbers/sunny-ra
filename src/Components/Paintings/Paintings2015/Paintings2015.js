@@ -87,8 +87,8 @@ export default class Paintings2015 extends Component {
                             </div>
                             <div className='image-wrapper'>
                                 <div className='text-box'>
-                                    <h1 className='text-overlay'>Accumulation</h1>
-                                    <h2>30in x 44in oil on canvas 2015</h2>
+                                    <h1 className='text-overlay-2'>Accumulation</h1>
+                                    <h2 className='text-overlay-2'>30in x 44in oil on canvas 2015</h2>
                                 </div>
                                 <div>
                                     <img className="carousel-image" src={paintings20156} alt="Accumulation"/>

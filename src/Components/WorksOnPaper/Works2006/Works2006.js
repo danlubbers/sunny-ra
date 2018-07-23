@@ -47,8 +47,8 @@ export default class Works2006 extends Component {
                         </div>
                         <div className='image-wrapper'>
                             <div className='text-box'>
-                                <h1 className='text-overlay'>Do You See Me</h1>
-                                <h2>40in x 30in charcoal on paper</h2>
+                                <h1 className='text-overlay-2'>Do You See Me</h1>
+                                <h2 className='text-overlay-2'>40in x 30in charcoal on paper</h2>
                             </div>
                             <div>
                                 <img className="carousel-image" src={works20062} alt="Do You See Me"/>
@@ -65,8 +65,8 @@ export default class Works2006 extends Component {
                         </div>
                         <div className='image-wrapper'>
                             <div className='text-box'>
-                                <h1 className='text-overlay'>Run 30in x 20in</h1>
-                                <h2>charcoal on paper</h2>
+                                <h1 className='text-overlay-2'>Run 30in x 20in</h1>
+                                <h2 className='text-overlay-2'>charcoal on paper</h2>
                             </div>
                             <div>
                                 <img className="carousel-image" src={works20064} alt="Run"/>
@@ -74,8 +74,8 @@ export default class Works2006 extends Component {
                         </div>
                         <div className='image-wrapper'>
                             <div className='text-box'>
-                                <h1 className='text-overlay'>Seeing it Through the Rough</h1>
-                                <h2>43in x 34in charcoal on paper</h2>
+                                <h1 className='text-overlay-2'>Seeing it Through the Rough</h1>
+                                <h2 className='text-overlay-2'>43in x 34in charcoal on paper</h2>
                             </div>
                             <div>
                                 <img className="carousel-image" src={works20065} alt="Seeing it Through the Rough"/>
