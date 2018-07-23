@@ -3,6 +3,7 @@ import Slider from 'react-slick';
 
 import works20121 from '../../../assets/images/works/2012/works2012-1.jpg';
 import works20122 from '../../../assets/images/works/2012/works2012-2.jpg';
+import works20122M from '../../../assets/images/works/2012/works2012-2-mobile.jpg';
 import works20123 from '../../../assets/images/works/2012/works2012-3.jpg';
 import works20124 from '../../../assets/images/works/2012/works2012-4.jpg';
 import works20125 from '../../../assets/images/works/2012/works2012-5.jpg';
@@ -167,7 +168,7 @@ export default class Works2012 extends Component {
             </div>
                 <div className='images-container-mobile'>
                     <img className='mobile-images' src={works20121} alt='untitled'/>
-                    <img className='mobile-images' src={works20122} alt='untitled'/>
+                    <img className='mobile-images' src={works20122M} alt='untitled'/>
                     <img className='mobile-images' src={works20123} alt='Backwards'/>
                     <img className='mobile-images' src={works20124} alt='Glide'/>
                     <img className='mobile-images' src={works20125} alt='Sled'/>

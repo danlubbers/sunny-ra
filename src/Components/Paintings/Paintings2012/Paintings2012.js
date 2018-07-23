@@ -7,6 +7,7 @@ import paintings20123 from '../../../assets/images/paintings/2012/paintings2012-
 import paintings20124 from '../../../assets/images/paintings/2012/paintings2012-4.jpg';
 import paintings20125 from '../../../assets/images/paintings/2012/paintings2012-5.jpg';
 import paintings20126 from '../../../assets/images/paintings/2012/paintings2012-6.jpg';
+import paintings20126M from '../../../assets/images/paintings/2012/paintings2012-6-mobile.jpg';
 import paintings20127 from '../../../assets/images/paintings/2012/paintings2012-7.jpg';
 import paintings20128 from '../../../assets/images/paintings/2012/paintings2012-8.jpg';
 import paintings20129 from '../../../assets/images/paintings/2012/paintings2012-9.jpg';
@@ -142,7 +143,7 @@ export default class Paintings2012 extends Component {
                 <img className='mobile-images' src={paintings20123} alt='Night Fog'/>
                 <img className='mobile-images' src={paintings20124} alt='Escalate'/>
                 <img className='mobile-images' src={paintings20125} alt='The Underground'/>
-                <img className='mobile-images' src={paintings20126} alt='Passing'/>
+                <img className='mobile-images' src={paintings20126M} alt='Passing'/>
                 <img className='mobile-images' src={paintings20127} alt='Heads Up'/>
                 <img className='mobile-images' src={paintings20128} alt='Overturn'/>
                 <img className='mobile-images' src={paintings20129} alt='Sirens'/>
