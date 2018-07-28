@@ -37,7 +37,7 @@ export default class Carousel extends Component {
     
     return (
         <div className='content-wrapper'>
-            <h1> </h1>
+            <br />
             <div className='carousel-container'>
                 <Slider ref={slider => (this.slider = slider)}{...settings} style={{position: 'relative',    zIndex: '500 !important'}}>
             
