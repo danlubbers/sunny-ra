@@ -8,6 +8,7 @@ import SunnyPortrait2 from '../../assets/sunny-portrait-2.jpg';
 // Icons
 import CloseIcon from 'react-icons/lib/fa/times-circle';
 import Bars from 'react-icons/lib/fa/bars';
+import LinkedIn from 'react-icons/lib/fa/linkedin-square'
 
 export default class Header extends Component {
     constructor(props) {
@@ -218,6 +219,7 @@ export default class Header extends Component {
                                 <div className='photo-contact-container'>
                                     <img className='sunny-portrait' src={SunnyPortrait2} alt='Sunny Ra'/>
                                    <span className='email-container'> <h3>Email:</h3> <a className='email' href={`mailto:${email}`}>sunnyra23@gmail.com</a></span>
+                                   <span><LinkedIn/></span>
                                 </div>
                             <div className='education-container'>
                                 <h3>ARTIST / EDUCATOR</h3>
