@@ -219,7 +219,7 @@ export default class Header extends Component {
                                 <div className='photo-contact-container'>
                                     <img className='sunny-portrait' src={SunnyPortrait2} alt='Sunny Ra'/>
                                    <span className='email-container'> <h3>Email:</h3> <a className='email' href={`mailto:${email}`}>sunnyra23@gmail.com</a></span>
-                                   <span><LinkedIn/></span>
+                                   {/* <span><LinkedIn/></span> */}
                                 </div>
                             <div className='education-container'>
                                 <h3>ARTIST / EDUCATOR</h3>

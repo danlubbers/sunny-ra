@@ -5,6 +5,9 @@ const express = require('express')
     , bodyParser = require('body-parser')
     , app = new express()
 
+ReactDOMServer.renderToString(<Handler />);
+const helmet = Helmet.renderStatic();
+
 app.use(bodyParser.json())
 app.use(cors())
 
