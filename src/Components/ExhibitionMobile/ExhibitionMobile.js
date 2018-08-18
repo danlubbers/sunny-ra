@@ -22,7 +22,7 @@ export default function ExhibitionMobile() {
                             <li>Pop-Up Art Show, Frankfort Avenue Trolley Hop, Louisville, KY  2016</li>
                             <li>Open Studio Weekend Exhibition, Cressman Center for Visual Arts, Louisville, KY  2015</li>
                             <li>Botanica, Women's Club, Louisville, KY 2014</li>
-                            <li>Nightscapes, Solo Show, PUBLIC Gallery, Louisville, KY - 2014</li>
+                            <li>Nightscapes, Solo Show, Louisville Visual Art, Louisville, KY - 2014</li>
                             <li>Presence and Place, Louisville Metro Hall, Louisville, KY - 2014</li>
                             <li>Group Show, Swanson Reed Contemporary, Louisville, KY -  2013</li>
                             <li>Now on Paper, The Alliance of Young Artists and Writers, New York, NY - 2012</li>
