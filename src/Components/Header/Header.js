@@ -1,14 +1,10 @@
 import React, {Component} from 'react'
 import {Link} from 'react-router-dom';
 import Toggle from '../../Components/Toggle/Toggle';
-// Images
-import SunnyLogo from '../../assets/sunny-ra-logo.png';
-// import SunnyPortrait from '../../assets/sunny-portrait.jpg';
-import SunnyPortrait2 from '../../assets/sunny-portrait-2.jpg';
 // Icons
 import CloseIcon from 'react-icons/lib/fa/times-circle';
 import Bars from 'react-icons/lib/fa/bars';
-import LinkedIn from 'react-icons/lib/fa/linkedin-square'
+// import LinkedIn from 'react-icons/lib/fa/linkedin-square'
 
 export default class Header extends Component {
     constructor(props) {
@@ -122,7 +118,7 @@ export default class Header extends Component {
         <div>
             <header>
                 <div className='sunny-logo-container'>
-                    <Link to='/' onClick={this.handleClickHome}><img className='sunny-logo' src={SunnyLogo} alt='Sunny Ra Logo' /></Link>
+                    <Link to='/' onClick={this.handleClickHome}><img className='sunny-logo' src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/sunny-ra-logo.png" alt='Sunny Ra Logo' /></Link>
                 </div>
                 <div className='hamburger-container'>
                     <button className='hamburgerBtn' onClick={this.handleClickMobile}><Bars/></button>
@@ -217,9 +213,8 @@ export default class Header extends Component {
                         <div className={aboutDropDown}>
                             <div className='about-container'>
                                 <div className='photo-contact-container'>
-                                    <img className='sunny-portrait' src={SunnyPortrait2} alt='Sunny Ra'/>
+                                    <img className='sunny-portrait' src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/sunny-portrait-2.jpg" alt='Sunny Ra'/>
                                    <span className='email-container'> <h3>Email:</h3> <a className='email' href={`mailto:${email}`}>sunnyra23@gmail.com</a></span>
-                                   {/* <span><LinkedIn/></span> */}
                                 </div>
                             <div className='education-container'>
                                 <h3>ARTIST / EDUCATOR</h3>

@@ -1,12 +1,6 @@
 import React, {Component} from 'react';
 import Slider from 'react-slick';
 
-import paintings20061 from '../../../assets/images/paintings/2006/paintings2006-1.jpg';
-import paintings20062 from '../../../assets/images/paintings/2006/paintings2006-2.jpg';
-import paintings20063 from '../../../assets/images/paintings/2006/paintings2006-3.jpg';
-import paintings20064 from '../../../assets/images/paintings/2006/paintings2006-4.jpg';
-import paintings20065 from '../../../assets/images/paintings/2006/paintings2006-5.jpg';
-
 export default class Paintings2006 extends Component {
     
     render() {
@@ -42,7 +36,7 @@ export default class Paintings2006 extends Component {
                                     <h2 className='text-overlay-2'>54in x 40in oil on canvas December 2006</h2>
                                 </div>
                                 <div>
-                                    <img className="carousel-image" src={paintings20061} alt="The Final Round"/>
+                                    <img className="carousel-image" src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/paintings/2006/paintings2006-1.jpg" alt="The Final Round"/>
                                 </div>
                             </div>
                             <div className='image-wrapper'>
@@ -51,7 +45,7 @@ export default class Paintings2006 extends Component {
                                     <h2 className='text-overlay-2'>43in x 34in oil on canvas October 2006</h2>
                                 </div>
                                 <div>
-                                    <img className="carousel-image" src={paintings20062} alt="It's Not Enough"/>
+                                    <img className="carousel-image" src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/paintings/2006/paintings2006-2.jpg" alt="It's Not Enough"/>
                                 </div>
                             </div>
                             <div className='image-wrapper'>
@@ -60,7 +54,7 @@ export default class Paintings2006 extends Component {
                                     <h2 className='text-overlay'>38in x 50in oil on canvas July 2006</h2>
                                 </div>
                                 <div>
-                                    <img className="carousel-image" src={paintings20063} alt="The Only One"/>
+                                    <img className="carousel-image" src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/paintings/2006/paintings2006-3.jpg" alt="The Only One"/>
                                 </div>
                             </div>
                             <div className='image-wrapper'>
@@ -69,7 +63,7 @@ export default class Paintings2006 extends Component {
                                     <h2 className='text-overlay-2'>50in x 40in oil on canvas May 2006</h2>
                                 </div>
                                 <div>
-                                    <img className="carousel-image" src={paintings20064} alt="Make it Tomorrow"/>
+                                    <img className="carousel-image" src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/paintings/2006/paintings2006-4.jpg" alt="Make it Tomorrow"/>
                                 </div>
                             </div>
                             <div className='image-wrapper'>
@@ -78,7 +72,7 @@ export default class Paintings2006 extends Component {
                                     <h2 className='text-overlay-2'>52in x 40in oil on canvas April 2006</h2>
                                 </div>
                                 <div>
-                                    <img className="carousel-image" src={paintings20065} alt="Go Ahead"/>
+                                    <img className="carousel-image" src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/paintings/2006/paintings2006-5.jpg" alt="Go Ahead"/>
                                 </div>
                             </div>
                         </Slider>
@@ -86,11 +80,11 @@ export default class Paintings2006 extends Component {
                 </div>
             </div>
                 <div className='images-container-mobile'>
-                    <img className='mobile-images' src={paintings20061} alt='The Final Round'/>
-                    <img className='mobile-images' src={paintings20062} alt="It's Not Enough"/>
-                    <img className='mobile-images' src={paintings20063} alt='The Only One'/>
-                    <img className='mobile-images' src={paintings20064} alt='Make it Tomorrow'/>
-                    <img className='mobile-images' src={paintings20065} alt='Go Ahead'/>
+                    <img className='mobile-images' src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/paintings/2006/paintings2006-1.jpg" alt='The Final Round'/>
+                    <img className='mobile-images' src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/paintings/2006/paintings2006-2.jpg" alt="It's Not Enough"/>
+                    <img className='mobile-images' src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/paintings/2006/paintings2006-3.jpg" alt='The Only One'/>
+                    <img className='mobile-images' src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/paintings/2006/paintings2006-4.jpg" alt='Make it Tomorrow'/>
+                    <img className='mobile-images' src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/paintings/2006/paintings2006-5.jpg" alt='Go Ahead'/>
                 </div>
         </div>
     )

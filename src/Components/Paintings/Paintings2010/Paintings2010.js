@@ -1,19 +1,6 @@
 import React, {Component} from 'react';
 import Slider from 'react-slick';
 
-import paintings20101 from '../../../assets/images/paintings/2010/paintings2010-1.jpg';
-import paintings20102 from '../../../assets/images/paintings/2010/paintings2010-2.jpg';
-import paintings20103 from '../../../assets/images/paintings/2010/paintings2010-3.jpg';
-import paintings20104 from '../../../assets/images/paintings/2010/paintings2010-4.jpg';
-import paintings20105 from '../../../assets/images/paintings/2010/paintings2010-5.jpg';
-import paintings20106 from '../../../assets/images/paintings/2010/paintings2010-6.jpg';
-import paintings20106M from '../../../assets/images/paintings/2010/paintings2010-6-mobile.jpg';
-import paintings20107 from '../../../assets/images/paintings/2010/paintings2010-7.jpg';
-import paintings20107M from '../../../assets/images/paintings/2010/paintings2010-7-mobile.jpg';
-import paintings20108 from '../../../assets/images/paintings/2010/paintings2010-8.jpg';
-
-
-
 export default class Paintings2010 extends Component {
     
     render() {
@@ -49,7 +36,7 @@ export default class Paintings2010 extends Component {
                                 <h2>50in x 74in oil on canvas December 2010</h2>
                             </div>
                             <div>
-                                <img className="carousel-image" src={paintings20101} alt="Rise"/>
+                                <img className="carousel-image" src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/paintings/2010/paintings2010-1.jpg" alt="Rise"/>
                             </div>
                         </div>
                         <div className='image-wrapper'>
@@ -58,7 +45,7 @@ export default class Paintings2010 extends Component {
                                 <h2>62in x 82in oil on canvas November 2010</h2>
                             </div>
                             <div>
-                                <img className="carousel-image" src={paintings20102} alt="Regrets"/>
+                                <img className="carousel-image" src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/paintings/2010/paintings2010-2.jpg" alt="Regrets"/>
                             </div>
                         </div>
                         <div className='image-wrapper'>
@@ -67,7 +54,7 @@ export default class Paintings2010 extends Component {
                                 <h2>50in x 74in oil on canvas December 2010</h2>
                             </div>
                             <div>
-                                <img className="carousel-image" src={paintings20103} alt="River"/>
+                                <img className="carousel-image" src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/paintings/2010/paintings2010-3.jpg" alt="River"/>
                             </div>
                         </div>
                         <div className='image-wrapper'>
@@ -76,7 +63,7 @@ export default class Paintings2010 extends Component {
                                 <h2>62in x 82in oil on canvas November 2010</h2>
                             </div>
                             <div>
-                                <img className="carousel-image" src={paintings20104} alt="Below"/>
+                                <img className="carousel-image" src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/paintings/2010/paintings2010-4.jpg"alt="Below"/>
                             </div>
                         </div>
                         <div className='image-wrapper'>
@@ -85,7 +72,7 @@ export default class Paintings2010 extends Component {
                                 <h2>44in x 72in oil on canvas March 2010</h2>
                             </div>
                             <div>
-                                <img className="carousel-image" src={paintings20105} alt="Sliver"/>
+                                <img className="carousel-image" src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/paintings/2010/paintings2010-5.jpg" alt="Sliver"/>
                             </div>
                         </div>
                         <div className='image-wrapper'>
@@ -94,7 +81,7 @@ export default class Paintings2010 extends Component {
                                 <h2 className='text-overlay-2'>oil on canvas 2010</h2>
                             </div>
                             <div>
-                                <img className="carousel-image" src={paintings20106} alt="Steel"/>
+                                <img className="carousel-image" src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/paintings/2010/paintings2010-6.jpg" alt="Steel"/>
                             </div>
                         </div>
                         <div className='image-wrapper'>
@@ -103,7 +90,7 @@ export default class Paintings2010 extends Component {
                                 <h2 className='text-overlay-2'>oil on canvas 2010</h2>
                             </div>
                             <div>
-                                <img className="carousel-image" src={paintings20107} alt="Flourescent"/>
+                                <img className="carousel-image" src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/paintings/2010/paintings2010-7.jpg" alt="Flourescent"/>
                             </div>
                         </div>
                         <div className='image-wrapper'>
@@ -111,7 +98,7 @@ export default class Paintings2010 extends Component {
                                 <h1 className='text-overlay'>detail of flourescent</h1>
                             </div>
                             <div>
-                                <img className="carousel-image" src={paintings20108} alt="Flourescent"/>
+                                <img className="carousel-image" src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/paintings/2010/paintings2010-8.jpg" alt="Flourescent"/>
                             </div>
                         </div>
                     </Slider>
@@ -119,14 +106,14 @@ export default class Paintings2010 extends Component {
             </div>
         </div>
             <div className='images-container-mobile'>
-                <img className='mobile-images' src={paintings20101} alt='Rise'/>
-                <img className='mobile-images' src={paintings20102} alt='Regrets'/>
-                <img className='mobile-images' src={paintings20103} alt='River'/>
-                <img className='mobile-images' src={paintings20104} alt='Below'/>
-                <img className='mobile-images' src={paintings20105} alt='Sliver'/>
-                <img className='mobile-images' src={paintings20106M} alt='Steel'/>
-                <img className='mobile-images' src={paintings20107M} alt='Flourescent'/>
-                <img className='mobile-images' src={paintings20108} alt='Flourescent'/>
+                <img className='mobile-images' src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/paintings/2010/paintings2010-1.jpg" alt='Rise'/>
+                <img className='mobile-images' src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/paintings/2010/paintings2010-2.jpg" alt='Regrets'/>
+                <img className='mobile-images' src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/paintings/2010/paintings2010-3.jpg" alt='River'/>
+                <img className='mobile-images' src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/paintings/2010/paintings2010-4.jpg"alt='Below'/>
+                <img className='mobile-images' src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/paintings/2010/paintings2010-5.jpg" alt='Sliver'/>
+                <img className='mobile-images' src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/paintings/2010/paintings2010-6-mobile.jpg" alt='Steel'/>
+                <img className='mobile-images' src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/paintings/2010/paintings2010-7-mobile.jpg" alt='Flourescent'/>
+                <img className='mobile-images' src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/paintings/2010/paintings2010-8.jpg" alt='Flourescent'/>
             </div>
         </div>
     )

@@ -1,18 +1,6 @@
 import React, {Component} from 'react';
 import Slider from 'react-slick';
 
-import blacksand from '../../assets/images/home/black-sand.jpg';
-import mammoth from '../../assets/images/home/mammoth.jpg';
-import flight from '../../assets/images/home/flight.jpg';
-import manta from '../../assets/images/home/manta.jpg';
-import kinetic from '../../assets/images/home/kinetic.jpg';
-import might from '../../assets/images/home/might.jpg';
-import radiate from '../../assets/images/home/mammoth.jpg';
-import nebula from '../../assets/images/home/nebula.jpg';
-import chase from '../../assets/images/home/chase.jpg';
-import harvest from '../../assets/images/home/harvest.jpg';
-import expedition from '../../assets/images/home/expedition.jpg';
-
 export default class Carousel extends Component {
     
     render() {
@@ -47,7 +35,7 @@ export default class Carousel extends Component {
                             <h2>44in x 68in Oil on Canvas</h2>
                         </div>
                         <div>
-                            <img className="carousel-image" src={blacksand} alt="Black Sand"/>
+                            <img className="carousel-image" src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/home/black-sand.jpg" alt="Black Sand"/>
                         </div>
                     </div>
                     <div className='image-wrapper'>
@@ -56,7 +44,7 @@ export default class Carousel extends Component {
                             <h2>42in x 38in Oil on Canvas</h2>
                         </div>
                         <div>
-                            <img className="carousel-image" src={mammoth} alt="Mammoth"/>
+                            <img className="carousel-image" src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/home/mammoth.jpg" alt="Mammoth"/>
                         </div>
                     </div>
                     <div className='image-wrapper'>
@@ -65,7 +53,7 @@ export default class Carousel extends Component {
                             <h2>11in x 14in Oil on Paper</h2>
                         </div>
                         <div>
-                            <img className="carousel-image" src={flight} alt="Flight"/>
+                            <img className="carousel-image" src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/home/flight.jpg" alt="Flight"/>
                         </div>
                     </div>
                     <div className='image-wrapper'>
@@ -74,7 +62,7 @@ export default class Carousel extends Component {
                             <h2>16in x 20in Oil on Canvas mounted on panel</h2>
                         </div>
                         <div>
-                            <img className="carousel-image" src={manta} alt="Manta"/>
+                            <img className="carousel-image" src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/home/manta.jpg" alt="Manta"/>
                         </div>
                     </div>
                     <div className='image-wrapper'>
@@ -83,7 +71,7 @@ export default class Carousel extends Component {
                             <h2>14in x 11in Oil on Paper</h2>
                         </div>
                         <div>
-                            <img className="carousel-image" src={kinetic} alt="Kinetic"/>
+                            <img className="carousel-image" src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/home/kinetic.jpg" alt="Kinetic"/>
                         </div>
                     </div>
                     <div className='image-wrapper'>
@@ -92,7 +80,7 @@ export default class Carousel extends Component {
                             <h2>11in x 14in Oil on Paper</h2>
                         </div>
                         <div>
-                            <img className="carousel-image" src={might} alt="Might"/>
+                            <img className="carousel-image" src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/home/might.jpg" alt="Might"/>
                         </div>
                     </div>
                     <div className='image-wrapper'>
@@ -101,7 +89,7 @@ export default class Carousel extends Component {
                             <h2>32in x 48in Oil on Canvas</h2>
                         </div>
                         <div>
-                            <img className="carousel-image" src={radiate} alt="Radiate"/>
+                            <img className="carousel-image" src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/home/radiate.jpg" alt="Radiate"/>
                         </div>
                     </div>
                     <div className='image-wrapper'>
@@ -110,7 +98,7 @@ export default class Carousel extends Component {
                             <h2>12in x 16in Oil on Canvas mounted on Panel "SOLD"</h2>
                         </div>
                         <div>
-                            <img className="carousel-image" src={nebula} alt="Nebula"/>
+                            <img className="carousel-image" src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/home/nebula.jpg" alt="Nebula"/>
                         </div>
                     </div>
                     <div className='image-wrapper'>
@@ -119,7 +107,7 @@ export default class Carousel extends Component {
                             <h2>16in x 12in Oil on Canvas mounted on Panel "SOLD"</h2>
                         </div>
                         <div>
-                            <img className="carousel-image" src={chase} alt="Chase"/>
+                            <img className="carousel-image" src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/home/chase.jpg" alt="Chase"/>
                         </div>
                     </div>
                     <div className='image-wrapper'>
@@ -128,7 +116,7 @@ export default class Carousel extends Component {
                             <h2>11in x 14in Oil on Paper</h2>
                         </div>
                         <div>
-                            <img className="carousel-image" src={harvest} alt="Harvest"/>
+                            <img className="carousel-image" src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/home/harvest.jpg" alt="Harvest"/>
                         </div>
                     </div>
                     <div className='image-wrapper'>
@@ -137,7 +125,7 @@ export default class Carousel extends Component {
                             <h2>16in x 12in Oil on Canvas mounted on Panel</h2>
                         </div>
                         <div>
-                            <img className="carousel-image" src={expedition} alt="Expedition"/>
+                            <img className="carousel-image" src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/home/expedition.jpg" alt="Expedition"/>
                         </div>
                     </div>
                 </Slider>
