@@ -7,16 +7,19 @@ export default function ExhibitionMobile() {
             <div className='exhibition-container'>
                 <div className='awards-container-mobile'>
                     <h3>Awards/Recognition:</h3>
-                        <li>Great Meadows Foundation Grant</li>
-                        <li>Corporate Art Program, Zephyr Gallery, Louisville, KY</li>
-                        <li>City of Louisville, Mayor's Citation Recipient</li>
-                        <li>Vermont Studio Center Fellowship</li>
-                        <li>Studio Visit Magazine Springs 2012 Edition, Vol. 17 & 18</li>
-                        <li>Christie's Magazine Emerging Artist Presentation</li>
-                        <li>Gates Millennium Scholar</li>
+                        <ul>
+                            <li>Great Meadows Foundation Grant</li>
+                            <li>Corporate Art Program, Zephyr Gallery, Louisville, KY</li>
+                            <li>City of Louisville, Mayor's Citation Recipient</li>
+                            <li>Vermont Studio Center Fellowship</li>
+                            <li>Studio Visit Magazine Springs 2012 Edition, Vol. 17 & 18</li>
+                            <li>Christie's Magazine Emerging Artist Presentation</li>
+                            <li>Gates Millennium Scholar</li>
+                        </ul>
                 </div>
                 <div className='exhibition-history-mobile'>
                     <h3>Exhibition History</h3>   
+                        <ul>
                             <li>Solo Exhibition, Quills, Louisville, KY 2017</li>
                             <li>Pop-Up Art Show, Republic Bank First Friday Gallery Hop, Louisville, KY  2017</li>
                             <li>Pop-Up Art Show, Frankfort Avenue Trolley Hop, Louisville, KY  2016</li>
@@ -38,6 +41,7 @@ export default function ExhibitionMobile() {
                             <li>The 104th Annual Student Exhibition, Pennsylvania Academy of Fine Arts, Philadelphia, PA – 2005</li>
                             <li>The 103rd Annual Student Exhibition, Pennsylvania Academy of Fine Arts, Philadelphia, PA – 2004</li>
                             <li>Certificate Student Gallery Showing,  Pennsylvania Academy of Fine Arts, Philadelphia, PA – 2001/2002</li>
+                        </ul>
                 </div>  
             </div>
         </div>
