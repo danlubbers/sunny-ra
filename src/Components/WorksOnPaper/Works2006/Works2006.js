@@ -1,12 +1,6 @@
 import React, {Component} from 'react';
 import Slider from 'react-slick';
 
-import works20061 from '../../../assets/images/works/2006/works2006-1.jpg';
-import works20062 from '../../../assets/images/works/2006/works2006-2.jpg';
-import works20063 from '../../../assets/images/works/2006/works2006-3.jpg';
-import works20064 from '../../../assets/images/works/2006/works2006-4.jpg';
-import works20065 from '../../../assets/images/works/2006/works2006-5.jpg';
-
 export default class Works2006 extends Component {
     
     render() {
@@ -42,7 +36,7 @@ export default class Works2006 extends Component {
                                 <h2>40in x 30in charcoal on paper</h2>
                             </div>
                             <div>
-                                <img className="carousel-image" src={works20061} alt="Road of Resistance"/>
+                                <img className="carousel-image" src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/works/2006/works2006-1.jpg" alt="Road of Resistance"/>
                             </div>
                         </div>
                         <div className='image-wrapper'>
@@ -51,7 +45,7 @@ export default class Works2006 extends Component {
                                 <h2 className='text-overlay-2'>40in x 30in charcoal on paper</h2>
                             </div>
                             <div>
-                                <img className="carousel-image" src={works20062} alt="Do You See Me"/>
+                                <img className="carousel-image" src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/works/2006/works2006-2.jpg" alt="Do You See Me"/>
                             </div>
                         </div>
                         <div className='image-wrapper'>
@@ -60,7 +54,7 @@ export default class Works2006 extends Component {
                                 <h2>24in x 34in charcoal on paper</h2>
                             </div>
                             <div>
-                                <img className="carousel-image" src={works20063} alt="Cross the Dark Line"/>
+                                <img className="carousel-image" src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/works/2006/works2006-3.jpg" alt="Cross the Dark Line"/>
                             </div>
                         </div>
                         <div className='image-wrapper'>
@@ -69,7 +63,7 @@ export default class Works2006 extends Component {
                                 <h2 className='text-overlay-2'>charcoal on paper</h2>
                             </div>
                             <div>
-                                <img className="carousel-image" src={works20064} alt="Run"/>
+                                <img className="carousel-image" src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/works/2006/works2006-4.jpg" alt="Run"/>
                             </div>
                         </div>
                         <div className='image-wrapper'>
@@ -78,7 +72,7 @@ export default class Works2006 extends Component {
                                 <h2 className='text-overlay-2'>43in x 34in charcoal on paper</h2>
                             </div>
                             <div>
-                                <img className="carousel-image" src={works20065} alt="Seeing it Through the Rough"/>
+                                <img className="carousel-image" src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/works/2006/works2006-5.jpg" alt="Seeing it Through the Rough"/>
                             </div>
                         </div>
                     </Slider>
@@ -86,11 +80,11 @@ export default class Works2006 extends Component {
             </div>
         </div>
             <div className='images-container-mobile'>
-                    <img className='mobile-images' src={works20061} alt='Road of Resistance'/>
-                    <img className='mobile-images' src={works20062} alt='Do You See Me'/>
-                    <img className='mobile-images' src={works20063} alt='Cross the Dark Line'/>
-                    <img className='mobile-images' src={works20064} alt='Run'/>
-                    <img className='mobile-images' src={works20065} alt='Seeing it Through the Rough'/>
+                    <img className='mobile-images' src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/works/2006/works2006-1.jpg" alt='Road of Resistance'/>
+                    <img className='mobile-images' src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/works/2006/works2006-2.jpg" alt='Do You See Me'/>
+                    <img className='mobile-images' src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/works/2006/works2006-3.jpg" alt='Cross the Dark Line'/>
+                    <img className='mobile-images' src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/works/2006/works2006-4.jpg" alt='Run'/>
+                    <img className='mobile-images' src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/works/2006/works2006-5.jpg" alt='Seeing it Through the Rough'/>
                 </div>
         </div>
     )
