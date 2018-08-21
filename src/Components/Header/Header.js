@@ -184,7 +184,7 @@ export default class Header extends Component {
                 </div>
                 <nav>
                     <ul>     
-                        <button className='paintingBtn' onMouseOver={this.handleOverPainting} >Paintings</button>
+                        <button aria-label="Paintings" className='paintingBtn' onMouseOver={this.handleOverPainting} >Paintings</button>
                             <div className={paintingDropDown} onMouseLeave={this.handleLeave}>
                                 <Link to='/paintings2006'><li>2006</li></Link>
                                 <Link to='/paintings2008'><li>2008</li></Link>
@@ -193,21 +193,21 @@ export default class Header extends Component {
                                 <Link to='/paintings2014'><li>2014</li></Link>
                                 <Link to='/paintings2015'><li>2015</li></Link>
                             </div>
-                       <button className='worksBtn' onMouseOver={this.handleOverWorks}>Works On Paper</button>
+                       <button aria-label="Works On Paper" className='worksBtn' onMouseOver={this.handleOverWorks}>Works On Paper</button>
                             <div className={worksDropDown} onMouseLeave={this.handleLeave}>
                                 <Link to='/works2006'><li>2006</li></Link>
                                 <Link to='/works2009'><li>2009</li></Link>
                                 <Link to='/works2012'><li>2012</li></Link>
                                 <Link to='/works2016'><li>2016</li></Link>
                             </div>
-                        <button className='galleryBtn' onMouseOver={this.handleOverGallery}>Photo Gallery</button>
+                        <button aria-label="Photo Gallery" className='galleryBtn' onMouseOver={this.handleOverGallery}>Photo Gallery</button>
                             <div className={galleryDropDown} onMouseLeave={this.handleLeave}>
                                 <Link to='/installation'><li>Installation Photos</li></Link>
                                 <Link to='/studentwork'><li>Student Work</li></Link>
                                 </div>
                         <Link to='/commissioned'><button className='commissionBtn' onClick={this.handleLeave}>Commissioned Work</button></Link>
-                        <li><button className='aboutBtn' onClick={this.handleClickAbout} >About</button></li>
-                        <li><button className='exhibitionsBtn' onClick={this.handleClickExhibitions} >Exhibitions</button></li>
+                        <li><button aria-label="About Section" className='aboutBtn' onClick={this.handleClickAbout} >About</button></li>
+                        <li><button aria-label="Exhibitions"  className='exhibitionsBtn' onClick={this.handleClickExhibitions} >Exhibitions</button></li>
                     </ul>
                 </nav>
                         <div className={aboutDropDown}>
@@ -236,7 +236,7 @@ export default class Header extends Component {
                                 <h4>"The foundation of my work originates from my experience of growing up Korean in Louisville, Kentucky. Since I spoke little Korean and could not read or write Hangul, I was an outsider in the Korean Community. Similarly, I never quite identified myself as American since I was not white, and was living among majority white Americans. I remember people would ask me where I was from or comment on how well I spoke English. I grew up feeling and eventually believing that I did not belong anywhere, perhaps nowhere. I am ethnically Korean, but culturally, I am a combintaion of both Korean and American customs, which I am constantly negotiating and struggling with. It is from this middle ground that my night landscapes emerge and my journey into navigating the obscure begins. By layering images of the American landscape with memories, I attempt to find a space where tensions no longer exist.</h4>
                             </div>
                                 <div className='xBtnAbout-container'>
-                                    <button className='xBtnAbout' onClick={this.handleClickAbout}><CloseIcon/></button>
+                                    <button aria-label="Close Icon" className='xBtnAbout' onClick={this.handleClickAbout}><CloseIcon/></button>
                                 </div>
                             </div>
                         </div>
@@ -277,7 +277,7 @@ export default class Header extends Component {
                                 <h4>Gates Millennium Scholar</h4>
                             </div>
                             <div className='xBtnExhibitions-container'>
-                                <button className='xBtnExhibitions' onClick={this.handleClickExhibitions}><CloseIcon/></button>
+                                <button aria-label="Close Icon" className='xBtnExhibitions' onClick={this.handleClickExhibitions}><CloseIcon/></button>
                             </div>
                         </div>
                         </div>
