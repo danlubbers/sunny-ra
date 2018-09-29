@@ -16,13 +16,14 @@
     
 
     .carousel-container {
-        width: 100%;
+        width: 100vw;
         margin-top: 25px;
         display: block;
         // background-color: blue;
 
         @media (max-width: #{$screen-xl}) {
             margin-top: 50px;
+            // background-color: yellow;
         }
 
         // Gets rid of Carousel for mobile

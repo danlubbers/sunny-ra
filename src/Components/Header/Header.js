@@ -121,7 +121,7 @@ export default class Header extends Component {
                     <Link to='/' onClick={this.handleClickHome}><img className='sunny-logo' src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/sunny-ra-logo.png" alt='Sunny Ra Logo' /></Link>
                 </div>
                 <div className='hamburger-container'>
-                    <button className='hamburgerBtn' onClick={this.handleClickMobile}><Bars/></button>
+                    <button className='hamburgerBtn' onClick={this.handleClickMobile} aria-label='hamburger-menu'><Bars/></button>
                     <div className={mobileDropDown}>
                         <ul className='mobile-content-container'>
                             <div className='horizontal-line'></div>
