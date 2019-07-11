@@ -341,8 +341,8 @@ header {
       justify-content: center;
       align-items: center; }
       header .about-container .photo-contact-container .sunny-portrait {
-        width: 275px;
-        border-radius: 25px; }
+        width: 350px;
+        border-radius: 40px; }
       header .about-container .photo-contact-container .email-container {
         display: flex;
         justify-content: flex-start;
@@ -608,8 +608,8 @@ footer {
   flex-direction: column;
   align-items: center; }
   .about-container-mobile .sunny-portrait-mobile {
-    width: 300px;
-    border-radius: 20px; }
+    width: 350px;
+    border-radius: 40px; }
   .about-container-mobile .email-container-mobile {
     display: flex;
     justify-content: center;

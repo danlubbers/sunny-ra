@@ -9,7 +9,7 @@ export default function AboutMobile () {
         <div>
             <div className='about-container-mobile'>
                 <div className='photo-contact-container-mobile'>
-                    <img className='sunny-portrait-mobile' src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/sunny-portrait-2.jpg" alt='Sunny Ra'/>
+                    <img className='sunny-portrait-mobile' src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/sunny-red-dress.jpg" alt='Sunny Ra'/>
                         <span className='email-container-mobile'> <h3>Email:</h3> <a className='email' href={`mailto:${email}`}>sunnyra23@gmail.com</a></span>
                 </div>
                 <div className='education-container-mobile'>
