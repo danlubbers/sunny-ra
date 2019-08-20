@@ -36,7 +36,7 @@ export default class Works2012 extends Component {
                                     <h2>48in x 72in conte and pastel on paper</h2>
                                 </div>
                                 <div>
-                                    <img className="carousel-image" src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/works/2012/works2012-1.jpg" alt="untitled"/>
+                                    <img className="carousel-image" src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/works/2012/works2012-01.jpg" alt="untitled"/>
                                 </div>
                             </div>
                             <div className='image-wrapper'>
@@ -45,7 +45,7 @@ export default class Works2012 extends Component {
                                     <h2 className='text-overlay-2'>48in x 78in conte and pastel on paper</h2>
                                 </div>
                                 <div>
-                                    <img className="carousel-image" src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/works/2012/works2012-2.jpg" alt="untitled"/>
+                                    <img className="carousel-image" src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/works/2012/works2012-02.jpg" alt="untitled"/>
                                 </div>
                             </div>
                             <div className='image-wrapper'>
@@ -54,7 +54,7 @@ export default class Works2012 extends Component {
                                     <h2>8in x 10in pastel on paper</h2>
                                 </div>
                                 <div>
-                                    <img className="carousel-image" src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/works/2012/works2012-3.jpg" alt="Backwards"/>
+                                    <img className="carousel-image" src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/works/2012/works2012-03.jpg" alt="Backwards"/>
                                 </div>
                             </div>
                             <div className='image-wrapper'>
@@ -63,7 +63,7 @@ export default class Works2012 extends Component {
                                     <h2>8in x 10in pastel on paper</h2>
                                 </div>
                                 <div>
-                                    <img className="carousel-image" src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/works/2012/works2012-4.jpg" alt="Glide"/>
+                                    <img className="carousel-image" src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/works/2012/works2012-04.jpg" alt="Glide"/>
                                 </div>
                             </div>
                             <div className='image-wrapper'>
@@ -72,7 +72,7 @@ export default class Works2012 extends Component {
                                     <h2>8in x 10in pastel on paper</h2>
                                 </div>
                                 <div>
-                                    <img className="carousel-image" src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/works/2012/works2012-5.jpg" alt="Sled"/>
+                                    <img className="carousel-image" src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/works/2012/works2012-05.jpg" alt="Sled"/>
                                 </div>
                             </div>
                             <div className='image-wrapper'>
@@ -81,7 +81,7 @@ export default class Works2012 extends Component {
                                     <h2>8in x 10in pastel on paper</h2>
                                 </div>
                                 <div>
-                                    <img className="carousel-image" src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/works/2012/works2012-6.jpg" alt="Lowland"/>
+                                    <img className="carousel-image" src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/works/2012/works2012-06.jpg" alt="Lowland"/>
                                 </div>
                             </div>
                             <div className='image-wrapper'>
@@ -90,7 +90,7 @@ export default class Works2012 extends Component {
                                     <h2>8in x 10in pastel on paper</h2>
                                 </div>
                                 <div>
-                                    <img className="carousel-image" src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/works/2012/works2012-7.jpg" alt="Mobile"/>
+                                    <img className="carousel-image" src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/works/2012/works2012-07.jpg" alt="Mobile"/>
                                 </div>
                             </div>
                             <div className='image-wrapper'>
@@ -99,7 +99,7 @@ export default class Works2012 extends Component {
                                     <h2>8in x 10in pastel on paper</h2>
                                 </div>
                                 <div>
-                                    <img className="carousel-image" src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/works/2012/works2012-8.jpg" alt="Nite Light"/>
+                                    <img className="carousel-image" src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/works/2012/works2012-08.jpg" alt="Nite Light"/>
                                 </div>
                             </div>
                             <div className='image-wrapper'>
@@ -108,7 +108,7 @@ export default class Works2012 extends Component {
                                     <h2>8in x 10in pastel on paper</h2>
                                 </div>
                                 <div>
-                                    <img className="carousel-image" src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/works/2012/works2012-9.jpg" alt="Willow"/>
+                                    <img className="carousel-image" src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/works/2012/works2012-09.jpg" alt="Willow"/>
                                 </div>
                             </div>
                             <div className='image-wrapper'>
@@ -152,15 +152,15 @@ export default class Works2012 extends Component {
                 </div>
             </div>
                 <div className='images-container-mobile'>
-                    <img className='mobile-images' src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/works/2012/works2012-1.jpg" alt='untitled'/>
-                    <img className='mobile-images' src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/works/2012/works2012-2-mobile.jpg" alt='untitled'/>
-                    <img className='mobile-images' src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/works/2012/works2012-3.jpg" alt='Backwards'/>
-                    <img className='mobile-images' src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/works/2012/works2012-4.jpg" alt='Glide'/>
-                    <img className='mobile-images' src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/works/2012/works2012-5.jpg" alt='Sled'/>
-                    <img className='mobile-images' src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/works/2012/works2012-6.jpg" alt='Lowland'/>
-                    <img className='mobile-images' src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/works/2012/works2012-7.jpg" alt='Mobile'/>
-                    <img className='mobile-images' src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/works/2012/works2012-8.jpg" alt='Nite Light'/>
-                    <img className='mobile-images' src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/works/2012/works2012-9.jpg" alt='Willow'/>
+                    <img className='mobile-images' src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/works/2012/works2012-01.jpg" alt='untitled'/>
+                    <img className='mobile-images' src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/works/2012/works2012-02-mobile.jpg" alt='untitled'/>
+                    <img className='mobile-images' src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/works/2012/works2012-03.jpg" alt='Backwards'/>
+                    <img className='mobile-images' src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/works/2012/works2012-04.jpg" alt='Glide'/>
+                    <img className='mobile-images' src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/works/2012/works2012-05.jpg" alt='Sled'/>
+                    <img className='mobile-images' src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/works/2012/works2012-06.jpg" alt='Lowland'/>
+                    <img className='mobile-images' src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/works/2012/works2012-07.jpg" alt='Mobile'/>
+                    <img className='mobile-images' src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/works/2012/works2012-08.jpg" alt='Nite Light'/>
+                    <img className='mobile-images' src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/works/2012/works2012-09.jpg" alt='Willow'/>
                     <img className='mobile-images' src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/works/2012/works2012-10.jpg" alt='Passing'/>
                     <img className='mobile-images' src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/works/2012/works2012-11.jpg" alt='By Force'/>
                     <img className='mobile-images' src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/works/2012/works2012-12.jpg" alt='DC Subway'/>

@@ -35,7 +35,7 @@ export default class Carousel extends Component {
                                     {/* <h1></h1> */}
                                 </div>
                                 <div>
-                                    <img className="carousel-image" src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/studentwork/studentwork-1.jpg" alt=""/>
+                                    <img className="carousel-image" src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/studentwork/studentwork-01.jpg" alt=""/>
                                 </div>
                             </div>
                             <div className='image-wrapper'>
@@ -43,7 +43,7 @@ export default class Carousel extends Component {
                                     {/* <h1></h1> */}
                                 </div>
                                 <div>
-                                    <img className="carousel-image" src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/studentwork/studentwork-2.jpg" alt=""/>
+                                    <img className="carousel-image" src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/studentwork/studentwork-02.jpg" alt=""/>
                                 </div>
                             </div>
                             <div className='image-wrapper'>
@@ -51,7 +51,7 @@ export default class Carousel extends Component {
                                     {/* <h1></h1> */}
                                 </div>
                                 <div>
-                                    <img className="carousel-image" src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/studentwork/studentwork-3.jpg" alt=""/>
+                                    <img className="carousel-image" src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/studentwork/studentwork-03.jpg" alt=""/>
                                 </div>
                             </div>
                             <div className='image-wrapper'>
@@ -59,7 +59,7 @@ export default class Carousel extends Component {
                                     {/* <h1></h1> */}
                                 </div>
                                 <div>
-                                    <img className="carousel-image" src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/studentwork/studentwork-4.jpg" alt=""/>
+                                    <img className="carousel-image" src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/studentwork/studentwork-04.jpg" alt=""/>
                                 </div>
                             </div>
                             <div className='image-wrapper'>
@@ -67,7 +67,7 @@ export default class Carousel extends Component {
                                     {/* <h1></h1> */}
                                 </div>
                                 <div>
-                                    <img className="carousel-image" src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/studentwork/studentwork-5.jpg" alt=""/>
+                                    <img className="carousel-image" src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/studentwork/studentwork-05.jpg" alt=""/>
                                 </div>
                             </div>
                             <div className='image-wrapper'>
@@ -75,7 +75,7 @@ export default class Carousel extends Component {
                                     {/* <h1></h1> */}
                                 </div>
                                 <div>
-                                    <img className="carousel-image" src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/studentwork/studentwork-6.jpg" alt=""/>
+                                    <img className="carousel-image" src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/studentwork/studentwork-06.jpg" alt=""/>
                                 </div>
                             </div>
                             <div className='image-wrapper'>
@@ -83,7 +83,7 @@ export default class Carousel extends Component {
                                     {/* <h1></h1> */}
                                 </div>
                                 <div>
-                                    <img className="carousel-image" src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/studentwork/studentwork-7.jpg" alt=""/>
+                                    <img className="carousel-image" src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/studentwork/studentwork-07.jpg" alt=""/>
                                 </div>
                             </div>
                             <div className='image-wrapper'>
@@ -91,7 +91,7 @@ export default class Carousel extends Component {
                                     {/* <h1>G</h1> */}
                                 </div>
                                 <div>
-                                    <img className="carousel-image" src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/studentwork/studentwork-8.jpg" alt=""/>
+                                    <img className="carousel-image" src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/studentwork/studentwork-08.jpg" alt=""/>
                                 </div>
                             </div>
                             <div className='image-wrapper'>
@@ -99,7 +99,7 @@ export default class Carousel extends Component {
                                     {/* <h1></h1> */}
                                 </div>
                                 <div>
-                                    <img className="carousel-image" src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/studentwork/studentwork-9.jpg" alt=""/>
+                                    <img className="carousel-image" src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/studentwork/studentwork-09.jpg" alt=""/>
                                 </div>
                             </div>
                             <div className='image-wrapper'>
@@ -307,15 +307,15 @@ export default class Carousel extends Component {
                 </div>
             </div>
             <div className='images-container-mobile'>
-                    <img className='mobile-images' src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/studentwork/studentwork-1.jpg" alt=''/>
-                    <img className='mobile-images' src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/studentwork/studentwork-2.jpg" alt=''/>
-                    <img className='mobile-images' src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/studentwork/studentwork-3.jpg" alt=''/>
-                    <img className='mobile-images' src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/studentwork/studentwork-4.jpg" alt=''/>
-                    <img className='mobile-images' src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/studentwork/studentwork-5.jpg" alt=''/>
-                    <img className='mobile-images' src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/studentwork/studentwork-6.jpg" alt=''/>
-                    <img className='mobile-images' src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/studentwork/studentwork-7.jpg" alt=''/>
-                    <img className='mobile-images' src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/studentwork/studentwork-8.jpg" alt=''/>
-                    <img className='mobile-images' src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/studentwork/studentwork-9.jpg" alt=''/>
+                    <img className='mobile-images' src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/studentwork/studentwork-01.jpg" alt=''/>
+                    <img className='mobile-images' src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/studentwork/studentwork-02.jpg" alt=''/>
+                    <img className='mobile-images' src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/studentwork/studentwork-03.jpg" alt=''/>
+                    <img className='mobile-images' src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/studentwork/studentwork-04.jpg" alt=''/>
+                    <img className='mobile-images' src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/studentwork/studentwork-05.jpg" alt=''/>
+                    <img className='mobile-images' src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/studentwork/studentwork-06.jpg" alt=''/>
+                    <img className='mobile-images' src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/studentwork/studentwork-07.jpg" alt=''/>
+                    <img className='mobile-images' src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/studentwork/studentwork-08.jpg" alt=''/>
+                    <img className='mobile-images' src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/studentwork/studentwork-09.jpg" alt=''/>
                     <img className='mobile-images' src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/studentwork/studentwork-10.jpg" alt=''/>
                     <img className='mobile-images' src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/studentwork/studentwork-11.jpg" alt=''/>
                     <img className='mobile-images' src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/studentwork/studentwork-12.jpg" alt=''/>

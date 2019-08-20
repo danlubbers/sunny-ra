@@ -35,7 +35,7 @@ export default class Works2016 extends Component {
                                     {/* <h1 className='text-overlay'></h1> */}
                                 </div>
                                 <div>
-                                    <img className="carousel-image" src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/works/2016/works2016-1.jpg" alt=""/>
+                                    <img className="carousel-image" src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/works/2016/works2016-01.jpg" alt=""/>
                                 </div>
                             </div>
                             <div className='image-wrapper'>
@@ -43,7 +43,7 @@ export default class Works2016 extends Component {
                                     {/* <h1 className='text-overlay'></h1> */}
                                 </div>
                                 <div>
-                                    <img className="carousel-image" src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/works/2016/works2016-2.jpg" alt=""/>
+                                    <img className="carousel-image" src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/works/2016/works2016-02.jpg" alt=""/>
                                 </div>
                             </div>
                             <div className='image-wrapper'>
@@ -51,7 +51,7 @@ export default class Works2016 extends Component {
                                     {/* <h1 className='text-overlay'></h1> */}
                                 </div>
                                 <div>
-                                    <img className="carousel-image" src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/works/2016/works2016-3.jpg" alt=""/>
+                                    <img className="carousel-image" src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/works/2016/works2016-03.jpg" alt=""/>
                                 </div>
                             </div>
                             <div className='image-wrapper'>
@@ -59,7 +59,7 @@ export default class Works2016 extends Component {
                                     {/* <h1 className='text-overlay'></h1> */}
                                 </div>
                                 <div>
-                                    <img className="carousel-image" src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/works/2016/works2016-4.jpg" alt=""/>
+                                    <img className="carousel-image" src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/works/2016/works2016-04.jpg" alt=""/>
                                 </div>
                             </div>
                             <div className='image-wrapper'>
@@ -67,7 +67,7 @@ export default class Works2016 extends Component {
                                     {/* <h1 className='text-overlay'></h1> */}
                                 </div>
                                 <div>
-                                    <img className="carousel-image" src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/works/2016/works2016-5.jpg" alt=""/>
+                                    <img className="carousel-image" src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/works/2016/works2016-05.jpg" alt=""/>
                                 </div>
                             </div>
                             <div className='image-wrapper'>
@@ -75,7 +75,7 @@ export default class Works2016 extends Component {
                                     {/* <h1 className='text-overlay'></h1> */}
                                 </div>
                                 <div>
-                                    <img className="carousel-image" src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/works/2016/works2016-6.jpg" alt=""/>
+                                    <img className="carousel-image" src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/works/2016/works2016-06.jpg" alt=""/>
                                 </div>
                             </div>
                             <div className='image-wrapper'>
@@ -83,7 +83,7 @@ export default class Works2016 extends Component {
                                     {/* <h1 className='text-overlay'></h1> */}
                                 </div>
                                 <div>
-                                    <img className="carousel-image" src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/works/2016/works2016-7.jpg" alt=""/>
+                                    <img className="carousel-image" src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/works/2016/works2016-07.jpg" alt=""/>
                                 </div>
                             </div>
                             <div className='image-wrapper'>
@@ -91,7 +91,7 @@ export default class Works2016 extends Component {
                                     {/* <h1 className='text-overlay'></h1> */}
                                 </div>
                                 <div>
-                                    <img className="carousel-image" src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/works/2016/works2016-8.jpg" alt=""/>
+                                    <img className="carousel-image" src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/works/2016/works2016-08.jpg" alt=""/>
                                 </div>
                             </div>
                             <div className='image-wrapper'>
@@ -99,7 +99,7 @@ export default class Works2016 extends Component {
                                     {/* <h1 className='text-overlay'></h1> */}
                                 </div>
                                 <div>
-                                    <img className="carousel-image" src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/works/2016/works2016-9.jpg" alt=""/>
+                                    <img className="carousel-image" src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/works/2016/works2016-09.jpg" alt=""/>
                                 </div>
                             </div>
                         </Slider>
@@ -107,15 +107,15 @@ export default class Works2016 extends Component {
                 </div>
             </div>
                 <div className='images-container-mobile'>
-                    <img className='mobile-images' src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/works/2016/works2016-1.jpg" alt=''/>
-                    <img className='mobile-images' src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/works/2016/works2016-2.jpg" alt=''/>
-                    <img className='mobile-images' src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/works/2016/works2016-3.jpg" alt=''/>
-                    <img className='mobile-images' src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/works/2016/works2016-4.jpg" alt=''/>
-                    <img className='mobile-images' src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/works/2016/works2016-5.jpg" alt=''/>
-                    <img className='mobile-images' src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/works/2016/works2016-6.jpg" alt=''/>
-                    <img className='mobile-images' src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/works/2016/works2016-7.jpg" alt=''/>
-                    <img className='mobile-images' src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/works/2016/works2016-8.jpg" alt=''/>
-                    <img className='mobile-images' src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/works/2016/works2016-9.jpg" alt=''/>
+                    <img className='mobile-images' src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/works/2016/works2016-01.jpg" alt=''/>
+                    <img className='mobile-images' src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/works/2016/works2016-02.jpg" alt=''/>
+                    <img className='mobile-images' src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/works/2016/works2016-03.jpg" alt=''/>
+                    <img className='mobile-images' src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/works/2016/works2016-04.jpg" alt=''/>
+                    <img className='mobile-images' src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/works/2016/works2016-05.jpg" alt=''/>
+                    <img className='mobile-images' src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/works/2016/works2016-06.jpg" alt=''/>
+                    <img className='mobile-images' src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/works/2016/works2016-07.jpg" alt=''/>
+                    <img className='mobile-images' src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/works/2016/works2016-08.jpg" alt=''/>
+                    <img className='mobile-images' src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/works/2016/works2016-09.jpg" alt=''/>
                 </div>
         </div>
     )

@@ -35,7 +35,7 @@ export default class Carousel extends Component {
                                     <h1 className='text-overlay-2'>Botanica Gardens</h1>
                                 </div>
                                 <div>
-                                    <img className="carousel-image" src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/commissioned/commissioned-1.jpg" alt="Botanical Gardens"/>
+                                    <img className="carousel-image" src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/commissioned/commissioned-01.jpg" alt="Botanical Gardens"/>
                                 </div>
                             </div>
                             <div className='image-wrapper'>
@@ -43,7 +43,7 @@ export default class Carousel extends Component {
                                     <h1 className='text-overlay'>Botanica Gardens</h1>
                                 </div>
                                 <div>
-                                    <img className="carousel-image" src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/commissioned/commissioned-2.jpg" alt="Botanical Gardens"/>
+                                    <img className="carousel-image" src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/commissioned/commissioned-02.jpg" alt="Botanical Gardens"/>
                                 </div>
                             </div>
                             <div className='image-wrapper'>
@@ -52,7 +52,7 @@ export default class Carousel extends Component {
                                     <h2>12in x 12in Painting Competition September 2016</h2>
                                 </div>
                                 <div>
-                                    <img className="carousel-image" src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/commissioned/commissioned-3.jpg" alt="Botanical Gardens"/>
+                                    <img className="carousel-image" src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/commissioned/commissioned-03.jpg" alt="Botanical Gardens"/>
                                 </div>
                             </div>
                             <div className='image-wrapper'>
@@ -60,7 +60,7 @@ export default class Carousel extends Component {
                                     <h1 className='text-overlay-2'>18in x 48in oil on canvas for Botanica show 2014</h1>
                                 </div>
                                 <div>
-                                    <img className="carousel-image" src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/commissioned/commissioned-4.jpg" alt="Botanical Gardens"/>
+                                    <img className="carousel-image" src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/commissioned/commissioned-04.jpg" alt="Botanical Gardens"/>
                                 </div>
                             </div>
                             <div className='image-wrapper'>
@@ -76,7 +76,7 @@ export default class Carousel extends Component {
                                     <h1 className='text-overlay'>8in x 8in oil on canvas for LVA's Art Squared 2014</h1>
                                 </div>
                                 <div>
-                                    <img className="carousel-image" src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/commissioned/commissioned-6.jpg" alt="LVA Squared"/>
+                                    <img className="carousel-image" src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/commissioned/commissioned-06.jpg" alt="LVA Squared"/>
                                 </div>
                             </div>
                             <div className='image-wrapper'>
@@ -84,7 +84,7 @@ export default class Carousel extends Component {
                                     <h1 className='text-overlay'>8in x 8in oil on canvas for LVA's Art Squared 2014</h1>
                                 </div>
                                 <div>
-                                    <img className="carousel-image" src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/commissioned/commissioned-7.jpg" alt="LVA Squared"/>
+                                    <img className="carousel-image" src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/commissioned/commissioned-07.jpg" alt="LVA Squared"/>
                                 </div>
                             </div>
                             <div className='image-wrapper'>
@@ -93,7 +93,7 @@ export default class Carousel extends Component {
                                     <h2>42in x 34in oil on canvas 2013</h2>
                                 </div>
                                 <div>
-                                    <img className="carousel-image" src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/commissioned/commissioned-8.jpg" alt="Golden Gate Bridge"/>
+                                    <img className="carousel-image" src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/commissioned/commissioned-08.jpg" alt="Golden Gate Bridge"/>
                                 </div>
                             </div>
                             <div className='image-wrapper'>
@@ -101,7 +101,7 @@ export default class Carousel extends Component {
                                     <h1 className='text-overlay'>Detail of Golden Gate</h1>
                                 </div>
                                 <div>
-                                    <img className="carousel-image" src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/commissioned/commissioned-9.jpg" alt="Golden Gate Bridge"/>
+                                    <img className="carousel-image" src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/commissioned/commissioned-09.jpg" alt="Golden Gate Bridge"/>
                                 </div>
                             </div>
                             <div className='image-wrapper'>
@@ -135,15 +135,15 @@ export default class Carousel extends Component {
                 </div>
             </div>
                 <div className='images-container-mobile'>
-                    <img className='mobile-images' src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/commissioned/commissioned-1.jpg" alt='Botanica Gardens'/>
-                    <img className='mobile-images' src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/commissioned/commissioned-2.jpg" alt='Botanica Gardens'/>
-                    <img className='mobile-images' src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/commissioned/commissioned-3.jpg" alt='Botanica Gardens'/>
-                    <img className='mobile-images' src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/commissioned/commissioned-4-mobile.jpg" alt='Botanica Gardens'/>
-                    <img className='mobile-images' src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/commissioned/commissioned-5-mobile.jpg" alt='Botanica Gardens'/>
-                    <img className='mobile-images' src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/commissioned/commissioned-6.jpg" alt='LVA Squared'/>
-                    <img className='mobile-images' src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/commissioned/commissioned-7.jpg" alt='LVA Squared'/>
-                    <img className='mobile-images' src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/commissioned/commissioned-8.jpg" alt='Golden Gate Bridge'/>
-                    <img className='mobile-images' src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/commissioned/commissioned-9.jpg" alt='Golden Gate Bridge'/>
+                    <img className='mobile-images' src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/commissioned/commissioned-01.jpg" alt='Botanica Gardens'/>
+                    <img className='mobile-images' src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/commissioned/commissioned-02.jpg" alt='Botanica Gardens'/>
+                    <img className='mobile-images' src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/commissioned/commissioned-03.jpg" alt='Botanica Gardens'/>
+                    <img className='mobile-images' src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/commissioned/commissioned-04-mobile.jpg" alt='Botanica Gardens'/>
+                    <img className='mobile-images' src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/commissioned/commissioned-05-mobile.jpg" alt='Botanica Gardens'/>
+                    <img className='mobile-images' src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/commissioned/commissioned-06.jpg" alt='LVA Squared'/>
+                    <img className='mobile-images' src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/commissioned/commissioned-07.jpg" alt='LVA Squared'/>
+                    <img className='mobile-images' src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/commissioned/commissioned-08.jpg" alt='Golden Gate Bridge'/>
+                    <img className='mobile-images' src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/commissioned/commissioned-09.jpg" alt='Golden Gate Bridge'/>
                     <img className='mobile-images' src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/commissioned/commissioned-10.jpg" alt='Golden Gate Bridge'/>
                     <img className='mobile-images' src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/commissioned/commissioned-11.jpg" alt='Golden Gate Bridge'/>
                     <img className='mobile-images' src="https://s3.amazonaws.com/content.danlubbers.com/sunny-content/images/commissioned/commissioned-12.jpg" alt='Golden Gate Bridge'/>
